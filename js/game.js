@@ -82,17 +82,17 @@ async function init() {
         return;
     }
 
-    // Bind UI events
-    document.getElementById("btn-new-game").addEventListener("click", showSelectScreen);
-    document.getElementById("btn-how-to-play").addEventListener("click", () => showScreen("howto"));
-    document.getElementById("btn-back-title").addEventListener("click", () => showScreen("title"));
-    document.getElementById("btn-start-game").addEventListener("click", startGame);
-    document.getElementById("btn-fight").addEventListener("click", fight);
-    document.getElementById("btn-run").addEventListener("click", runAway);
-    document.getElementById("btn-use-ability").addEventListener("click", useAbility);
-    document.getElementById("btn-take-treasure").addEventListener("click", takeTreasure);
-    document.getElementById("btn-play-again").addEventListener("click", () => showScreen("title"));
-    document.getElementById("btn-retry").addEventListener("click", () => showScreen("title"));
+    // Bind UI events (using addTap for iOS compatibility)
+    addTap(document.getElementById("btn-new-game"), showSelectScreen);
+    addTap(document.getElementById("btn-how-to-play"), () => showScreen("howto"));
+    addTap(document.getElementById("btn-back-title"), () => showScreen("title"));
+    addTap(document.getElementById("btn-start-game"), startGame);
+    addTap(document.getElementById("btn-fight"), fight);
+    addTap(document.getElementById("btn-run"), runAway);
+    addTap(document.getElementById("btn-use-ability"), useAbility);
+    addTap(document.getElementById("btn-take-treasure"), takeTreasure);
+    addTap(document.getElementById("btn-play-again"), () => showScreen("title"));
+    addTap(document.getElementById("btn-retry"), () => showScreen("title"));
 
     // Drop zone for cards
     const playZone = document.getElementById("played-cards");
@@ -131,7 +131,7 @@ function showSelectScreen() {
 
     heroes.forEach((hero) => {
         const card = createHeroCardElement(hero, true);
-        card.addEventListener("click", () => toggleHeroSelection(hero, card));
+        addTap(card, () => toggleHeroSelection(hero, card));
         grid.appendChild(card);
     });
 
@@ -265,8 +265,8 @@ function createHeroCardElement(hero, forSelection = false) {
             card.classList.add("dragging");
         });
         card.addEventListener("dragend", () => card.classList.remove("dragging"));
-        // Click to play too
-        card.addEventListener("click", () => playCardFromHand(hero.id));
+        // Tap to play (works on both touch and mouse)
+        addTap(card, () => playCardFromHand(hero.id));
     }
 
     return card;
@@ -300,7 +300,7 @@ function renderPlayZone() {
     zone.innerHTML = "";
 
     if (GameState.playedCards.length === 0) {
-        zone.innerHTML = '<div class="play-zone-hint">Click or drag cards here to fight!</div>';
+        zone.innerHTML = '<div class="play-zone-hint">Tap cards in your hand to play them!</div>';
         return;
     }
 
@@ -308,10 +308,11 @@ function renderPlayZone() {
         const card = createHeroCardElement(hero);
         card.draggable = false;
         card.style.cursor = "pointer";
-        card.title = "Click to return to hand";
-        card.removeEventListener("click", () => {});
-        card.addEventListener("click", () => returnCardToHand(hero.id));
-        zone.appendChild(card);
+        card.title = "Tap to return to hand";
+        // Clear existing listeners by cloning
+        const freshCard = card.cloneNode(true);
+        addTap(freshCard, () => returnCardToHand(hero.id));
+        zone.appendChild(freshCard);
     });
 }
 
@@ -808,6 +809,22 @@ function shuffle(arr) {
         [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
+}
+
+// === TOUCH HELPERS ===
+function addTap(el, handler) {
+    // Works on both touch and mouse
+    el.addEventListener("click", handler);
+    // iOS sometimes needs explicit touchend
+    let touchMoved = false;
+    el.addEventListener("touchstart", () => { touchMoved = false; }, { passive: true });
+    el.addEventListener("touchmove", () => { touchMoved = true; }, { passive: true });
+    el.addEventListener("touchend", (e) => {
+        if (!touchMoved) {
+            e.preventDefault();
+            handler(e);
+        }
+    });
 }
 
 // === BOOT ===
