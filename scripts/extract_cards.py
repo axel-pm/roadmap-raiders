@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract card data from Lenny's podcast transcripts for the PM Munchkin game."""
+"""Extract card data from Lenny's podcast transcripts for the Roadmap Raiders game."""
 
 import os
 import re
@@ -359,7 +359,7 @@ def main():
 
     game_data = {
         "meta": {
-            "name": "PM Munchkin",
+            "name": "Roadmap Raiders",
             "version": "1.0.0",
             "description": "A Munchkin-style PM card battle game powered by Lenny's Podcast data",
             "source": "https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all",

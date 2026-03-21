@@ -1,5 +1,5 @@
 /**
- * PM Munchkin - A Munchkin-style PM Card Battle Game
+ * Roadmap Raiders - A Munchkin-style PM Card Battle Game
  * Powered by Lenny's Podcast transcript data
  */
 
@@ -189,7 +189,7 @@ function startGame() {
     updateHUD();
     spawnMonster();
     renderHand();
-    addMessage("Welcome to PM Munchkin! Defeat monsters to reach Level 10!", "info");
+    addMessage("Welcome to Roadmap Raiders! Defeat monsters to reach Level 10!", "info");
 }
 
 // === MONSTER SPAWNING ===
