@@ -1,0 +1,6 @@
+lennys-newsletterpodcastdata-all/
+data/transcripts/
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc

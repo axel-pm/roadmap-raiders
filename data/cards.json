@@ -1,0 +1,2192 @@
+{
+  "meta": {
+    "name": "PM Munchkin",
+    "version": "1.0.0",
+    "description": "A Munchkin-style PM card battle game powered by Lenny's Podcast data",
+    "source": "https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all",
+    "total_episodes_processed": 289
+  },
+  "heroes": [
+    {
+      "id": "guest_eric-ries",
+      "type": "hero",
+      "name": "Eric Ries",
+      "title": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 9,
+        "defense": 10,
+        "wisdom": 10
+      },
+      "ability": {
+        "name": "Data Driven",
+        "description": "Peek at opponent's hand",
+        "effect": "peek"
+      },
+      "quotes": [
+        "People act like having a startup fail is the worst thing that can happen to you",
+        "Oof, have I met people like that, and we're having a mental health crisis among founders that's not talked about enough",
+        "He also coined more terms and concepts that are part of the tech culture than anyone I could think of"
+      ],
+      "keywords": [
+        "startups",
+        "design",
+        "leadership",
+        "analytics",
+        "career"
+      ],
+      "episode_date": "2023-10-29",
+      "views": 85872
+    },
+    {
+      "id": "guest_jason-m-lemkin",
+      "type": "hero",
+      "name": "Jason M Lemkin",
+      "title": "We replaced our sales team with 20 AI agents\u2014here\u2019s what happened | Jason Lemkin (SaaStr)",
+      "domain": "Revenue",
+      "stats": {
+        "attack": 8,
+        "defense": 10,
+        "wisdom": 9
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Here's the mistake that 99% of founders and sales reps make",
+        "We're not really selling in B2B, we're solving problems",
+        "Jason created and runs Saastr, the world's largest community for SaaS and B2B founders"
+      ],
+      "keywords": [
+        "b2b",
+        "startups",
+        "leadership",
+        "design",
+        "career"
+      ],
+      "episode_date": "2026-01-01",
+      "views": 77919
+    },
+    {
+      "id": "guest_jeff-weinstein",
+      "type": "hero",
+      "name": "Jeff Weinstein",
+      "title": "Building product at Stripe: craft, metrics, and customer obsession | Jeff Weinstein (Product lead)",
+      "domain": "Data",
+      "stats": {
+        "attack": 8,
+        "defense": 10,
+        "wisdom": 9
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "Watching you operate on Twitter, you're just breaking this wall between the PM and the customer",
+        "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift",
+        "Many people told me I need to ask you about picking metrics"
+      ],
+      "keywords": [
+        "design",
+        "engineering",
+        "strategy",
+        "podcast",
+        "analytics"
+      ],
+      "episode_date": "2024-07-11",
+      "views": 77331
+    },
+    {
+      "id": "guest_grant-lee",
+      "type": "hero",
+      "name": "Grant Lee",
+      "title": "\u201cDumbest idea I\u2019ve heard\u201d to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 8,
+        "defense": 10,
+        "wisdom": 9
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "The investor pauses a little bit, and then just says, \"That has to be the worst pitch, worst idea I have ever heard",
+        "Not only are you trying to go against incumbents, you're going against incumbents that have massive distribution",
+        "I would jump on a call with each one of them so that they understood what Gamma represented, how to use the product"
+      ],
+      "keywords": [
+        "strategy",
+        "design",
+        "growth",
+        "startups",
+        "ai"
+      ],
+      "episode_date": "2025-11-13",
+      "views": 73419
+    },
+    {
+      "id": "guest_evan-lapointe",
+      "type": "hero",
+      "name": "Evan LaPointe",
+      "title": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 8,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Most people rely on their history department way too much",
+        "How do we create better relationships within our teams",
+        "It's critical to ask what kind of experience am I"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "analytics",
+        "startups",
+        "podcast"
+      ],
+      "episode_date": "2024-08-11",
+      "views": 71175
+    },
+    {
+      "id": "guest_eli-schwartz",
+      "type": "hero",
+      "name": "Eli Schwartz",
+      "title": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 8,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "What should people do to be successful in this new paradigm",
+        "The product managers are the people that should be thinking about this SEO question because it's a product question",
+        "This is a user that's doing their own self-discovery journey"
+      ],
+      "keywords": [
+        "ai",
+        "go-to-market",
+        "growth",
+        "newsletter",
+        "design"
+      ],
+      "episode_date": "2024-09-19",
+      "views": 70578
+    },
+    {
+      "id": "guest_hilary-gridley",
+      "type": "hero",
+      "name": "Hilary Gridley",
+      "title": "How to build a team that can \u201ctake a punch\u201d: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive",
+        "You spend a lot of time thinking about how to help your team learn to take a punch",
+        "You have specific tactics that you teach your team to deal with hardship"
+      ],
+      "keywords": [
+        "leadership",
+        "design",
+        "career",
+        "ai",
+        "newsletter"
+      ],
+      "episode_date": "2025-06-15",
+      "views": 69048
+    },
+    {
+      "id": "guest_marc-andreessen",
+      "type": "hero",
+      "name": "Marc Andreessen",
+      "title": "Marc Andreessen: The real AI boom hasn\u2019t even started yet",
+      "domain": "Growth",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "We've actually been in a regime for 50 years of very slow technological change in the face of declining population growth",
+        "We're going to have AI and robots precisely when we actually need them",
+        "The most leading edge founders are thinking of, can you have entire companies where the founder does everything"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "startups",
+        "engineering",
+        "growth"
+      ],
+      "episode_date": "2026-01-29",
+      "views": 68205
+    },
+    {
+      "id": "guest_peter-deng",
+      "type": "hero",
+      "name": "Peter Deng",
+      "title": "From ChatGPT to Instagram to Uber: The quiet architect behind the world\u2019s most popular products | Peter Deng",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "You shipped the Messenger app as its own app",
+        "What's an important lesson you've learned about what it takes to succeed building something from idea to one to billions",
+        "You have to really think before you act and build systems that were going to let you go sustainably faster"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "leadership",
+        "b2b",
+        "engineering"
+      ],
+      "episode_date": "2025-06-22",
+      "views": 67920
+    },
+    {
+      "id": "guest_farhan-thawar",
+      "type": "hero",
+      "name": "Farhan Thawar",
+      "title": "How Shopify builds a high-intensity culture | Farhan Thawar (VP and Head of Eng)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "If you do the hard path and it doesn't work, actually you still win because you've now done something hard",
+        "You've learned something along the way that is valuable",
+        "Are you really learning anything from sending out 10 resumes a day"
+      ],
+      "keywords": [
+        "design",
+        "engineering",
+        "career",
+        "leadership",
+        "strategy"
+      ],
+      "episode_date": "2024-12-19",
+      "views": 66891
+    },
+    {
+      "id": "guest_jason-fried",
+      "type": "hero",
+      "name": "Jason Fried",
+      "title": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+      "domain": "Growth",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Jason is the Co-Founder and CEO of 37signals, which makes Basecamp and HEY, and soon a few more products including a competitor to Slack",
+        "37signals is a very different type of company",
+        "They have over 100,000 customers and make tens of millions of dollars in profit each year, which most VC-backed companies never make a dollar of"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "b2b",
+        "growth",
+        "leadership"
+      ],
+      "episode_date": "2023-12-17",
+      "views": 66795
+    },
+    {
+      "id": "guest_bob-baxley",
+      "type": "hero",
+      "name": "Bob Baxley",
+      "title": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "We have an obligation as product people to put that emotional energy back into people's lives",
+        "You actually have a really unique perspective on just what is design",
+        "Design is trying to imagine the future you want to live in and then take the steps to make it real"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "startups",
+        "career",
+        "b2c"
+      ],
+      "episode_date": "2025-06-12",
+      "views": 65664
+    },
+    {
+      "id": "guest_boz",
+      "type": "hero",
+      "name": "Boz",
+      "title": "Making Meta | Andrew \u2018Boz\u2019 Bosworth (CTO)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "I imagine there was a lot of pain and suffering that people don't often hear about",
+        "It's a healthy thing for people to want to throw themselves into something and take that risk, but it is not glamorous at the time",
+        "Now, newsfeed was an easier case than people suspect"
+      ],
+      "keywords": [
+        "startups",
+        "design",
+        "leadership",
+        "b2c",
+        "career"
+      ],
+      "episode_date": "2024-03-03",
+      "views": 65247
+    },
+    {
+      "id": "guest_jason-cohen",
+      "type": "hero",
+      "name": "Jason Cohen",
+      "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 8
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "A lot of product teams, a lot of founders built something",
+        "It starts to show some success and then all of a sudden it just stops growing",
+        "There's a series of questions that I asked to diagnose why is growth slowing"
+      ],
+      "keywords": [
+        "growth",
+        "strategy",
+        "startups",
+        "design",
+        "newsletter"
+      ],
+      "episode_date": "2026-01-25",
+      "views": 64569
+    },
+    {
+      "id": "guest_phyl-terry",
+      "type": "hero",
+      "name": "Phyl Terry",
+      "title": "Land your dream job in today\u2019s market: negotiation tactics, job search councils, and more | Phyl Terry (Author, \u201cNever Search Alone\u201d)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "We want this product to be for everyone, but we've learned with product market fit that doesn't work",
+        "How did you realize this is a really powerful method versus the way people normally look for jobs",
+        "So what I ask people to do is I ask them to think about what they want and what they don't want"
+      ],
+      "keywords": [
+        "strategy",
+        "career",
+        "b2c",
+        "design",
+        "leadership"
+      ],
+      "episode_date": "2024-09-12",
+      "views": 64242
+    },
+    {
+      "id": "guest_tanguy-crusson",
+      "type": "hero",
+      "name": "Tanguy Crusson",
+      "title": "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson (Head of Jira Product Discovery)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "Been in the product management team at Atlassian for roughly 10 years now",
+        "I worked on HipChat and Stride, and more recently I started Jira Product Discovery",
+        "Why is it so hard to start new products, go zero to one within large companies"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "startups",
+        "strategy",
+        "product-management"
+      ],
+      "episode_date": "2024-06-16",
+      "views": 63987
+    },
+    {
+      "id": "guest_tristan-de-montebello",
+      "type": "hero",
+      "name": "Tristan de Montebello",
+      "title": "Why most public speaking advice is wrong\u2014and how to finally overcome your speaking anxiety | Tristan de Montebello (CEO & co-founder of Ultraspeaking)",
+      "domain": "Design",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "People tend to get into a public speaking voice",
+        "It's so much more freeing, powerful, connecting, and effective to speak conversation",
+        "So the cue I often give people is-\n\nToday my guest is Tristan de Montebello"
+      ],
+      "keywords": [
+        "design",
+        "podcast",
+        "b2c",
+        "newsletter",
+        "startups"
+      ],
+      "episode_date": "2024-10-13",
+      "views": 63891
+    },
+    {
+      "id": "guest_matthew-dicks",
+      "type": "hero",
+      "name": "Matthew Dicks",
+      "title": "How to tell better stories | Matthew Dicks (Storyworthy)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "They love to think of themselves as storytellers, but when they come to me, they don't really want to be storytellers",
+        "Matthew is a 59-time Moth Story Slam winner, and nine-time Grand Slam champ",
+        "I think the only reason I'm successful in what I do is that I've been a teacher for 25 years and I'm a storyteller"
+      ],
+      "keywords": [
+        "design",
+        "strategy",
+        "b2b",
+        "podcast"
+      ],
+      "episode_date": "2023-12-15",
+      "views": 63585
+    },
+    {
+      "id": "guest_dharmesh-shah",
+      "type": "hero",
+      "name": "Dharmesh Shah",
+      "title": "Zigging vs. zagging: How HubSpot built a $30B company | Dharmesh Shah (co-founder/CTO)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Data Driven",
+        "description": "Peek at opponent's hand",
+        "effect": "peek"
+      },
+      "quotes": [
+        "Some of the best startup advice I've heard is startups should focus on one thing and be really, really exceptionally world-class at that one thing",
+        "You have no direct reports and I don't believe you've ever had direct reports at HubSpot",
+        "My co-founder and I were having one of our founders meetings and he said, \"Oh, Dharmesh, I hear this culture thing is really important"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "leadership",
+        "product-management",
+        "podcast"
+      ],
+      "episode_date": "2024-04-04",
+      "views": 62247
+    },
+    {
+      "id": "guest_bangaly-kaba",
+      "type": "hero",
+      "name": "Bangaly Kaba",
+      "title": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "You're head of growth at Instagram, you're VP of product at Instacart",
+        "You're now director of product management at YouTube and I've heard that you've had a lot of impact on a lot of different cultures",
+        "It's got these five components to it, vision, skills, incentives, resources, action plan, and you need all of those to have change"
+      ],
+      "keywords": [
+        "leadership",
+        "growth",
+        "product-management",
+        "career",
+        "design"
+      ],
+      "episode_date": "2024-05-26",
+      "views": 60312
+    },
+    {
+      "id": "guest_john-cutler",
+      "type": "hero",
+      "name": "John Cutler",
+      "title": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 7,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Let's say you're a founder and you're trying to decide, should I invest more on processes, or should I invest more in people",
+        "What do you believe in, and what do the people around you believe in, and how can you be a coherent leader",
+        "I interview world-class product leaders and growth experts to learn from their hard-won experiences building and scaling today's most successful companies"
+      ],
+      "keywords": [
+        "leadership",
+        "strategy",
+        "growth",
+        "podcast",
+        "career"
+      ],
+      "episode_date": "2023-01-15",
+      "views": 60222
+    },
+    {
+      "id": "guest_claire-butler",
+      "type": "hero",
+      "name": "Claire Butler",
+      "title": "An inside look at Figma\u2019s unique GTM motion | Claire Butler (first GTM hire)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "They were our first user, and they were based in Palo Alto",
+        "Dylan and I drove down and demoed the product to them, and they were the first ones",
+        "And I remember Dylan was like, \"Everybody drop everything"
+      ],
+      "keywords": [
+        "design",
+        "go-to-market",
+        "strategy",
+        "b2c",
+        "growth"
+      ],
+      "episode_date": "2023-09-07",
+      "views": 59763
+    },
+    {
+      "id": "guest_rachel-lockett",
+      "type": "hero",
+      "name": "Rachel Lockett",
+      "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "When clients come to you, what is the biggest gap they have that is keeping them from being successful as leaders",
+        "People have climbed the ladder because they've been dependable, reliable, the smartest person in the room",
+        "You're training your team to come to you with all of the hard problems"
+      ],
+      "keywords": [
+        "leadership",
+        "design",
+        "b2c",
+        "engineering",
+        "strategy"
+      ],
+      "episode_date": "2025-11-23",
+      "views": 59493
+    },
+    {
+      "id": "guest_keith-coleman--jay-baxter",
+      "type": "hero",
+      "name": "Keith Coleman & Jay Baxter",
+      "title": "An inside look at X\u2019s Community Notes | Keith Coleman (VP of Product) and Jay Baxter (ML Lead)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "The work that you guys do has had such a tremendous impact on the way the world works",
+        "I want to start with just giving people a brief understanding of what is Community Notes",
+        "If they think it's misleading, they can propose a note that they think other people might find informative"
+      ],
+      "keywords": [
+        "b2c",
+        "design",
+        "ai",
+        "leadership",
+        "podcast"
+      ],
+      "episode_date": "2025-02-27",
+      "views": 59484
+    },
+    {
+      "id": "guest_nabeel-s-qureshi",
+      "type": "hero",
+      "name": "Nabeel S. Qureshi",
+      "title": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "30% of PMs that leave Palantir start a company",
+        "Just give us a picture of what the people are like",
+        "I feel like they screened really hard for a few traits in particular"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "leadership",
+        "product-management",
+        "career"
+      ],
+      "episode_date": "2025-05-11",
+      "views": 59478
+    },
+    {
+      "id": "guest_ryan-singer",
+      "type": "hero",
+      "name": "Ryan Singer",
+      "title": "A better way to plan, build, and ship products | Ryan Singer (creator of \u201cShape Up,\u201d early employee at 37signals)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Especially in this world of AI where everything's just changing",
+        "So, I am really excited to basically help people understand what is this way of working, is it right for them",
+        "Yeah, I think it's interesting that we're talking now"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "engineering",
+        "startups",
+        "podcast"
+      ],
+      "episode_date": "2025-03-30",
+      "views": 59085
+    },
+    {
+      "id": "guest_gina-gotthilf",
+      "type": "hero",
+      "name": "Gina Gotthilf",
+      "title": "Scaling Duolingo, embracing failure, and insight into Latin America\u2019s tech scene | Gina Gotthilf (Latitud, Duolingo)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "And what that means is not just another language learning app where we give you instructions and you follow directions",
+        "There is always a quirk, like it's unexpected",
+        "Again, it's about how you make people feel"
+      ],
+      "keywords": [
+        "startups",
+        "design",
+        "growth",
+        "strategy",
+        "b2c"
+      ],
+      "episode_date": "2023-10-19",
+      "views": 58842
+    },
+    {
+      "id": "guest_mike-maples-jr",
+      "type": "hero",
+      "name": "Mike Maples Jr",
+      "title": "Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr. (Founding Partner at Floodgate, ex-Product at Silicon Graphics)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "You reference this term that you use occasionally, the term secret",
+        "The way inventions happen is people get their hands dirty, being awake to the possibility that secrets are there",
+        "If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right"
+      ],
+      "keywords": [
+        "startups",
+        "design",
+        "career",
+        "leadership",
+        "b2c"
+      ],
+      "episode_date": "2024-07-07",
+      "views": 58713
+    },
+    {
+      "id": "guest_scott-wu",
+      "type": "hero",
+      "name": "Scott Wu",
+      "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Our whole team is only like 15 engineers a year",
+        "We use a ton of Devin when we're building Devin",
+        "Where do you think this will be at the end of the year"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "engineering",
+        "leadership",
+        "go-to-market"
+      ],
+      "episode_date": "2025-09-08",
+      "views": 58701
+    },
+    {
+      "id": "guest_jason-feifer",
+      "type": "hero",
+      "name": "Jason Feifer",
+      "title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Jason is editor in chief at Entrepreneur Magazine, previously an editor at Fast Company and a number of other magazines",
+        "In our conversation, we get incredibly tactical about how to get press for your product",
+        "Yeah, I'm really happy that you asked me to do that"
+      ],
+      "keywords": [
+        "startups",
+        "newsletter",
+        "strategy",
+        "b2b",
+        "growth"
+      ],
+      "episode_date": "2023-10-12",
+      "views": 58677
+    },
+    {
+      "id": "guest_hamel-husain--shreya-shankar",
+      "type": "hero",
+      "name": "Hamel Husain & Shreya Shankar",
+      "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+      "domain": "Data",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Data Driven",
+        "description": "Peek at opponent's hand",
+        "effect": "peek"
+      },
+      "quotes": [
+        "To build great AI products, you need to be really good at building evals",
+        "When you're building an AI application, you just learn a lot",
+        "For most products, you do this process once and then you build on it"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "analytics",
+        "leadership",
+        "engineering"
+      ],
+      "episode_date": "2025-09-25",
+      "views": 58659
+    },
+    {
+      "id": "guest_dr-becky-kennedy",
+      "type": "hero",
+      "name": "Dr. Becky Kennedy",
+      "title": "A child psychologist\u2019s guide to working with difficult adults | Dr. Becky Kennedy",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "Most adults in the corporate environment are really just babies in disguise",
+        "When we're thinking about a resilient work culture, we want people who can say, \"This is hard and I can do hard things",
+        "\" The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "newsletter",
+        "podcast",
+        "strategy"
+      ],
+      "episode_date": "2026-02-01",
+      "views": 58356
+    },
+    {
+      "id": "guest_boris-cherny",
+      "type": "hero",
+      "name": "Boris Cherny",
+      "title": "Boris Cherny",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Every day, I ship 10, 20, 30 pull requests",
+        "I have never enjoyed coding as much as I do today, because I don't have to deal with all the minutia",
+        "There's always this question, \"Should I learn to code"
+      ],
+      "keywords": [
+        "engineering",
+        "design",
+        "ai",
+        "leadership",
+        "go-to-market"
+      ],
+      "episode_date": "2026-02-19",
+      "views": 57981
+    },
+    {
+      "id": "guest_madhavan-ramanujam",
+      "type": "hero",
+      "name": "Madhavan Ramanujam",
+      "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+      "domain": "Revenue",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "When we talk about pricing, many people quickly gravitate to dollar figures",
+        "But when we think about price, we think about it as a measure",
+        "And when you think of it this way, it really stands for, do people actually want your product and would they actually buy it"
+      ],
+      "keywords": [
+        "pricing",
+        "strategy",
+        "design",
+        "b2b",
+        "startups"
+      ],
+      "episode_date": "2025-07-27",
+      "views": 57951
+    },
+    {
+      "id": "guest_sam-lessin",
+      "type": "hero",
+      "name": "Sam Lessin",
+      "title": "How to show up in any room with a low heart rate: Silicon Valley\u2019s missing etiquette playbook | Sam Lessin",
+      "domain": "AI",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Tell me why you decided to spend time teaching people proper etiquette",
+        "You have a lot of really young people",
+        "You want to be able to show up in a way where people are like, \"Okay, this is someone I can work with and trust"
+      ],
+      "keywords": [
+        "startups",
+        "design",
+        "podcast",
+        "b2c",
+        "ai"
+      ],
+      "episode_date": "2026-01-15",
+      "views": 57699
+    },
+    {
+      "id": "guest_nick-turley",
+      "type": "hero",
+      "name": "Nick Turley",
+      "title": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "You were a product leader at Dropbox, then Instacart",
+        "Now, you're the PM of the most consequential product in history",
+        "When someone offers you a rocket ship, don't ask which seat"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "go-to-market",
+        "strategy",
+        "engineering"
+      ],
+      "episode_date": "2025-08-09",
+      "views": 57420
+    },
+    {
+      "id": "guest_shishir-mehrotra",
+      "type": "hero",
+      "name": "Shishir Mehrotra",
+      "title": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "If I had to stack rank in interviews, what is the best signal",
+        "Before starting Coda Shishir led the YouTube product engineering and design teams at Google, where he spent over six years",
+        "Coda is a company that's actually near and dear to my heart because I got to work on their launch when I was at Greylock"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "growth",
+        "startups",
+        "career"
+      ],
+      "episode_date": "2022-08-14",
+      "views": 57387
+    },
+    {
+      "id": "guest_sarah-tavel",
+      "type": "hero",
+      "name": "Sarah Tavel",
+      "title": "The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Prior to Benchmark, Sarah was the first product manager at Pinterest",
+        "And I always learn a ton talking to Sarah about startups and marketplaces",
+        "We also learn in our conversation, she used to play rugby and was apparently one of the best tacklers in her league"
+      ],
+      "keywords": [
+        "design",
+        "b2c",
+        "growth",
+        "strategy",
+        "leadership"
+      ],
+      "episode_date": "2023-12-27",
+      "views": 57207
+    },
+    {
+      "id": "guest_dan-shipper",
+      "type": "hero",
+      "name": "Dan Shipper",
+      "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "She's just constantly building prompts and building workflows that I and everyone else on the team are just automating as much as possible",
+        "What are some things that you believe about AI that most people don't",
+        "Organizations like ours, people who are playing at the edge, we're doing things that, in three years, everybody else is going to be doing"
+      ],
+      "keywords": [
+        "ai",
+        "engineering",
+        "design",
+        "leadership",
+        "startups"
+      ],
+      "episode_date": "2025-07-17",
+      "views": 57177
+    },
+    {
+      "id": "guest_chandra-janakiraman",
+      "type": "hero",
+      "name": "Chandra Janakiraman",
+      "title": "An operator\u2019s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "I started noticing that there was a certain mystique and aura about product strategy",
+        "There was this perception that some people were intrinsically really good at strategy and others were not",
+        "It was almost as if there was a strategy gene you needed to be born with to be good at it"
+      ],
+      "keywords": [
+        "strategy",
+        "design",
+        "leadership",
+        "product-management",
+        "b2c"
+      ],
+      "episode_date": "2025-01-26",
+      "views": 57042
+    },
+    {
+      "id": "guest_sean-ellis",
+      "type": "hero",
+      "name": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of \u201cHacking Growth\u201d)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "The Sean Ellis test, such a seemingly simple idea that has had such a profound impact on the startup world",
+        "The question is, how would you feel if you could no longer use this product",
+        "Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well"
+      ],
+      "keywords": [
+        "growth",
+        "strategy",
+        "design",
+        "startups",
+        "analytics"
+      ],
+      "episode_date": "2024-09-05",
+      "views": 56301
+    },
+    {
+      "id": "guest_alex-komoroske",
+      "type": "hero",
+      "name": "Alex Komoroske",
+      "title": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "So much of the way that we tackle problems and build products is this builder mindset",
+        "And this is a way you can create tons of value",
+        "Part of the problem though is it can't possibly create more value than the effort that you put into it"
+      ],
+      "keywords": [
+        "design",
+        "ai",
+        "leadership",
+        "startups",
+        "strategy"
+      ],
+      "episode_date": "2024-10-03",
+      "views": 56124
+    },
+    {
+      "id": "guest_ebi-atawodi",
+      "type": "hero",
+      "name": "Ebi Atawodi",
+      "title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "When I said this once in a meeting, people were like",
+        "It's not always nice or like, it sometimes is having hard conversations",
+        "It's knowing that, oh, there's a human, they know I care about them"
+      ],
+      "keywords": [
+        "strategy",
+        "leadership",
+        "design",
+        "product-management",
+        "analytics"
+      ],
+      "episode_date": "2023-12-03",
+      "views": 56001
+    },
+    {
+      "id": "guest_emilie-gerber",
+      "type": "hero",
+      "name": "Emilie Gerber",
+      "title": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Most products won't have this interesting of a story to tell",
+        "I want to read one to you and then I want to see if you can tell me what this company does",
+        "Before starting her own firm, she worked at Uber where she led PR for the business development team and B2B programs"
+      ],
+      "keywords": [
+        "b2b",
+        "design",
+        "growth",
+        "startups",
+        "strategy"
+      ],
+      "episode_date": "2024-03-21",
+      "views": 55503
+    },
+    {
+      "id": "guest_drew-houston",
+      "type": "hero",
+      "name": "Drew Houston",
+      "title": "Behind the founder: Drew Houston (Dropbox)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "People just don't realize the wild journey that you have been on over the past 18 years building this company",
+        "Taping user counts that we printed out to the wall, and then running out of space on the wall",
+        "Having to put 100,000 users, 200,000, 500,000, 1,000,000, 10,000,000 on the ceiling"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "go-to-market",
+        "growth",
+        "b2c"
+      ],
+      "episode_date": "2025-01-09",
+      "views": 55365
+    },
+    {
+      "id": "guest_timothy-davis",
+      "type": "hero",
+      "name": "Timothy Davis",
+      "title": "The ultimate guide to performance marketing | Timothy Davis (Shopify)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "Is performance marketing just something every company should be doing",
+        "When you take over for an agency at a company, you crush their performance within a month",
+        "Instead of thinking about being on top of the page, and that's like ego marketing, I want to be number one"
+      ],
+      "keywords": [
+        "strategy",
+        "growth",
+        "design",
+        "analytics",
+        "leadership"
+      ],
+      "episode_date": "2024-07-28",
+      "views": 55359
+    },
+    {
+      "id": "guest_jake-knapp--john-zeratsky",
+      "type": "hero",
+      "name": "Jake Knapp + John Zeratsky",
+      "title": "Making time for what matters | Jake Knapp and John Zeratsky (authors of Sprint and Make Time, co-founders of Character Capital)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "It's not really about productivity, it's not about time management",
+        "Things can sometimes be a mess outside of that, and you still feel really good about your days",
+        "You still feel really good about the way you're spending your energy"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "leadership",
+        "strategy",
+        "career"
+      ],
+      "episode_date": "2024-02-11",
+      "views": 55242
+    },
+    {
+      "id": "guest_matt-macinnis",
+      "type": "hero",
+      "name": "Matt MacInnis",
+      "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "It is really important to me that we feel that we've deliberately understaffed every project at the company",
+        "If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary",
+        "Recently, you moved into CPO, Chief Product Officer at Rippling"
+      ],
+      "keywords": [
+        "leadership",
+        "design",
+        "startups",
+        "strategy",
+        "career"
+      ],
+      "episode_date": "2025-12-28",
+      "views": 54972
+    },
+    {
+      "id": "guest_mihika-kapoor",
+      "type": "hero",
+      "name": "Mihika Kapoor",
+      "title": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product at Figma)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "I asked on Twitter, \"Who's the best product manager you've worked with",
+        "My take is that your scope is the world",
+        "Nothing should ever perceive as being out of bounds"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "strategy",
+        "product-management",
+        "engineering"
+      ],
+      "episode_date": "2024-04-21",
+      "views": 54936
+    },
+    {
+      "id": "guest_nir-eyal",
+      "type": "hero",
+      "name": "Nir Eyal",
+      "title": "Strategies for becoming less distracted and improving focus | Nir Eyal (author of Indistractable and Hooked)",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "But to me, that's incredibly empowering because once you realize, \"Wait a minute, it's just a feeling",
+        "I'll just start really broad and let's just see where this goes",
+        "That's my favorite thing to do, is to actually get concrete with people about what their specific challenges are"
+      ],
+      "keywords": [
+        "strategy",
+        "design",
+        "b2c",
+        "career",
+        "growth"
+      ],
+      "episode_date": "2023-12-29",
+      "views": 54720
+    },
+    {
+      "id": "guest_lazar-jovanovic",
+      "type": "hero",
+      "name": "Lazar Jovanovic",
+      "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 7
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "It's a dream job for so many people",
+        "It became a job by building in public",
+        "You don't need a company to hire you"
+      ],
+      "keywords": [
+        "design",
+        "engineering",
+        "ai",
+        "leadership",
+        "b2b"
+      ],
+      "episode_date": "2026-02-08",
+      "views": 54657
+    },
+    {
+      "id": "guest_matt-mullenweg",
+      "type": "hero",
+      "name": "Matt Mullenweg",
+      "title": "The creator of WordPress opens up about becoming an internet villain, why he\u2019s taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "You are like a 100% beloved hero of open source and internet and now you're in this, a lot of people don't like you",
+        "If you were kind of inside baseball with WordPress, it's actually a lot of people who have been unhappy with me over the years",
+        "Previously, 1% of the world thought I was terrible and now I feel like it's up to four or 5%"
+      ],
+      "keywords": [
+        "design",
+        "b2c",
+        "ai",
+        "engineering",
+        "startups"
+      ],
+      "episode_date": "2025-03-02",
+      "views": 54312
+    },
+    {
+      "id": "guest_sam-schillace",
+      "type": "hero",
+      "name": "Sam Schillace",
+      "title": "How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)",
+      "domain": "AI",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "We tend to think work has to be unpleasant",
+        "And so if something is easy and fun, we don't tend to think it's valuable",
+        "Currently, he is corporate vice president and deputy chief technology officer at Microsoft, where he leads efforts in the consumer product space, infrastructure, and AI"
+      ],
+      "keywords": [
+        "design",
+        "engineering",
+        "ai",
+        "b2c",
+        "career"
+      ],
+      "episode_date": "2024-01-11",
+      "views": 54156
+    },
+    {
+      "id": "guest_david-singleton",
+      "type": "hero",
+      "name": "David Singleton",
+      "title": "Building a culture of excellence | David Singleton (CTO of Stripe)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "User Empathy",
+        "description": "Heal 2 HP",
+        "effect": "heal_2"
+      },
+      "quotes": [
+        "Maybe the best example of that is Stripe billing",
+        "And we could see that they were really kind of pushing the boundaries of what was possible here",
+        "So we decided to co-create the product with them"
+      ],
+      "keywords": [
+        "design",
+        "leadership",
+        "career",
+        "engineering",
+        "podcast"
+      ],
+      "episode_date": "2023-05-04",
+      "views": 54135
+    },
+    {
+      "id": "guest_naomi-gleit",
+      "type": "hero",
+      "name": "Naomi Gleit",
+      "title": "Meta\u2019s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "I really believe in frameworks for things that helps drive extreme clarity",
+        "A lot of times I'm ramping up a new project, I'm like, \"Where can I learn what I need to learn about this project",
+        "\" I ask five different people, get five different answers"
+      ],
+      "keywords": [
+        "product-management",
+        "leadership",
+        "strategy",
+        "design",
+        "career"
+      ],
+      "episode_date": "2024-10-27",
+      "views": 54012
+    },
+    {
+      "id": "guest_howie-liu",
+      "type": "hero",
+      "name": "Howie Liu",
+      "title": "How we restructured Airtable\u2019s entire org for AI | Howie Liu (co-founder and CEO)",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Pivot Master",
+        "description": "Swap one card with opponent",
+        "effect": "swap_card"
+      },
+      "quotes": [
+        "Or people that work for you, how have you adjusted what you expect of them to help them be successful",
+        "Of the different functions on our product team PM, engineering design, who has had the most success being more productive with these tools",
+        "It really does become more about individual attitude"
+      ],
+      "keywords": [
+        "ai",
+        "design",
+        "strategy",
+        "leadership",
+        "engineering"
+      ],
+      "episode_date": "2025-08-31",
+      "views": 53940
+    },
+    {
+      "id": "guest_christian-idiodi",
+      "type": "hero",
+      "name": "Christian Idiodi",
+      "title": "The essence of product management | Christian Idiodi (SVPG)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "That's kind of the real essence of it, and that's, I always call it a certificate of appreciation",
+        "And that's the real essence of this job",
+        "Also, Christian shares his one favorite go-to method, out of all of the discovery methods out there, for figuring out what to build"
+      ],
+      "keywords": [
+        "leadership",
+        "product-management",
+        "design",
+        "b2b",
+        "career"
+      ],
+      "episode_date": "2023-12-21",
+      "views": 53862
+    },
+    {
+      "id": "guest_molly-graham",
+      "type": "hero",
+      "name": "Molly Graham",
+      "title": "The high-growth handbook: Molly Graham\u2019s frameworks for leading through chaos, change, and scale",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "80% of the culture of a company is literally defined by the personality of the founder",
+        "When a lot of people think Molly Graham, a lot of people think of giving away your Legos",
+        "So Chamath, when he pitched me on this job, actually drew me a picture on a whiteboard"
+      ],
+      "keywords": [
+        "design",
+        "startups",
+        "career",
+        "growth",
+        "leadership"
+      ],
+      "episode_date": "2026-01-04",
+      "views": 53655
+    },
+    {
+      "id": "guest_sriram-and-aarthi",
+      "type": "hero",
+      "name": "Sriram and Aarthi",
+      "title": "Hot takes and techno-optimism from tech\u2019s top power couple | Sriram and Aarthi",
+      "domain": "Growth",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "\"\n\nSo if you signed up for Facebook for many, many years, you'll get this little thing called People You May Know",
+        "I think we're going to have a lot of fun, so again, thanks for joining me here",
+        "\" And then became really fancy people and I was like, \"I'm not ever going to make it back on there"
+      ],
+      "keywords": [
+        "growth",
+        "b2c",
+        "design",
+        "startups",
+        "strategy"
+      ],
+      "episode_date": "2023-03-12",
+      "views": 53367
+    },
+    {
+      "id": "guest_jackson-shuttleworth",
+      "type": "hero",
+      "name": "Jackson Shuttleworth",
+      "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention Team)",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 6,
+        "defense": 10,
+        "wisdom": 6
+      },
+      "ability": {
+        "name": "Growth Hack",
+        "description": "Draw 2 extra cards",
+        "effect": "draw_2"
+      },
+      "quotes": [
+        "We have, right now, over 9 million users with a year plus streak",
+        "If you look at the numbers, I think it's been our biggest growth lever",
+        "What Duolingo really focuses on is, how do we help users build habits around language learning"
+      ],
+      "keywords": [
+        "growth",
+        "design",
+        "analytics",
+        "leadership",
+        "go-to-market"
+      ],
+      "episode_date": "2024-12-15",
+      "views": 53106
+    }
+  ],
+  "monsters": [
+    {
+      "id": "monster_scope_creep",
+      "type": "monster",
+      "name": "Scope Creep Dragon",
+      "domain": "Execution",
+      "stats": {
+        "attack": 6,
+        "defense": 8,
+        "wisdom": 3
+      },
+      "description": "An ever-growing beast that devours timelines and budgets.",
+      "reward": "Ship It ability card",
+      "level": 3
+    },
+    {
+      "id": "monster_bikeshedding",
+      "type": "monster",
+      "name": "Bikeshedding Demon",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 4,
+        "defense": 5,
+        "wisdom": 2
+      },
+      "description": "Forces everyone to argue about button colors instead of shipping.",
+      "reward": "+2 Wisdom",
+      "level": 2
+    },
+    {
+      "id": "monster_hippo",
+      "type": "monster",
+      "name": "The HiPPO",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 9,
+        "defense": 7,
+        "wisdom": 4
+      },
+      "description": "Highest Paid Person's Opinion overrides all data and research.",
+      "reward": "Data Driven ability card",
+      "level": 5
+    },
+    {
+      "id": "monster_technical_debt",
+      "type": "monster",
+      "name": "Technical Debt Golem",
+      "domain": "Execution",
+      "stats": {
+        "attack": 5,
+        "defense": 9,
+        "wisdom": 1
+      },
+      "description": "Slow, immovable, and gets bigger every sprint you ignore it.",
+      "reward": "+3 Defense",
+      "level": 4
+    },
+    {
+      "id": "monster_vanity_metrics",
+      "type": "monster",
+      "name": "Vanity Metrics Phantom",
+      "domain": "Data",
+      "stats": {
+        "attack": 3,
+        "defense": 3,
+        "wisdom": 8
+      },
+      "description": "Looks impressive but provides zero actionable insight.",
+      "reward": "Data Driven ability card",
+      "level": 2
+    },
+    {
+      "id": "monster_feature_factory",
+      "type": "monster",
+      "name": "Feature Factory",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 7,
+        "defense": 6,
+        "wisdom": 2
+      },
+      "description": "Churns out features nobody asked for at alarming speed.",
+      "reward": "User Empathy ability card",
+      "level": 4
+    },
+    {
+      "id": "monster_stakeholder_hydra",
+      "type": "monster",
+      "name": "Stakeholder Hydra",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 8,
+        "defense": 6,
+        "wisdom": 5
+      },
+      "description": "Cut one requirement and two more grow in its place.",
+      "reward": "Pivot Master ability card",
+      "level": 5
+    },
+    {
+      "id": "monster_churn_wraith",
+      "type": "monster",
+      "name": "Churn Wraith",
+      "domain": "Growth",
+      "stats": {
+        "attack": 7,
+        "defense": 4,
+        "wisdom": 6
+      },
+      "description": "Silently steals your users in the night. Hard to detect until too late.",
+      "reward": "Growth Hack ability card",
+      "level": 4
+    },
+    {
+      "id": "monster_analysis_paralysis",
+      "type": "monster",
+      "name": "Analysis Paralysis Sphinx",
+      "domain": "Data",
+      "stats": {
+        "attack": 2,
+        "defense": 10,
+        "wisdom": 9
+      },
+      "description": "Asks endless questions, never lets you ship anything.",
+      "reward": "Ship It ability card",
+      "level": 3
+    },
+    {
+      "id": "monster_burnout_phoenix",
+      "type": "monster",
+      "name": "Burnout Phoenix",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 8,
+        "defense": 3,
+        "wisdom": 7
+      },
+      "description": "Burns bright then crashes. Rises again to burn your whole team.",
+      "reward": "Culture Shield ability card",
+      "level": 5
+    },
+    {
+      "id": "monster_mvp_mimic",
+      "type": "monster",
+      "name": "MVP Mimic",
+      "domain": "Execution",
+      "stats": {
+        "attack": 4,
+        "defense": 4,
+        "wisdom": 4
+      },
+      "description": "Disguises itself as a real product. Fools investors but not users.",
+      "reward": "+2 Attack",
+      "level": 2
+    },
+    {
+      "id": "monster_ai_hype",
+      "type": "monster",
+      "name": "AI Hype Beast",
+      "domain": "AI",
+      "stats": {
+        "attack": 6,
+        "defense": 5,
+        "wisdom": 3
+      },
+      "description": "Promises to solve everything with AI. Delivers a chatbot wrapper.",
+      "reward": "AI Amplify ability card",
+      "level": 3
+    },
+    {
+      "id": "monster_reorg",
+      "type": "monster",
+      "name": "Reorg Tornado",
+      "domain": "Leadership",
+      "stats": {
+        "attack": 9,
+        "defense": 2,
+        "wisdom": 1
+      },
+      "description": "Strikes without warning. Scatters teams across the org chart.",
+      "reward": "Culture Shield ability card",
+      "level": 4
+    },
+    {
+      "id": "monster_competitor_shadow",
+      "type": "monster",
+      "name": "Competitor Shadow",
+      "domain": "Strategy",
+      "stats": {
+        "attack": 6,
+        "defense": 7,
+        "wisdom": 6
+      },
+      "description": "Always one step ahead. Copies your roadmap before you ship.",
+      "reward": "Pivot Master ability card",
+      "level": 4
+    },
+    {
+      "id": "monster_sev1",
+      "type": "monster",
+      "name": "Sev-1 Incident",
+      "domain": "Execution",
+      "stats": {
+        "attack": 10,
+        "defense": 1,
+        "wisdom": 2
+      },
+      "description": "Pages you at 3am. All hands on deck. Nothing else matters.",
+      "reward": "+3 Attack",
+      "level": 5
+    }
+  ],
+  "treasures": [
+    {
+      "id": "treasure_okr",
+      "type": "treasure",
+      "name": "OKR Framework",
+      "domain": "Strategy",
+      "description": "Align your team with clear objectives.",
+      "effect": "+2 to all stats for 1 turn",
+      "rarity": "common"
+    },
+    {
+      "id": "treasure_north_star",
+      "type": "treasure",
+      "name": "North Star Metric",
+      "domain": "Data",
+      "description": "One metric to rule them all.",
+      "effect": "+4 Wisdom permanently",
+      "rarity": "rare"
+    },
+    {
+      "id": "treasure_user_interview",
+      "type": "treasure",
+      "name": "User Interview Notes",
+      "domain": "Design",
+      "description": "Finally, actual user feedback!",
+      "effect": "Heal 3 HP",
+      "rarity": "common"
+    },
+    {
+      "id": "treasure_ab_test",
+      "type": "treasure",
+      "name": "Winning A/B Test",
+      "domain": "Data",
+      "description": "Statistical significance achieved!",
+      "effect": "+3 Attack for 2 turns",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "treasure_product_sense",
+      "type": "treasure",
+      "name": "Product Sense",
+      "domain": "Strategy",
+      "description": "You just... know what to build.",
+      "effect": "Choose any card from discard pile",
+      "rarity": "legendary"
+    },
+    {
+      "id": "treasure_investor_deck",
+      "type": "treasure",
+      "name": "Series B Deck",
+      "domain": "Revenue",
+      "description": "Fresh capital unlocks new possibilities.",
+      "effect": "Draw 3 cards",
+      "rarity": "rare"
+    },
+    {
+      "id": "treasure_retro",
+      "type": "treasure",
+      "name": "Sprint Retro",
+      "domain": "Execution",
+      "description": "Learn from your mistakes. Adjust and improve.",
+      "effect": "+2 Defense permanently",
+      "rarity": "common"
+    },
+    {
+      "id": "treasure_pmf",
+      "type": "treasure",
+      "name": "Product-Market Fit",
+      "domain": "Growth",
+      "description": "The holy grail. Users are pulling the product from your hands.",
+      "effect": "+5 to all stats for 1 turn",
+      "rarity": "legendary"
+    },
+    {
+      "id": "treasure_moat",
+      "type": "treasure",
+      "name": "Competitive Moat",
+      "domain": "Strategy",
+      "description": "Network effects, switching costs, and brand loyalty.",
+      "effect": "+4 Defense permanently",
+      "rarity": "rare"
+    },
+    {
+      "id": "treasure_slack_channel",
+      "type": "treasure",
+      "name": "War Room Slack Channel",
+      "domain": "Execution",
+      "description": "#incident-response is live. All hands.",
+      "effect": "+3 Attack this turn",
+      "rarity": "common"
+    },
+    {
+      "id": "treasure_ai_copilot",
+      "type": "treasure",
+      "name": "AI Copilot",
+      "domain": "AI",
+      "description": "Your AI pair programmer ships 10x faster.",
+      "effect": "Play 2 cards this turn",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "treasure_launch_blog",
+      "type": "treasure",
+      "name": "Launch Blog Post",
+      "domain": "Growth",
+      "description": "Hit #1 on Hacker News. Traffic is spiking.",
+      "effect": "+3 Wisdom for 2 turns",
+      "rarity": "uncommon"
+    }
+  ]
+}
