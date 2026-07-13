@@ -29,6 +29,7 @@ import {
 } from './engine/meta/save';
 import type { MetaState } from './engine/meta/save';
 import { GUESTS } from './content/guests/generate';
+import { renderCompendium } from './ui/screens/compendium';
 
 export class Game {
   private root: HTMLElement;
@@ -75,6 +76,8 @@ export class Game {
             : null,
           h('button', { class: 'btn btn-primary', onTap: () => this.newGame() }, '🗺 New Run'),
           ascensionRow,
+          h('button', { class: 'btn', onTap: () => this.showHowTo() }, '❔ How to Play'),
+          h('button', { class: 'btn', onTap: () => this.showCompendium() }, '📚 Compendium'),
           h('button', { class: 'btn', onTap: () => this.showHistory() }, '📜 Run History'),
           h('button', {
             class: 'btn btn-ghost',
@@ -118,6 +121,33 @@ export class Game {
       }
     }
     this.showMap();
+  }
+
+  private showCompendium(): void {
+    renderCompendium(this.root, this.meta.guestsUnlocked, () => this.showTitle());
+  }
+
+  private showHowTo(): void {
+    clear(this.root);
+    const section = (title: string, text: string) =>
+      h('div', { class: 'howto-section' },
+        h('h3', {}, title),
+        h('p', {}, text));
+    this.root.appendChild(
+      h('div', { class: 'room-screen' },
+        h('h2', { class: 'room-title' }, '❔ How to Play'),
+        h('div', { class: 'howto-grid' },
+          section('🎯 Goal', 'Climb the product roadmap through 3 acts — Find PMF, Scale-Up, and The IPO Road — and defeat The HiPPO at the top. Your Morale ❤️ is your health: hit 0 and the run ends.'),
+          section('⚔️ Combat', 'Each turn you get 3 Bandwidth ⚡ and draw 5 cards. Attacks deal damage, Skills defend and manipulate, Powers give lasting effects. Enemies telegraph their next move above their heads — block what you can with Buffer 🛡, which expires each turn.'),
+          section('🗺 The Roadmap', 'Pick your path: fights 👾, elites 💀, events ❓, shops 🛒, retros ☕ (heal or upgrade a card), and treasures 🎁. Every act ends in a boss 🚩.'),
+          section('🎙️ Guests', 'Real Lenny’s Podcast guests are unique cards — meet them in events, hire them in shops, or find them in rewards. Win runs to earn Listener XP and unlock all 60.'),
+          section('🃏 Deckbuilding', 'After each fight, add 1 of 3 cards (or skip — a thin deck is a fast deck). Upgrade at retros, remove cards in shops, collect framework relics 🔮 for passive power.'),
+          section('☕ Coffee', 'Consumables you can drink any time in combat from the top bar. Espresso in an elite fight has saved many careers.'),
+        ),
+        h('div', { class: 'room-actions' },
+          h('button', { class: 'btn btn-primary', onTap: () => this.showTitle() }, 'Back')),
+      ),
+    );
   }
 
   private showHistory(): void {

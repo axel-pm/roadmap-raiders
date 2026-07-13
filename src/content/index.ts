@@ -49,6 +49,11 @@ export function cardPool(rarity: 'common' | 'uncommon' | 'rare'): CardDef[] {
   return ALL_TACTIC_CARDS.filter((c) => c.rarity === rarity);
 }
 
+/** obtainable tactic cards for the compendium (no curses/statuses) */
+export const ALL_TACTIC_CARDS_PUBLIC: CardDef[] = ALL_TACTIC_CARDS.filter(
+  (c) => c.type !== 'curse' && c.type !== 'status',
+);
+
 export const STARTER_DECK: string[] = [
   'ship_it', 'ship_it', 'ship_it', 'ship_it', 'ship_it',
   'say_no', 'say_no', 'say_no', 'say_no',

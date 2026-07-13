@@ -4,7 +4,7 @@
 
 # Roadmap Raiders
 
-**A card-battle game where you fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — using a deck of heroes built from real [Lenny's Podcast](https://www.lennyspodcast.com/) guests.** Plays in your browser. Nothing to install.
+**A Slay the Spire-inspired roguelike deckbuilder where you climb the product roadmap, fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — and recruit real [Lenny's Podcast](https://www.lennyspodcast.com/) guests into your deck.** Plays in your browser. Nothing to install.
 
 <p align="center">
   <strong><a href="https://axel-pm.github.io/munchkin/">▶ Play it now</a></strong>
@@ -12,55 +12,38 @@
 
 ---
 
-## The idea
+## The game
 
-Every PM fights the same beasts: scope that won't stop growing, the Highest-Paid Person's Opinion, a backlog that ships features nobody asked for. Roadmap Raiders turns them into a light, Munchkin-style card game — and turns the people who actually have answers into your party.
+You're a PM climbing **The Roadmap** — a branching map through three acts: **Find PMF**, **Scale-Up**, and **The IPO Road**. Along the way you fight PM anti-patterns in full deckbuilder combat, collect framework relics, drink questionable amounts of coffee, and finally face **The HiPPO** — the Highest Paid Person's Opinion — at the top.
 
-The **hero cards are real Lenny's Podcast guests**, and their stats aren't made up: they're derived from each guest's episode data (views, runtime, how much they had to say). So Eric Ries hits differently than a first-time founder, and your job is to draw the right minds to beat the monster in front of you.
+- **⚔️ Turn-based card combat** — 3 Bandwidth per turn, a hand of 5, Buffer to block, and enemies that telegraph their next move. Attacks, Skills, and Powers; Momentum, Exposed, Tech Debt, Burnout, and a dozen more PM-flavored statuses.
+- **🎙️ 60 real podcast guests as unique cards** — each guest's card is derived from their actual episode data (domain, stats, signature ability), with their real quotes as flavor text. The top guests get handcrafted signature mechanics: Eric Ries runs a Lean Loop, Marc Andreessen goes PMF-or-Die.
+- **🗺 A branching roadmap** — fights, elites, ?-events, shops, retros (heal or upgrade), treasures, and a boss at the end of every act.
+- **🔮 28 framework relics** — OKRs, North Star Metric, the AI Copilot, Product-Market Fit… passive power that changes how your deck plays.
+- **📈 Meta-progression** — runs earn Listener XP that unlocks more guests; wins unlock Ascension levels 1–10; mid-run saves survive a refresh; seeded runs are fully reproducible.
 
-## How to play
+## Monsters you already know
 
-1. **Open the game** — [play in your browser](https://axel-pm.github.io/munchkin/), or run it locally (below).
-2. **Draft 3 heroes** from the podcast-guest deck to start your party.
-3. **Face a PM monster.** Play hero cards so your total **Attack** beats the monster's power.
-4. **Win the fight** to claim **treasures** — PM tools and frameworks like the OKR Framework, North Star Metric, and Product-Market Fit — and level up.
-5. **Reach Level 10** to win the run.
-
-Each hero also has a **special ability** drawn from what they talk about on the podcast, so the deck plays differently every time.
-
-## What's in the deck
-
-Built from **289 podcast episodes**:
-
-- **60 hero cards** — real guests, stats derived from episode data
-- **15 monster cards** — PM anti-patterns: Scope Creep Dragon, Bikeshedding Demon, The HiPPO, Technical Debt Golem, Stakeholder Hydra, Churn Wraith, and more
-- **12 treasure cards** — the frameworks and wins that turn a fight around
+Meeting Goblins (they multiply), the Bikeshedding Demon, the MVP Mimic, the Scope Creep Dragon (it stuffs curses into your deck), the Stakeholder Hydra (three heads, and killing one enrages the rest), the Burnout Phoenix (it *will* rise again), the Deadline Reaper (ship or die), and The HiPPO — 300 HP of pure gut feel.
 
 ## Run it locally
 
-No build step — it's plain HTML, CSS, and JavaScript.
-
 ```bash
-python3 -m http.server 8080
-# then open http://localhost:8080
+npm install
+npm run dev        # dev server
+npm test           # engine + simulation tests
+npm run build      # production build to dist/
 ```
 
-## Regenerating the deck
+Built with Vite + TypeScript, no framework — the combat engine is fully headless and unit-tested, and a greedy bot plays complete seeded runs in CI as a balance sanity check.
 
-The card data is generated from an open dataset of podcast transcripts. To rebuild it:
+## The data
 
-```bash
-# Grab the source data
-git clone https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all.git
-
-# Extract cards → data/cards.json
-pip install pyyaml
-python3 scripts/extract_cards.py
-```
+Guest cards are generated from an open dataset of 289 podcast episodes (`data/cards.json` → `data/guests.json`). Regenerate with `npm run transform`; rebuild the source data with `scripts/extract_cards.py` against the community [podcast dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all).
 
 ## Credits
 
-Card data is derived from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community [podcast dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all). Hero cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast.
+Card data is derived from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community dataset. Guest cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast. Game design inspired by Slay the Spire.
 
 ## License
 
