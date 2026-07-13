@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Roadmap Raiders" width="560">
+  <img src="assets/banner.png" alt="Roadmap Raiders" width="820">
 </p>
 
 # Roadmap Raiders
@@ -23,6 +23,7 @@ You're a PM climbing **The Roadmap**, a branching map through three acts: **Find
 - **🗺 A branching roadmap.** Fights, elites, ?-events, shops, retros (heal or upgrade a card), treasures, and a boss at the end of every act.
 - **🔮 28 framework relics.** OKRs, North Star Metric, AI Copilot, Product-Market Fit — passive items that change how your deck plays.
 - **📈 Progression that sticks.** Runs earn Listener XP that unlocks more guests. Wins unlock Ascension levels 1–10. Mid-run saves survive a refresh, and seeded runs are reproducible.
+- **🎨 A hand-painted world.** Every card, guest, and enemy is its own illustration in a warm "campfire-lit corporate fantasy" style, with a moody backdrop for each act.
 
 <p align="center">
   <img src="assets/screenshots/map.png" alt="The branching roadmap" width="280">
