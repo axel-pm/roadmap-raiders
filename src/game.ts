@@ -1,6 +1,7 @@
 // Game controller: routes between title, map, and room screens; owns the run.
 
 import { h, clear } from './ui/dom';
+import { bgLayer } from './ui/art';
 import { CombatEngine, makeInstance } from './engine/combat/engine';
 import type { CombatHost } from './engine/combat/engine';
 import { CONTENT } from './content';
@@ -47,6 +48,7 @@ export class Game {
 
   showTitle(): void {
     clear(this.root);
+    document.body.style.backgroundImage = '';
     const meta = this.meta;
     const canContinue = hasSavedRun();
     const nextUnlockIn = meta.guestsUnlocked >= TOTAL_GUESTS
@@ -67,7 +69,7 @@ export class Game {
       : null;
 
     this.root.appendChild(
-      h('div', { class: 'screen-title' },
+      h('div', { class: 'screen-title', style: `background-image:${bgLayer('title', 0.45)}` },
         h('h1', { class: 'game-title' }, 'ROADMAP RAIDERS'),
         h('p', { class: 'game-subtitle' }, 'A PM roguelike deckbuilder powered by Lenny’s Podcast'),
         h('div', { class: 'title-buttons' },
@@ -227,6 +229,7 @@ export class Game {
     const screen = new CombatScreen(this.root, engine, {
       budget: run.budget,
       floorLabel: `Sprint ${run.floorsClimbed} · Act ${run.act}`,
+      bgId: `act${run.act}`,
       coffees: () => run.coffees,
       onDrinkCoffee: (i) => {
         const id = run.coffees[i];

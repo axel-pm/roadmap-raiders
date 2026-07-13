@@ -1,6 +1,7 @@
 // Card rendering shared by hand, rewards, shops, pile viewers, compendium.
 
 import { h } from '../dom';
+import { artImg } from '../art';
 import type { CardDef, CardInstance } from '../../engine/types';
 import { CARDS_BY_ID } from '../../content';
 
@@ -50,7 +51,8 @@ export function cardEl(def: CardDef, opts: CardElOpts = {}): HTMLElement {
         : h('span', { class: 'card-cost card-cost-none' }, '–'),
       h('span', { class: 'card-name' }, cardName(def, upgraded)),
     ),
-    h('div', { class: 'card-art' }, def.emoji),
+    h('div', { class: 'card-art' },
+      artImg(def.guest ? 'guests' : 'cards', def.id, def.emoji)),
     h('div', { class: 'card-text' }, cardText(def, upgraded)),
     def.guest
       ? h('div', { class: 'card-guest-tag' }, `🎙️ Lenny's Podcast · ${def.guest.domain}`)

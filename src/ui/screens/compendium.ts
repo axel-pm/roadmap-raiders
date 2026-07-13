@@ -1,6 +1,7 @@
 // Compendium: browse all guests (with quotes + episodes), cards, and relics.
 
 import { h, clear } from '../dom';
+import { artImg } from '../art';
 import { cardEl } from '../components/cardEl';
 import { GUEST_CARDS, ALL_TACTIC_CARDS_PUBLIC } from '../../content';
 import { GUESTS } from '../../content/guests/generate';
@@ -53,7 +54,7 @@ export function renderCompendium(
       body = h('div', { class: 'compendium-list' },
         ...RELICS.map((relic) =>
           h('div', { class: 'relic-offer', style: 'cursor:default' },
-            h('span', { class: 'relic-offer-emoji' }, relic.emoji),
+            h('span', { class: 'relic-offer-emoji' }, artImg('relics', relic.id, relic.emoji)),
             h('div', {},
               h('div', { class: 'relic-offer-name' }, relic.name),
               h('div', { class: 'relic-offer-desc' }, relic.description)))));
