@@ -1,0 +1,462 @@
+{
+  "guest_sean-ellis": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/sean-ellis.md",
+    "quotes": [
+      {
+        "text": "The Sean Ellis test, such a seemingly simple idea that has had such a profound impact on the startup world.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "The question is, how would you feel if you could no longer use this product.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have."
+  },
+  "guest_alex-komoroske": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/alex-komoroske.md",
+    "quotes": [
+      {
+        "text": "So much of the way that we tackle problems and build products is this builder mindset.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "And this is a way you can create tons of value.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Part of the problem though is it can't possibly create more value than the effort that you put into it.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  },
+  "guest_ebi-atawodi": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/ebi-atawodi.md",
+    "quotes": [
+      {
+        "text": "When I said this once in a meeting, people were like.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "It's not always nice or like, it sometimes is having hard conversations.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "It's knowing that, oh, there's a human, they know I care about them.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  },
+  "guest_emilie-gerber": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/emilie-gerber.md",
+    "quotes": [
+      {
+        "text": "Most products won't have this interesting of a story to tell.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "I want to read one to you and then I want to see if you can tell me what this company does.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Before starting her own firm, she worked at Uber where she led PR for the business development team and B2B programs.",
+        "found": true,
+        "speakerIsGuest": false
+      }
+    ],
+    "replacement": "When I email a reporter, I love to make the subject line just as clear as possible as what the goal is and why I'm emailing them."
+  },
+  "guest_drew-houston": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/drew-houston.md",
+    "quotes": [
+      {
+        "text": "People just don't realize the wild journey that you have been on over the past 18 years building this company.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "Taping user counts that we printed out to the wall, and then running out of space on the wall.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Having to put 100,000 users, 200,000, 500,000, 1,000,000, 10,000,000 on the ceiling.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "For the first several years, it was doubling, 10-xing every year."
+  },
+  "guest_timothy-davis": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/timothy-davis.md",
+    "quotes": [
+      {
+        "text": "Is performance marketing just something every company should be doing.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "When you take over for an agency at a company, you crush their performance within a month.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "Instead of thinking about being on top of the page, and that's like ego marketing, I want to be number one.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "The number one thing I tell people all the time is use your own data, start with your own data."
+  },
+  "guest_jake-knapp--john-zeratsky": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jake-knapp--john-zeratsky.md",
+    "quotes": [
+      {
+        "text": "It's not really about productivity, it's not about time management.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Things can sometimes be a mess outside of that, and you still feel really good about your days.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "You still feel really good about the way you're spending your energy.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  },
+  "guest_matt-macinnis": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/matt-macinnis.md",
+    "quotes": [
+      {
+        "text": "It is really important to me that we feel that we've deliberately understaffed every project at the company.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Recently, you moved into CPO, Chief Product Officer at Rippling.",
+        "found": true,
+        "speakerIsGuest": false
+      }
+    ],
+    "replacement": "If you want to be in the 99th percentile in terms of outcomes, it's going to be really difficult."
+  },
+  "guest_mihika-kapoor": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/mihika-kapoor.md",
+    "quotes": [
+      {
+        "text": "I asked on Twitter, \"Who's the best product manager you've worked with.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "My take is that your scope is the world.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Nothing should ever perceive as being out of bounds.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "We lean heavily into designing and prototyping even before a project gets a green light."
+  },
+  "guest_nir-eyal": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/nir-eyal.md",
+    "quotes": [
+      {
+        "text": "But to me, that's incredibly empowering because once you realize, \"Wait a minute, it's just a feeling.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "I'll just start really broad and let's just see where this goes.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "That's my favorite thing to do, is to actually get concrete with people about what their specific challenges are.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "It's not the pings, dings, and rings. It's the feelings."
+  },
+  "guest_lazar-jovanovic": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/lazar-jovanovic.md",
+    "quotes": [
+      {
+        "text": "It's a dream job for so many people.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "It became a job by building in public.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "You don't need a company to hire you.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "I'm the first official vibe coding engineer at Lovable."
+  },
+  "guest_matt-mullenweg": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/matt-mullenweg.md",
+    "quotes": [
+      {
+        "text": "You are like a 100% beloved hero of open source and internet and now you're in this, a lot of people don't like you.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "If you were kind of inside baseball with WordPress, it's actually a lot of people who have been unhappy with me over the years.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Previously, 1% of the world thought I was terrible and now I feel like it's up to four or 5%.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "A lie gets around the world seven times before the truth has time to get out of bed."
+  },
+  "guest_sam-schillace": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/sam-schillace.md",
+    "quotes": [
+      {
+        "text": "We tend to think work has to be unpleasant.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "And so if something is easy and fun, we don't tend to think it's valuable.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Currently, he is corporate vice president and deputy chief technology officer at Microsoft, where he leads efforts in the consumer product space, infrastructure, and AI.",
+        "found": true,
+        "speakerIsGuest": false
+      }
+    ],
+    "replacement": "We tend to undervalue the things we're good at."
+  },
+  "guest_david-singleton": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/david-singleton.md",
+    "quotes": [
+      {
+        "text": "Maybe the best example of that is Stripe billing.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "And we could see that they were really kind of pushing the boundaries of what was possible here.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "So we decided to co-create the product with them.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  },
+  "guest_naomi-gleit": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/naomi-gleit.md",
+    "quotes": [
+      {
+        "text": "I really believe in frameworks for things that helps drive extreme clarity.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "A lot of times I'm ramping up a new project, I'm like, \"Where can I learn what I need to learn about this project.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "\" I ask five different people, get five different answers.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  },
+  "guest_howie-liu": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/howie-liu.md",
+    "quotes": [
+      {
+        "text": "Or people that work for you, how have you adjusted what you expect of them to help them be successful.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "Of the different functions on our product team PM, engineering design, who has had the most success being more productive with these tools.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "It really does become more about individual attitude.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "There's a strong advantage to any of those three roles who can kind of cross over into the other two."
+  },
+  "guest_christian-idiodi": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/christian-idiodi.md",
+    "quotes": [
+      {
+        "text": "That's kind of the real essence of it, and that's, I always call it a certificate of appreciation.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "And that's the real essence of this job.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "Also, Christian shares his one favorite go-to method, out of all of the discovery methods out there, for figuring out what to build.",
+        "found": true,
+        "speakerIsGuest": false
+      }
+    ],
+    "replacement": "If it's not fun, you're probably not doing it right."
+  },
+  "guest_molly-graham": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/molly-graham.md",
+    "quotes": [
+      {
+        "text": "80% of the culture of a company is literally defined by the personality of the founder.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "When a lot of people think Molly Graham, a lot of people think of giving away your Legos.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "So Chamath, when he pitched me on this job, actually drew me a picture on a whiteboard.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": "Google, when I was there, felt like two PhD students paradise. Facebook felt like 19-year-old hacker's dorm room."
+  },
+  "guest_sriram-and-aarthi": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/sriram-and-aarthi.md",
+    "quotes": [
+      {
+        "text": "\" So if you signed up for Facebook for many, many years, you'll get this little thing called People You May Know.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "I think we're going to have a lot of fun, so again, thanks for joining me here.",
+        "found": true,
+        "speakerIsGuest": false
+      },
+      {
+        "text": "\" And then became really fancy people and I was like, \"I'm not ever going to make it back on there.",
+        "found": true,
+        "speakerIsGuest": false
+      }
+    ],
+    "replacement": "So what Facebook did was it made your experience slightly worse to make that person's experience slightly better."
+  },
+  "guest_jackson-shuttleworth": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jackson-shuttleworth.md",
+    "quotes": [
+      {
+        "text": "We have, right now, over 9 million users with a year plus streak.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "If you look at the numbers, I think it's been our biggest growth lever.",
+        "found": true,
+        "speakerIsGuest": true
+      },
+      {
+        "text": "What Duolingo really focuses on is, how do we help users build habits around language learning.",
+        "found": true,
+        "speakerIsGuest": true
+      }
+    ],
+    "replacement": null
+  }
+}

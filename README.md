@@ -63,6 +63,8 @@ Guest cards are generated from `data/guests.json` at load time. Regenerate it wi
 
 Card data comes from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community dataset. Guest cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast. Game design inspired by Slay the Spire.
 
+All in-game artwork is AI-generated (Google's Nano Banana image model) via the prompts in `scripts/art/`. Guest card characters are fictional illustrations painted from written appearance descriptions — stylized artistic interpretations, not photographs or edited photos.
+
 ## License
 
 [MIT](LICENSE).

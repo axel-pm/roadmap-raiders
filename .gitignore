@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 node_modules/
 dist/
+scripts/art/photos/
+scripts/art/raw/

@@ -1,0 +1,1820 @@
+[
+ {
+  "id": "title",
+  "kind": "bg",
+  "size": [
+   1536,
+   864
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Wide establishing shot, atmospheric depth, painterly environment concept art. Epic title vista at golden hour: a winding glowing product-roadmap path ascending a fantasy tower of office floors toward a radiant sunrise summit, tiny adventurer silhouette with a backpack at the base, campfire glow, city lights below. Dark enough at the edges for UI text overlay."
+ },
+ {
+  "id": "act1",
+  "kind": "bg",
+  "size": [
+   1536,
+   864
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Wide establishing shot, atmospheric depth, painterly environment concept art. A cozy startup garage-dungeon at night: exposed brick, whiteboards with glowing diagrams, pizza boxes, string lights, a campfire in an oil drum, a tunnel opening toward dawn light. Dark enough at the edges for UI text overlay."
+ },
+ {
+  "id": "act2",
+  "kind": "bg",
+  "size": [
+   1536,
+   864
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Wide establishing shot, atmospheric depth, painterly environment concept art. A vast scale-up open office at dusk as a fantasy hall: endless desks receding, glowing monitors like candles, giant metrics dashboards floating like warm stained glass, sunset through tall windows. Dark enough at the edges for UI text overlay."
+ },
+ {
+  "id": "act3",
+  "kind": "bg",
+  "size": [
+   1536,
+   864
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Wide establishing shot, atmospheric depth, painterly environment concept art. A stock-exchange cathedral at golden hour: marble columns, a towering golden bell, ticker tape falling like confetti snow, dramatic warm light from high windows with looming shadows. Dark enough at the edges for UI text overlay."
+ },
+ {
+  "id": "meeting_goblin",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A small gleeful goblin in an oversized business suit clutching a calendar covered in overlapping meeting invites, conference-room table behind it."
+ },
+ {
+  "id": "bikeshedding_demon",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A pedantic horned demon obsessively repainting a tiny bicycle while towers of urgent paperwork burn behind it."
+ },
+ {
+  "id": "vanity_metrics_phantom",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A translucent ghostly figure made of glowing ascending charts and confetti, hollow where its heart should be."
+ },
+ {
+  "id": "mvp_mimic",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A cardboard shipping box mimic with duct-tape seams opening to reveal rows of sharp teeth and a glowing gullet."
+ },
+ {
+  "id": "nps_troll",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A grumpy warty troll holding a giant \"0/10\" survey scorecard like a war shield, angry emoji stickers on its skin."
+ },
+ {
+  "id": "slide_deck_zombie",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A decaying zombie in office wear shambling forward dragging an endless accordion of presentation slides behind it."
+ },
+ {
+  "id": "scope_creep_dragon",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A massive serpentine dragon whose scales are colorful overlapping sticky notes, coiled around a collapsing project timeline, jaws wide."
+ },
+ {
+  "id": "analysis_paralysis_sphinx",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A stone sphinx with a laptop between its paws, surrounded by floating question marks and frozen decision trees."
+ },
+ {
+  "id": "feature_factory",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A monstrous living factory with smokestacks and conveyor belts vomiting identical shrink-wrapped features, glowing furnace eyes."
+ },
+ {
+  "id": "churn_wraith",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A wraith of grey mist made of dissolving user avatars drifting away like smoke, reaching with long fingers."
+ },
+ {
+  "id": "competitor_shadow",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A sleek ninja silhouette made of living shadow holding a stolen glowing product roadmap scroll."
+ },
+ {
+  "id": "dark_pattern_vampire",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. An elegant vampire in a designer suit hypnotizing with a glowing \"unsubscribe\" button held just out of reach."
+ },
+ {
+  "id": "committee_ghost",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A translucent ghost in business casual raising one objecting finger, endless meeting minutes swirling around it."
+ },
+ {
+  "id": "okr_ouroboros",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A serpent biting its own tail formed from cascading goal-tracking spreadsheets and arrows, infinite loop glow."
+ },
+ {
+  "id": "growth_hacker_gremlin",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A manic gremlin juggling spam emails and funnel charts, wearing a hoodie, surrounded by popup windows."
+ },
+ {
+  "id": "technical_debt_golem",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A hulking golem built from rusted server racks, tangled cables and legacy code printouts, cracks glowing ominous red."
+ },
+ {
+  "id": "burnout_phoenix",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A phoenix wreathed in exhausted orange flame rising from a nest of empty coffee cups and midnight laptops."
+ },
+ {
+  "id": "hydra_sales_head",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. One head of a corporate hydra: a slick grinning dragon head wearing a sales headset, contract in its teeth."
+ },
+ {
+  "id": "hydra_legal_head",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. One head of a corporate hydra: a stern dragon head in judge spectacles breathing red-tape ribbons."
+ },
+ {
+  "id": "hydra_exec_head",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. One head of a corporate hydra: an imperious dragon head with a golden crown of KPI charts."
+ },
+ {
+  "id": "sev1_incident",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A blazing red siren elemental with tentacles of error logs and pager notifications, alarm light glow."
+ },
+ {
+  "id": "compliance_lich",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. An undead lich in tattered legal robes holding a glowing checklist scepter, chained filing cabinets floating behind."
+ },
+ {
+  "id": "the_consultant",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A faceless figure in an immaculate suit presenting a glowing 2x2 matrix, golden hourglass billing meter floating beside."
+ },
+ {
+  "id": "deadline_reaper",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A grim reaper whose scythe blade is a giant clock hand, hourglass belt, calendar pages falling like leaves."
+ },
+ {
+  "id": "vaporware_wisp",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A barely-there wisp of glowing vapor shaped like a product mockup that dissolves at the edges."
+ },
+ {
+  "id": "reorg_tornado",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A tornado of org-chart boxes, desk chairs and name plates tearing through an office floor."
+ },
+ {
+  "id": "ai_hype_beast",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A dazzling chimera of neon circuit patterns and marketing sparkles, half magnificent, half glitching static."
+ },
+ {
+  "id": "the_hippo",
+  "kind": "enemy",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. A colossal armored hippopotamus in an executive pinstripe suit on a throne of unread reports, golden gavel in fist, boardroom cathedral behind."
+ },
+ {
+  "id": "ship_it",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A determined hand slamming a giant glowing green LAUNCH lever, cargo ship of features setting sail from a dock of code."
+ },
+ {
+  "id": "say_no",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A calm open palm projecting a shimmering protective barrier that deflects a storm of incoming feature-request arrows."
+ },
+ {
+  "id": "user_interview",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A glowing golden microphone illuminating hidden truths as luminous threads rise from a shadowy user silhouette."
+ },
+ {
+  "id": "hotfix",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A tiny glowing bandage patch being slapped onto a cracked server, sparks flying."
+ },
+ {
+  "id": "double_down",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. Two identical glowing dice slamming down in unison, impact shockwave."
+ },
+ {
+  "id": "feature_freeze",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Feature Freeze\" (Deal 6 damage. Apply 1 Distracted.)."
+ },
+ {
+  "id": "scope_cut",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Scope Cut\" (Deal 7 damage. Deal 4 more if the target is Exposed.)."
+ },
+ {
+  "id": "crunch_time",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. An office clock melting and burning at midnight, silhouetted worker hammering a keyboard in the glow."
+ },
+ {
+  "id": "data_dive",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Data Dive\" (Deal 5 damage. Scry 2.)."
+ },
+ {
+  "id": "sprint_push",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Sprint Push\" (Deal 5 damage. If this kills the enemy, gain 1 Bandwidth.)."
+ },
+ {
+  "id": "ship_fast",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Ship Fast\" (Deal 9 damage. Add a Bug Report to your discard pile.)."
+ },
+ {
+  "id": "dogfooding",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Dogfooding\" (Gain 5 Buffer. Draw 1 card.)."
+ },
+ {
+  "id": "stakeholder_update",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Stakeholder Update\" (Gain 8 Buffer.)."
+ },
+ {
+  "id": "timebox",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Timebox\" (Gain 4 Buffer. Scry 2.)."
+ },
+ {
+  "id": "coffee_chat",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Coffee Chat\" (Gain 3 Buffer.)."
+ },
+ {
+  "id": "deprioritize",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Deprioritize\" (Apply 2 Distracted.)."
+ },
+ {
+  "id": "retro_notes",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Retro Notes\" (Put a card from your discard pile on top of your draw pile.)."
+ },
+ {
+  "id": "delegate",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Delegate\" (Discard a card. Draw 1 card.)."
+ },
+ {
+  "id": "quick_win",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Quick Win\" (Deal 2 damage. Gain 2 Buffer.)."
+ },
+ {
+  "id": "bug_triage",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Bug Triage\" (Apply 3 Tech Debt.)."
+ },
+ {
+  "id": "standup",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Standup\" (Draw 2 cards. FOMO.)."
+ },
+ {
+  "id": "write_it_down",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Write It Down\" (Gain 6 Buffer. Pinned.)."
+ },
+ {
+  "id": "push_back",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Push Back\" (Gain 3 Pushback.)."
+ },
+ {
+  "id": "viral_feature",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A luminous feature-orb exploding into a network of spreading light across a dark city grid."
+ },
+ {
+  "id": "growth_loop",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Growth Loop\" (Deal 6 damage. If this kills the enemy, draw 2 cards and gain 1 Bandwidth.)."
+ },
+ {
+  "id": "pivot_hard",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A ship's wheel spun so hard it blurs, the deck tilting, stars streaking."
+ },
+ {
+  "id": "ruthless_prioritization",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Ruthless Prioritization\" (Deal 12 damage. Archive a random card from your hand.)."
+ },
+ {
+  "id": "launch_day",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A rocket lifting off from an office rooftop, confetti and smoke, team silhouettes cheering."
+ },
+ {
+  "id": "cold_outreach",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Cold Outreach\" (Deal 9 damage to a random enemy.)."
+ },
+ {
+  "id": "land_and_expand",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Land and Expand\" (Deal 4 damage. Apply 1 Exposed and 1 Distracted.)."
+ },
+ {
+  "id": "dashboard_drilldown",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Dashboard Drilldown\" (Deal 8 damage. Scry 3.)."
+ },
+ {
+  "id": "competitive_teardown",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Competitive Teardown\" (Deal 7 damage. Gain 4 Buffer.)."
+ },
+ {
+  "id": "roadmap_review",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Roadmap Review\" (Draw 3 cards. Discard a card.)."
+ },
+ {
+  "id": "design_sprint",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Design Sprint\" (Gain 2 Craft. Archive.)."
+ },
+ {
+  "id": "war_room",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"War Room\" (Gain 2 Bandwidth. Archive.)."
+ },
+ {
+  "id": "feature_flag",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Feature Flag\" (Gain 10 Buffer. FOMO.)."
+ },
+ {
+  "id": "say_no_harder",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Say No Harder\" (Gain 9 Buffer. Apply 1 Distracted to ALL enemies.)."
+ },
+ {
+  "id": "customer_council",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Customer Council\" (Gain 1 Alignment and 5 Buffer.)."
+ },
+ {
+  "id": "refactor_week",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Refactor Week\" (Archive up to 2 Status or Curse cards from your hand. Heal 2 Morale for each.)."
+ },
+ {
+  "id": "offsite",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Offsite\" (Heal 8 Morale. Archive.)."
+ },
+ {
+  "id": "async_update",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Async Update\" (Draw 1 additional card next turn. Pinned.)."
+ },
+ {
+  "id": "ab_test",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"A/B Test\" (Choose 1 of 2 random cards to add to your hand. It costs 0 this combat.)."
+ },
+ {
+  "id": "okrs",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. Three concentric glowing target rings aligned in the sky above a mountain path."
+ },
+ {
+  "id": "growth_model",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Growth Model\" (Draw 1 additional card each turn.)."
+ },
+ {
+  "id": "weekly_1on1",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Weekly 1:1\" (Heal 2 Morale at the start of each turn.)."
+ },
+ {
+  "id": "north_star",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A brilliant north star casting a single silver beam onto a dark roadmap landscape."
+ },
+ {
+  "id": "automation",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Automation\" (The first Skill you play each turn is played twice.)."
+ },
+ {
+  "id": "compounding",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Compounding\" (Whenever a card is Archived, gain 3 Buffer.)."
+ },
+ {
+  "id": "ship_to_prod",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A cargo ship launched directly into a stormy sea at night from a party dock, lightning overhead."
+ },
+ {
+  "id": "tenx_feature",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A small gem multiplying into ten radiant copies in an ascending arc."
+ },
+ {
+  "id": "big_bet",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A tower of glowing poker chips pushed across a boardroom table into darkness."
+ },
+ {
+  "id": "kill_the_feature",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A ceremonial axe descending on a gift-wrapped feature box on an altar."
+ },
+ {
+  "id": "blitzscale",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, aggressive warm reds and oranges in the palette. A symbolic corporate-fantasy scene illustrating \"Blitzscale\" (Deal 5 damage to ALL enemies twice.)."
+ },
+ {
+  "id": "founder_mode",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A wild-eyed founder wreathed in crackling energy typing with six spectral arms."
+ },
+ {
+  "id": "product_sense",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Product Sense\" (Choose any card from your draw pile and put it into your hand.)."
+ },
+ {
+  "id": "series_c",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Series C\" (Gain 40 Budget. Archive.)."
+ },
+ {
+  "id": "hard_reset",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A giant power switch being thrown in a dark server cathedral, arcs of light."
+ },
+ {
+  "id": "vision_doc",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. An ancient illuminated scroll unfurling, projecting a glowing city blueprint into the air."
+ },
+ {
+  "id": "acquihire",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A golden magnet drawing a team of glowing figures across a chasm."
+ },
+ {
+  "id": "moat_building",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Moat Building\" (Gain 2 Alignment.)."
+ },
+ {
+  "id": "heads_down_week",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A symbolic corporate-fantasy scene illustrating \"Heads-Down Week\" (Reduce ALL damage taken to 1 this turn. FOMO. Archive.)."
+ },
+ {
+  "id": "ipo",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, cool defensive blues in the palette. A giant bronze bell being struck, shockwave of golden light over a trading floor."
+ },
+ {
+  "id": "platform_play",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Platform Play\" (Gain 2 Craft.)."
+ },
+ {
+  "id": "founders_zeal",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Founder's Zeal\" (Gain 1 additional Bandwidth each turn. You can no longer heal.)."
+ },
+ {
+  "id": "culture_of_shipping",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Culture of Shipping\" (The first Attack you play each turn draws a card.)."
+ },
+ {
+  "id": "flywheel",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, mystical purples in the palette. A symbolic corporate-fantasy scene illustrating \"Flywheel\" (At the end of your turn, deal damage equal to half your Buffer to a random enemy.)."
+ },
+ {
+  "id": "meetings",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, sickly greens and murky browns in the palette. A hydra of calendar pages devouring an hourglass."
+ },
+ {
+  "id": "scope_creep_curse",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, sickly greens and murky browns in the palette. Tiny sticky-note tentacles sprouting from a project document, multiplying."
+ },
+ {
+  "id": "doubt",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, sickly greens and murky browns in the palette. A shadowy double whispering into a figure's ear, cold blue palette."
+ },
+ {
+  "id": "legacy_code",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, sickly greens and murky browns in the palette. A fossilized dinosaur skeleton made of punch cards and tangled cables."
+ },
+ {
+  "id": "bug_report",
+  "kind": "card",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Square card illustration, sickly greens and murky browns in the palette. A single glowing red beetle crawling out of a cracked ticket."
+ },
+ {
+  "id": "guest_eric-ries",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his mid-40s with voluminous dark curly hair touched with gray, short graying beard and mustache, round dark-rimmed glasses, light skin, wearing a casual blue button-up shirt, warm gentle smile and thoughtful, approachable vibe. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jason-m-lemkin",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 50s with short tousled gray-brown hair, clean-shaven, light tanned skin, athletic build, wearing a black polo shirt, caught mid-speech gesturing with his hands, energetic and animated expression. Speaking into an ornate brass podcast microphone, background deep gold and green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jeff-weinstein",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his early 30s with short neatly styled reddish-brown hair, clean-shaven, fair skin with light freckling, wearing a dark casual collared shirt, broad open-mouthed smile, friendly and enthusiastic vibe. Speaking into an ornate brass podcast microphone, background teal and cyan glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_grant-lee",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: East Asian man in his late 30s with dark hair styled up and back in a modern quiff, clean-shaven, medium skin tone, slim build, wearing a casual zip jacket over a crew-neck tee, subtle confident smirk, composed and self-assured. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_evan-lapointe",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 30s with short brown hair, clean-shaven, fair skin, broad sturdy build, wearing a brown quarter-zip pullover over a light collared shirt, big beaming smile, upbeat and personable energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_eli-schwartz",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 30s with short dark hair slightly receding, trimmed brown beard and mustache, blue eyes, fair skin, wearing a light checked collared shirt, bright warm smile, approachable expert vibe. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_hilary-gridley",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her mid-30s with long straight blonde hair, green eyes, fair skin, wearing a textured knit over a casual top, radiant wide smile, sunny, confident and warm presence. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_marc-andreessen",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 50s with a completely bald head, clean-shaven, light skin, broad build, wearing a black sweater over a crisp white collared shirt, wry knowing smile with raised brows, sharp and commanding presence. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_peter-deng",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: East Asian man in his late 30s with short dark hair, rectangular wire-rimmed glasses, clean-shaven, light skin, wearing a light blue button-down shirt, big genuine grin, bright, cheerful and polished vibe. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_farhan-thawar",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: South Asian man in his 40s with a shaved bald head, full salt-and-pepper beard, medium-brown skin, wearing a white band-collar shirt with black buttons, wide joyful smile, relaxed and magnetic energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jason-fried",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 40s with short curly brown hair graying at the temples, light gray stubble beard, fair skin, lean build, wearing a dark navy button-up shirt, calm steady gaze, serious and contemplative vibe. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_bob-baxley",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 50s with short neat gray hair swept to the side, clean-shaven, light skin, wearing a black crew-neck sweater, animated open-mouthed laugh looking upward, playful and lively energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_boz",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with a bald head, full brown-gray beard, light skin, broad athletic build, wearing a cream bomber jacket over a dark tee, wide friendly grin, confident easygoing warmth. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jason-cohen",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his mid-40s with short brown hair, clean-shaven, rectangular dark-rimmed glasses, light skin, wearing a dark textured button-up shirt, bright open smile, smart and affable vibe. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_phyl-terry",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Person in their 50s with a smooth bald head, subtle makeup with dark red lipstick, light skin, wearing a black tee, rainbow-braided watch band, hand thoughtfully at chin, poised, intriguing and gently confident expression. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_tanguy-crusson",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 30s with short tousled light-brown hair, light stubble, blue eyes, fair sun-kissed skin, wearing a casual blue crew-neck tee, soft closed-lip smile, calm, grounded and quietly friendly vibe. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_tristan-de-montebello",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his mid-30s with wavy medium-brown hair and a full sandy-blond beard, blue eyes, fair skin, wearing a dark overshirt over a light blue tee, huge warm smile, open and effortlessly charismatic energy. Speaking into an ornate brass podcast microphone, background warm amber and orange glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_matthew-dicks",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 40s with short dark hair graying at the sides and a receding hairline, clean-shaven, light skin, solid build, wearing a black polo shirt, easy warm smile, seasoned storyteller charm. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_dharmesh-shah",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: South Asian man in his 50s with thick dark tousled hair, salt-and-pepper beard and mustache, medium-brown skin, wearing a blue striped collared shirt over a dark tee, gentle closed-lip smile, humble and wise presence. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_bangaly-kaba",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Black man in his 40s with a closely shaved head, clean-shaven, dark rectangular glasses, deep brown skin, wearing a black crew-neck tee, composed direct gaze with a serious focused expression, quietly authoritative vibe. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_john-cutler",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s-50s with short cropped salt-and-pepper hair, rectangular dark-framed glasses, light stubble, fair skin, wearing a casual blue zip-up hoodie, meeting the camera with a thoughtful, quietly intense direct gaze. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_claire-butler",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s with long strawberry-blonde hair swept into a loose side braid, fair freckled skin, wearing a relaxed cream sweatshirt, caught mid-laugh with a huge open smile, radiating warm, unguarded joy. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_rachel-lockett",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s-40s with shoulder-length brown hair and wispy bangs, fair skin, gold hoop earrings and a pendant necklace, wearing a navy top, offering a warm polished smile with friendly, composed energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_keith-coleman--jay-baxter",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Two people: one man in his 30s with short light-brown hair, fair skin, and a gentle smile in an olive polo; and another with dark curly hair, tanned skin, light stubble, and a bright grin in a striped navy hoodie. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_nabeel-s-qureshi",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 20s-30s with thick, voluminous dark hair, medium-tan skin, clean-shaven with faint stubble, wearing a chambray denim button-up shirt, giving a subtle, composed smile with calm, intelligent poise. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_ryan-singer",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with tousled wavy brown hair, a short salt-and-pepper beard, light blue-gray eyes, fair skin, lean build, wearing a black zip jacket, holding a steady, contemplative, unhurried gaze. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_gina-gotthilf",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s with long, wavy caramel-highlighted brown hair, warm fair skin, slim build, wearing a sleeveless black top with a delicate necklace and stud earrings, beaming a radiant, confident smile. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_mike-maples-jr",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 50s with short tousled graying-brown curly hair, clean-shaven, light blue eyes, fair rosy skin, wearing a dark casual top, flashing a broad, boyish grin with approachable, enthusiastic energy. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_scott-wu",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 20s of East Asian descent with short black hair, thin-framed rectangular glasses, clean-shaven, light-medium skin, wearing a dark jacket, gazing upward with a bright, optimistic smile and youthful energy. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jason-feifer",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with short dark wavy hair, a neatly trimmed salt-and-pepper beard, fair skin, wearing a gray fleece zip jacket over a navy tee, giving a relaxed closed-lip smile with easy confidence. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_hamel-husain--shreya-shankar",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Two people: a woman in her 20s with long wavy dark hair, red cat-eye glasses, medium-tan skin, and a bright open smile; and a man in his 40s with a shaved bald head, dark rectangular glasses, brown skin, in a light-blue shirt, speaking animatedly. Speaking into an ornate brass podcast microphone, background teal and cyan glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_dr-becky-kennedy",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s-40s with long, wavy golden-blonde hair, bright blue eyes, fair skin, wearing a navy blazer over a white top, smiling widely with warm, polished, reassuring approachability. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_boris-cherny",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with closely cropped light-brown hair, a short ginger-blond beard and mustache, fair ruddy skin, wearing a brown leather jacket, laughing heartily mid-conversation with warm, animated energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_madhavan-ramanujam",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with short, neatly styled black hair, clean-shaven, medium-brown skin, wearing a brown blazer over an open-collar light-blue dress shirt, smiling broadly with polished, confident executive presence. Speaking into an ornate brass podcast microphone, background deep gold and green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_sam-lessin",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with short, neatly swept brown hair, rectangular dark-framed glasses, light stubble, fair skin, wearing a black technical zip jacket, holding a composed, serious, level-eyed direct gaze. Speaking into an ornate brass podcast microphone, background crimson and magenta glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_nick-turley",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with short, thick wavy brown hair, clean-shaven, blue-gray eyes, fair skin, a full rounded face, wearing a black crew-neck tee, giving a faint easy smile with low-key, assured calm. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_shishir-mehrotra",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with short wavy black hair graying slightly, clean-shaven, medium-brown skin, solid build, wearing a red-and-white checked button-down over a white tee, beaming a huge, warm, infectious grin. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_sarah-tavel",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s-40s with shoulder-length dark-brown corkscrew curls, light olive skin, brown eyes, small gold earrings, wearing a navy button-up shirt, leaning in with a bright, engaging, warm smile. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_dan-shipper",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his early 30s with dark wavy hair, round brown-framed glasses, a full auburn-brown beard, fair skin, wearing a light sage tee, chin resting on clasped hands, wearing a gentle, contemplative smile. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_chandra-janakiraman",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with full, dark side-swept hair, slim rimless glasses, clean-shaven, medium-brown skin, wearing a black polka-dot polo shirt, offering a gentle closed-lip smile with calm, thoughtful warmth. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_sean-ellis",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 50s with short salt-and-pepper hair swept to the side, clean-shaven, fair sun-weathered skin, blue-gray eyes, broad athletic shoulders, black button-up shirt, wearing a calm, confident, quietly assured smile. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_alex-komoroske",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with short tousled sandy-blond hair, clean-shaven, fair skin, lean build, wearing a navy polo shirt, flashing a huge open-mouthed grin, radiating energetic, boyish, approachable enthusiasm. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_ebi-atawodi",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s with a full natural black afro, deep brown skin, pearl stud earrings, crisp white button-front blouse, beaming a radiant open smile with a charming gap, warm and vibrant presence. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_emilie-gerber",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 30s with long wavy center-parted blond hair, fair skin, striking blue eyes, polished makeup, chunky gold choker necklace over a cream sleeveless top, poised, serene, editorial-calm expression. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_drew-houston",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his early 40s with short spiky silver-gray hair, neatly trimmed salt-and-pepper beard and mustache, fair skin, dressed in a casual cream hoodie, meeting the camera with a calm, steady, understated gaze. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_timothy-davis",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with a cleanly shaved bald head, light stubble beard, fair skin, tall solid build, black collared button-up over a white tee, offering a modest friendly half-smile, practical and grounded. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jake-knapp--john-zeratsky",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Two people: a man in his 40s with short dark hair, full dark beard, thick black-rimmed glasses, fair skin, white shirt and striped tie, grinning broadly; and a man in his 40s with short brown hair, clean-shaven, lightly tanned skin, tan crewneck sweater, warm bright smile. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_matt-macinnis",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with short neatly swept auburn-brown hair, clean-shaven, fair lightly freckled skin, fit build, plain black tee, caught mid-laugh in profile with a wide smile, sharp candid energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_mihika-kapoor",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her late 20s with long flowing dark brown-black hair, warm medium skin tone, bright pink top under a gray jacket, delicate clover pendant necklace, huge warm smile, buoyant creative energy. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_nir-eyal",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s with short dark slightly receding hair, clean-shaven, light olive skin, lean fit build, purple-and-white gingham check button-down, leaning in with a wide friendly grin, sharp and energetic. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_lazar-jovanovic",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s with short dark hair, full dark beard and mustache, light skin, stocky build, wearing a heather-gray hoodie, fixing the camera with an intense deadpan stare, brooding and coolly serious. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_matt-mullenweg",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s, shown in monochrome, with short receding hair, a full medium-length beard, fair skin, high-collared dark jacket, gazing softly off to the side with a thoughtful, serene, faintly amused expression. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_sam-schillace",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 50s with dark hair combed back and graying at the temples, salt-and-pepper beard, tanned weathered skin, blue palm-print short-sleeve shirt, level direct gaze, unhurried veteran calm. Speaking into an ornate brass podcast microphone, background crimson and magenta glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_david-singleton",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 40s, balding with short light-brown hair at the sides, clean-shaven, fair skin, wearing a quilted puffer jacket over a blue collared shirt, giving a gentle closed-mouth smile, quietly assured and thoughtful. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_naomi-gleit",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her 40s with long loose waves of caramel-highlighted brown hair, light-medium skin tone, slim toned build, black sleeveless V-neck top, soft closed-lip smile, composed, polished, and self-assured. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_howie-liu",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his late 30s with short black hair, clean-shaven, smooth light-warm skin, athletic build, black polo shirt, head tilted with a huge beaming toothy grin, buoyant, friendly, high-energy presence. Speaking into an ornate brass podcast microphone, background cool sapphire blue glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_christian-idiodi",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his 30s-40s with closely cropped black hair, neatly trimmed black beard and mustache, deep brown skin, broad build, light heather-gray crewneck tee, wide bright smile, warm welcoming mentor energy. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_molly-graham",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Woman in her late 30s with shoulder-length blond hair framing her face, fair skin, large gold hoop earrings, black V-neck top with a delicate necklace, laughing with a huge joyful smile, bold spirited warmth. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_sriram-and-aarthi",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Two people: a woman in her 30s-40s with long dark hair, medium-warm skin tone, navy blazer over a maroon top, calm poised expression; and a man in his 40s with very short black hair, clean-shaven, medium-deep skin tone, black tee, gentle contented smile. Speaking into an ornate brass podcast microphone, background vivid emerald green glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "guest_jackson-shuttleworth",
+  "kind": "guest",
+  "size": [
+   512,
+   512
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: Man in his early 30s with thick short dark-brown hair, light stubble beard, lightly tanned fair skin, wearing an olive-green casual button shirt, bright toothy smile, upbeat, personable, and fresh-faced. Speaking into an ornate brass podcast microphone, background regal purple and violet glow with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood."
+ },
+ {
+  "id": "pm_notebook",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A worn leather notebook with a glowing bookmark ribbon, small and treasured."
+ },
+ {
+  "id": "okr_framework",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A brass astrolabe with three aligned target rings."
+ },
+ {
+  "id": "user_interview_notes",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"User Interview Notes\" — Retros heal 10 additional Morale.."
+ },
+ {
+  "id": "sprint_retro",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Sprint Retro\" — Heal 5 Morale after each combat.."
+ },
+ {
+  "id": "war_room_channel",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"War Room Channel\" — Gain 1 extra Bandwidth on your first turn.."
+ },
+ {
+  "id": "kanban_board",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Kanban Board\" — Whenever a card is Archived, gain 2 Buffer.."
+ },
+ {
+  "id": "rubber_duck",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Rubber Duck\" — The first Skill you play each combat costs 0.."
+ },
+ {
+  "id": "espresso_machine",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Espresso Machine\" — You can hold 1 more Coffee.."
+ },
+ {
+  "id": "standing_desk",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Standing Desk\" — Gain 8 max Morale.."
+ },
+ {
+  "id": "second_monitor",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Second Monitor\" — Scry 2 at the start of each combat.."
+ },
+ {
+  "id": "swag_box",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Swag Box\" — Enemies drop 25% more Budget.."
+ },
+ {
+  "id": "winning_ab_test",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Winning A/B Test\" — The first Attack you play each combat is played twice.."
+ },
+ {
+  "id": "competitive_moat",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Competitive Moat\" — Start each combat with 8 Buffer.."
+ },
+ {
+  "id": "series_b_deck",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Series B Deck\" — Gain 150 Budget when picked up.."
+ },
+ {
+  "id": "analytics_dashboard",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Analytics Dashboard\" — Scry 1 at the start of each turn.."
+ },
+ {
+  "id": "customer_advisory_board",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Customer Advisory Board\" — Guest cards cost 1 less Bandwidth.."
+ },
+ {
+  "id": "on_call_pager",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"On-Call Pager\" — Start each combat with 2 Pushback.."
+ },
+ {
+  "id": "figma_file",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Figma File\" — Start each combat with 1 Craft.."
+ },
+ {
+  "id": "term_sheet",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Term Sheet\" — Shop prices are 20% lower.."
+ },
+ {
+  "id": "north_star_metric",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A compass whose needle is a shard of starlight."
+ },
+ {
+  "id": "product_sense_relic",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Product Sense\" — Card rewards offer 4 choices.."
+ },
+ {
+  "id": "ai_copilot",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A small floating brass automaton with a single kind glowing eye."
+ },
+ {
+  "id": "founders_hoodie",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Founder's Hoodie\" — Take at most 1 damage on turn 1 of Elite and Boss fights.."
+ },
+ {
+  "id": "mechanical_keyboard",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Mechanical Keyboard\" — Whenever you play 3 Attacks in a turn, draw 1 card.."
+ },
+ {
+  "id": "product_market_fit",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A radiant key perfectly seated in a heart-shaped lock."
+ },
+ {
+  "id": "vision_doc_relic",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"The Vision Doc\" — Gain 1 additional Bandwidth each turn. You can no longer remove cards from your deck.."
+ },
+ {
+  "id": "hypergrowth",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A potted plant erupting into a towering beanstalk of charts."
+ },
+ {
+  "id": "golden_gong",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A magical artifact: \"Golden Gong\" — Ship It cards deal double damage.."
+ },
+ {
+  "id": "lennys_mic",
+  "kind": "relic",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single small magical artifact icon, isolated on plain very dark background, gentle golden glow. A legendary golden podcast microphone on a velvet cushion, halo of light."
+ },
+ {
+  "id": "espresso",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Espresso\" (Gain 1 Bandwidth.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "cold_brew",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Cold Brew\" (Draw 3 cards.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "decaf",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Decaf\" (Gain 8 Buffer.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "double_shot",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Double Shot\" (The next card you play this turn is played twice.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "nitro",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Nitro Brew\" (Deal 5 damage to ALL enemies and apply 1 Exposed.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "chamomile",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Chamomile\" (Heal 12 Morale.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "matcha",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Matcha\" (Gain 2 Craft.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "red_eye",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Red Eye\" (Gain 2 Momentum.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "affogato",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Affogato\" (Remove all your debuffs.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "founders_blend",
+  "kind": "coffee",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Founder's Blend\" (Gain 2 Bandwidth and draw 2 cards.) in a fantasy vessel, steam forming faint arcane shapes."
+ }
+]

@@ -1,6 +1,7 @@
 // Reward, rest, treasure, event, shop, end screens — the non-combat rooms.
 
 import { h, clear } from '../dom';
+import { artImg } from '../art';
 import { cardEl, cardElFromInstance } from '../components/cardEl';
 import type { CardDef, CardInstance, CoffeeDef, RelicDef } from '../../engine/types';
 import type { RunState, ShopStock } from '../../engine/run/run';
@@ -41,7 +42,7 @@ export function renderRewardScreen(root: HTMLElement, opts: RewardOpts): void {
         : null,
       opts.relic && !relicTaken
         ? h('div', { class: 'relic-offer', onTap: () => { relicTaken = true; opts.onTakeRelic(); rerender(); } },
-            h('span', { class: 'relic-offer-emoji' }, opts.relic.emoji),
+            h('span', { class: 'relic-offer-emoji' }, artImg('relics', opts.relic.id, opts.relic.emoji)),
             h('div', {},
               h('div', { class: 'relic-offer-name' }, opts.relic.name),
               h('div', { class: 'relic-offer-desc' }, opts.relic.description)))
@@ -75,7 +76,7 @@ export function renderBossRelicScreen(
     h('div', { class: 'room-actions room-actions-col' },
       ...relics.map((relic) =>
         h('div', { class: 'relic-offer', onTap: () => onPick(relic) },
-          h('span', { class: 'relic-offer-emoji' }, relic.emoji),
+          h('span', { class: 'relic-offer-emoji' }, artImg('relics', relic.id, relic.emoji)),
           h('div', {},
             h('div', { class: 'relic-offer-name' }, relic.name),
             h('div', { class: 'relic-offer-desc' }, relic.description)))),
@@ -125,7 +126,7 @@ export function renderTreasureScreen(root: HTMLElement, relic: RelicDef | null, 
   screenShell(root, '🎁 Quarterly Win',
     relic
       ? h('div', { class: 'relic-offer' },
-          h('span', { class: 'relic-offer-emoji' }, relic.emoji),
+          h('span', { class: 'relic-offer-emoji' }, artImg('relics', relic.id, relic.emoji)),
           h('div', {},
             h('div', { class: 'relic-offer-name' }, relic.name),
             h('div', { class: 'relic-offer-desc' }, relic.description)))
@@ -197,7 +198,7 @@ export function renderShopScreen(root: HTMLElement, opts: ShopOpts): void {
     if (item.sold) return;
     relicStall.appendChild(
       h('div', { class: 'relic-offer', onTap: () => { if (afford(item.price)) opts.onBuyRelic(i); } },
-        h('span', { class: 'relic-offer-emoji' }, item.def.emoji),
+        h('span', { class: 'relic-offer-emoji' }, artImg('relics', item.def.id, item.def.emoji)),
         h('div', {},
           h('div', { class: 'relic-offer-name' }, `${item.def.name} — 💰 ${item.price}`),
           h('div', { class: 'relic-offer-desc' }, item.def.description))),

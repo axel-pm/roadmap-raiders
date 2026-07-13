@@ -1,6 +1,7 @@
 // Combat screen: renders CombatState, handles card play + targeting + choices.
 
 import { h, clear, floatText } from '../dom';
+import { artImg, bgLayer } from '../art';
 import { cardElFromInstance, cardDefOf } from '../components/cardEl';
 import type { CombatEngine } from '../../engine/combat/engine';
 import type { EnemyState } from '../../engine/combat/state';
@@ -12,6 +13,8 @@ import { COFFEES_BY_ID } from '../../content/coffee';
 export interface CombatScreenOpts {
   budget: number;
   floorLabel: string;
+  /** act background id, e.g. 'act1' */
+  bgId?: string;
   /** coffee ids the player carries; drinking is handled by the controller */
   coffees?: () => string[];
   onDrinkCoffee?: (index: number) => void;
@@ -212,9 +215,12 @@ export class CombatScreen {
         `📦 Archived: ${s.exhaustPile.length}`),
     );
 
-    this.root.appendChild(
-      h('div', { class: 'combat-screen' }, hud, enemyArea, this.playerRowEl, piles, hand),
-    );
+    const screen = h('div', { class: 'combat-screen' }, hud, enemyArea, this.playerRowEl, piles, hand);
+    if (this.opts.bgId) {
+      enemyArea.style.backgroundImage = bgLayer(this.opts.bgId, 0.55);
+      enemyArea.classList.add('has-bg');
+    }
+    this.root.appendChild(screen);
 
     if (s.pendingChoice) this.renderChoice();
   }
@@ -235,7 +241,7 @@ export class CombatScreen {
       onTap: () => this.onEnemyTap(enemy),
     },
       h('div', { class: `enemy-intent intent-${intent.kind}`, title: intent.name }, intentText || ' '),
-      h('div', { class: 'enemy-emoji' }, def.emoji),
+      h('div', { class: 'enemy-emoji' }, artImg('enemies', enemy.defId, def.emoji, 'enemy-art')),
       h('div', { class: 'enemy-name' }, def.name),
       h('div', { class: 'creature-bars' },
         h('div', { class: 'creature-hp-bar' },

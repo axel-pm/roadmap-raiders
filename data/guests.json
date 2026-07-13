@@ -10,9 +10,9 @@
    "abilityEffect": "peek",
    "abilityName": "Data Driven",
    "quotes": [
+    "When you build a company and you sell it out and it becomes something that you find abhorrent, man, maybe you get rich, but it's not good.",
     "People act like having a startup fail is the worst thing that can happen to you.",
-    "Oof, have I met people like that, and we're having a mental health crisis among founders that's not talked about enough.",
-    "He also coined more terms and concepts that are part of the tech culture than anyone I could think of."
+    "Oof, have I met people like that, and we're having a mental health crisis among founders that's not talked about enough."
    ],
    "keywords": [
     "startups",
@@ -35,9 +35,9 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "The hack though is that even if you don't like sales, customers love to talk to the CEO.",
     "Here's the mistake that 99% of founders and sales reps make.",
-    "We're not really selling in B2B, we're solving problems.",
-    "Jason created and runs Saastr, the world's largest community for SaaS and B2B founders."
+    "We're not really selling in B2B, we're solving problems."
    ],
    "keywords": [
     "b2b",
@@ -60,9 +60,8 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "Watching you operate on Twitter, you're just breaking this wall between the PM and the customer.",
-    "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift.",
-    "Many people told me I need to ask you about picking metrics."
+    "This is just about practicing empathy for the customer.",
+    "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift."
    ],
    "keywords": [
     "design",
@@ -110,8 +109,8 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "The brain is like a college campus that has different departments in it.",
     "Most people rely on their history department way too much.",
-    "How do we create better relationships within our teams.",
     "It's critical to ask what kind of experience am I."
    ],
    "keywords": [
@@ -135,7 +134,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "What should people do to be successful in this new paradigm.",
+    "Transparently, I thought this was going to be an apocalypse.",
     "The product managers are the people that should be thinking about this SEO question because it's a product question.",
     "This is a user that's doing their own self-discovery journey."
    ],
@@ -160,9 +159,8 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive.",
-    "You spend a lot of time thinking about how to help your team learn to take a punch.",
-    "You have specific tactics that you teach your team to deal with hardship."
+    "People think that the game is all about influencing the CEO, influencing the people around them.",
+    "Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive."
    ],
    "keywords": [
     "leadership",
@@ -210,8 +208,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "You shipped the Messenger app as its own app.",
-    "What's an important lesson you've learned about what it takes to succeed building something from idea to one to billions.",
+    "You have to plan your chess moves out in advance.",
     "You have to really think before you act and build systems that were going to let you go sustainably faster."
    ],
    "keywords": [
@@ -260,9 +257,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "Jason is the Co-Founder and CEO of 37signals, which makes Basecamp and HEY, and soon a few more products including a competitor to Slack.",
-    "37signals is a very different type of company.",
-    "They have over 100,000 customers and make tens of millions of dollars in profit each year, which most VC-backed companies never make a dollar of."
+    "We run a very different kind of business. We are focused on efficiency, we're not focused on growth."
    ],
    "keywords": [
     "design",
@@ -285,8 +280,8 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "I just seek out opportunities to witness history.",
     "We have an obligation as product people to put that emotional energy back into people's lives.",
-    "You actually have a really unique perspective on just what is design.",
     "Design is trying to imagine the future you want to live in and then take the steps to make it real."
    ],
    "keywords": [
@@ -310,7 +305,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "I imagine there was a lot of pain and suffering that people don't often hear about.",
+    "I didn't sleep for more than four hours at a time.",
     "It's a healthy thing for people to want to throw themselves into something and take that risk, but it is not glamorous at the time.",
     "Now, newsfeed was an easier case than people suspect."
    ],
@@ -335,8 +330,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "A lot of product teams, a lot of founders built something.",
-    "It starts to show some success and then all of a sudden it just stops growing.",
+    "Do you know right now which channels are saturated and which aren't?",
     "There's a series of questions that I asked to diagnose why is growth slowing."
    ],
    "keywords": [
@@ -360,8 +354,8 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
+    "When you're looking for a job, you need a spear and not a net.",
     "We want this product to be for everyone, but we've learned with product market fit that doesn't work.",
-    "How did you realize this is a really powerful method versus the way people normally look for jobs.",
     "So what I ask people to do is I ask them to think about what they want and what they don't want."
    ],
    "keywords": [
@@ -385,9 +379,9 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
+    "Startups have the benefit of starving, and so you need to create scarcity.",
     "Been in the product management team at Atlassian for roughly 10 years now.",
-    "I worked on HipChat and Stride, and more recently I started Jira Product Discovery.",
-    "Why is it so hard to start new products, go zero to one within large companies."
+    "I worked on HipChat and Stride, and more recently I started Jira Product Discovery."
    ],
    "keywords": [
     "design",
@@ -410,9 +404,9 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "That means that the better you get at speaking, the better your life gets.",
     "People tend to get into a public speaking voice.",
-    "It's so much more freeing, powerful, connecting, and effective to speak conversation.",
-    "So the cue I often give people is- Today my guest is Tristan de Montebello."
+    "It's so much more freeing, powerful, connecting, and effective to speak conversation."
    ],
    "keywords": [
     "design",
@@ -435,8 +429,8 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
+    "Everyone loves the word storytelling in business. It's a huge buzzword.",
     "They love to think of themselves as storytellers, but when they come to me, they don't really want to be storytellers.",
-    "Matthew is a 59-time Moth Story Slam winner, and nine-time Grand Slam champ.",
     "I think the only reason I'm successful in what I do is that I've been a teacher for 25 years and I'm a storyteller."
    ],
    "keywords": [
@@ -459,8 +453,8 @@
    "abilityEffect": "peek",
    "abilityName": "Data Driven",
    "quotes": [
+    "I don't want to spend any years of my life becoming passively okay at something.",
     "Some of the best startup advice I've heard is startups should focus on one thing and be really, really exceptionally world-class at that one thing.",
-    "You have no direct reports and I don't believe you've ever had direct reports at HubSpot.",
     "My co-founder and I were having one of our founders meetings and he said, \"Oh, Dharmesh, I hear this culture thing is really important."
    ],
    "keywords": [
@@ -484,8 +478,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "You're head of growth at Instagram, you're VP of product at Instacart.",
-    "You're now director of product management at YouTube and I've heard that you've had a lot of impact on a lot of different cultures.",
+    "And I really ask myself, what is the state of each one of these and to what extent do I believe that they can and will change?",
     "It's got these five components to it, vision, skills, incentives, resources, action plan, and you need all of those to have change."
    ],
    "keywords": [
@@ -509,9 +502,9 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "You can nudge yourself a little bit away from your happy plate, but you're not going to go super far.",
     "Let's say you're a founder and you're trying to decide, should I invest more on processes, or should I invest more in people.",
-    "What do you believe in, and what do the people around you believe in, and how can you be a coherent leader.",
-    "I interview world-class product leaders and growth experts to learn from their hard-won experiences building and scaling today's most successful companies."
+    "What do you believe in, and what do the people around you believe in, and how can you be a coherent leader."
    ],
    "keywords": [
     "leadership",
@@ -559,7 +552,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "When clients come to you, what is the biggest gap they have that is keeping them from being successful as leaders.",
+    "Most leaders, especially technical leaders, assume they have to have all the answers.",
     "People have climbed the ladder because they've been dependable, reliable, the smartest person in the room.",
     "You're training your team to come to you with all of the hard problems."
    ],
@@ -584,8 +577,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "The work that you guys do has had such a tremendous impact on the way the world works.",
-    "I want to start with just giving people a brief understanding of what is Community Notes.",
+    "We actually look for agreement from people who have disagreed in the past.",
     "If they think it's misleading, they can propose a note that they think other people might find informative."
    ],
    "keywords": [
@@ -609,8 +601,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "30% of PMs that leave Palantir start a company.",
-    "Just give us a picture of what the people are like.",
+    "One is like very independent-minded people who weren't afraid to push back.",
     "I feel like they screened really hard for a few traits in particular."
    ],
    "keywords": [
@@ -634,8 +625,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "Especially in this world of AI where everything's just changing.",
-    "So, I am really excited to basically help people understand what is this way of working, is it right for them.",
+    "So the first thing is we are not going to start something unless we can see the end from the beginning.",
     "Yeah, I think it's interesting that we're talking now."
    ],
    "keywords": [
@@ -684,7 +674,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "You reference this term that you use occasionally, the term secret.",
+    "What inflections let the founder do is wage asymmetric warfare on the present.",
     "The way inventions happen is people get their hands dirty, being awake to the possibility that secrets are there.",
     "If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right."
    ],
@@ -709,9 +699,9 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "Devin is a fully autonomous software engineer that is going to work on tasks end to end.",
     "Our whole team is only like 15 engineers a year.",
-    "We use a ton of Devin when we're building Devin.",
-    "Where do you think this will be at the end of the year."
+    "We use a ton of Devin when we're building Devin."
    ],
    "keywords": [
     "ai",
@@ -734,8 +724,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "Jason is editor in chief at Entrepreneur Magazine, previously an editor at Fast Company and a number of other magazines.",
-    "In our conversation, we get incredibly tactical about how to get press for your product.",
+    "It's a lot of completely unrelevant press releases that were sent to me and a bazillion other people.",
     "Yeah, I'm really happy that you asked me to do that."
    ],
    "keywords": [
@@ -759,9 +748,8 @@
    "abilityEffect": "peek",
    "abilityName": "Data Driven",
    "quotes": [
-    "To build great AI products, you need to be really good at building evals.",
-    "When you're building an AI application, you just learn a lot.",
-    "For most products, you do this process once and then you build on it."
+    "The goal is not to do evals perfectly, it's to actionably improve your product.",
+    "When you're building an AI application, you just learn a lot."
    ],
    "keywords": [
     "ai",
@@ -784,7 +772,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "Most adults in the corporate environment are really just babies in disguise.",
+    "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing.",
     "When we're thinking about a resilient work culture, we want people who can say, \"This is hard and I can do hard things.",
     "\" The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside."
    ],
@@ -809,9 +797,9 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "I imagine a world where everyone is able to program, anyone can just build software any time.",
     "Every day, I ship 10, 20, 30 pull requests.",
-    "I have never enjoyed coding as much as I do today, because I don't have to deal with all the minutia.",
-    "There's always this question, \"Should I learn to code."
+    "I have never enjoyed coding as much as I do today, because I don't have to deal with all the minutia."
    ],
    "keywords": [
     "engineering",
@@ -884,9 +872,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "You were a product leader at Dropbox, then Instacart.",
-    "Now, you're the PM of the most consequential product in history.",
-    "When someone offers you a rocket ship, don't ask which seat."
+    "This is a pattern with AI, you won't know what to polish until after you ship."
    ],
    "keywords": [
     "ai",
@@ -909,9 +895,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "If I had to stack rank in interviews, what is the best signal.",
-    "Before starting Coda Shishir led the YouTube product engineering and design teams at Google, where he spent over six years.",
-    "Coda is a company that's actually near and dear to my heart because I got to work on their launch when I was at Greylock."
+    "It was a napkin sketch at YouTube that turned into a really fun lunch I had with Daniel, Daniel at the Spotify founder and CEO."
    ],
    "keywords": [
     "design",
@@ -934,9 +918,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "Prior to Benchmark, Sarah was the first product manager at Pinterest.",
-    "And I always learn a ton talking to Sarah about startups and marketplaces.",
-    "We also learn in our conversation, she used to play rugby and was apparently one of the best tacklers in her league."
+    "You want to make sure it's an action that scales to enough users."
    ],
    "keywords": [
     "design",
@@ -959,8 +941,8 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "I hate the headlines that are like, \"Entry-level jobs are taken away by AI.\"",
     "She's just constantly building prompts and building workflows that I and everyone else on the team are just automating as much as possible.",
-    "What are some things that you believe about AI that most people don't.",
     "Organizations like ours, people who are playing at the edge, we're doing things that, in three years, everybody else is going to be doing."
    ],
    "keywords": [
@@ -1009,7 +991,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "The Sean Ellis test, such a seemingly simple idea that has had such a profound impact on the startup world.",
+    "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have.",
     "The question is, how would you feel if you could no longer use this product.",
     "Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well."
    ],
@@ -1084,9 +1066,8 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "Most products won't have this interesting of a story to tell.",
-    "I want to read one to you and then I want to see if you can tell me what this company does.",
-    "Before starting her own firm, she worked at Uber where she led PR for the business development team and B2B programs."
+    "When I email a reporter, I love to make the subject line just as clear as possible as what the goal is and why I'm emailing them.",
+    "I want to read one to you and then I want to see if you can tell me what this company does."
    ],
    "keywords": [
     "b2b",
@@ -1109,7 +1090,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "People just don't realize the wild journey that you have been on over the past 18 years building this company.",
+    "For the first several years, it was doubling, 10-xing every year.",
     "Taping user counts that we printed out to the wall, and then running out of space on the wall.",
     "Having to put 100,000 users, 200,000, 500,000, 1,000,000, 10,000,000 on the ceiling."
    ],
@@ -1134,8 +1115,7 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "Is performance marketing just something every company should be doing.",
-    "When you take over for an agency at a company, you crush their performance within a month.",
+    "The number one thing I tell people all the time is use your own data, start with your own data.",
     "Instead of thinking about being on top of the page, and that's like ego marketing, I want to be number one."
    ],
    "keywords": [
@@ -1184,9 +1164,9 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "If you want to be in the 99th percentile in terms of outcomes, it's going to be really difficult.",
     "It is really important to me that we feel that we've deliberately understaffed every project at the company.",
-    "If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary.",
-    "Recently, you moved into CPO, Chief Product Officer at Rippling."
+    "If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary."
    ],
    "keywords": [
     "leadership",
@@ -1209,7 +1189,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "I asked on Twitter, \"Who's the best product manager you've worked with.",
+    "We lean heavily into designing and prototyping even before a project gets a green light.",
     "My take is that your scope is the world.",
     "Nothing should ever perceive as being out of bounds."
    ],
@@ -1234,8 +1214,8 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "It's not the pings, dings, and rings. It's the feelings.",
     "But to me, that's incredibly empowering because once you realize, \"Wait a minute, it's just a feeling.",
-    "I'll just start really broad and let's just see where this goes.",
     "That's my favorite thing to do, is to actually get concrete with people about what their specific challenges are."
    ],
    "keywords": [
@@ -1259,7 +1239,7 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
-    "It's a dream job for so many people.",
+    "I'm the first official vibe coding engineer at Lovable.",
     "It became a job by building in public.",
     "You don't need a company to hire you."
    ],
@@ -1284,7 +1264,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "You are like a 100% beloved hero of open source and internet and now you're in this, a lot of people don't like you.",
+    "A lie gets around the world seven times before the truth has time to get out of bed.",
     "If you were kind of inside baseball with WordPress, it's actually a lot of people who have been unhappy with me over the years.",
     "Previously, 1% of the world thought I was terrible and now I feel like it's up to four or 5%."
    ],
@@ -1309,9 +1289,9 @@
    "abilityEffect": "heal_2",
    "abilityName": "User Empathy",
    "quotes": [
+    "We tend to undervalue the things we're good at.",
     "We tend to think work has to be unpleasant.",
-    "And so if something is easy and fun, we don't tend to think it's valuable.",
-    "Currently, he is corporate vice president and deputy chief technology officer at Microsoft, where he leads efforts in the consumer product space, infrastructure, and AI."
+    "And so if something is easy and fun, we don't tend to think it's valuable."
    ],
    "keywords": [
     "design",
@@ -1384,8 +1364,7 @@
    "abilityEffect": "swap_card",
    "abilityName": "Pivot Master",
    "quotes": [
-    "Or people that work for you, how have you adjusted what you expect of them to help them be successful.",
-    "Of the different functions on our product team PM, engineering design, who has had the most success being more productive with these tools.",
+    "There's a strong advantage to any of those three roles who can kind of cross over into the other two.",
     "It really does become more about individual attitude."
    ],
    "keywords": [
@@ -1409,9 +1388,9 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "If it's not fun, you're probably not doing it right.",
     "That's kind of the real essence of it, and that's, I always call it a certificate of appreciation.",
-    "And that's the real essence of this job.",
-    "Also, Christian shares his one favorite go-to method, out of all of the discovery methods out there, for figuring out what to build."
+    "And that's the real essence of this job."
    ],
    "keywords": [
     "leadership",
@@ -1434,8 +1413,8 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
+    "Google, when I was there, felt like two PhD students paradise. Facebook felt like 19-year-old hacker's dorm room.",
     "80% of the culture of a company is literally defined by the personality of the founder.",
-    "When a lot of people think Molly Graham, a lot of people think of giving away your Legos.",
     "So Chamath, when he pitched me on this job, actually drew me a picture on a whiteboard."
    ],
    "keywords": [
@@ -1459,9 +1438,8 @@
    "abilityEffect": "draw_2",
    "abilityName": "Growth Hack",
    "quotes": [
-    "\" So if you signed up for Facebook for many, many years, you'll get this little thing called People You May Know.",
-    "I think we're going to have a lot of fun, so again, thanks for joining me here.",
-    "\" And then became really fancy people and I was like, \"I'm not ever going to make it back on there."
+    "So what Facebook did was it made your experience slightly worse to make that person's experience slightly better.",
+    "\" So if you signed up for Facebook for many, many years, you'll get this little thing called People You May Know."
    ],
    "keywords": [
     "growth",

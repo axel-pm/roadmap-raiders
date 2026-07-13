@@ -1,6 +1,7 @@
 // The Roadmap: StS-style branching map rendered bottom-to-top with SVG edges.
 
 import { h, clear } from '../dom';
+import { bgLayer } from '../art';
 import type { RunState } from '../../engine/run/run';
 import { nextNodes } from '../../engine/run/run';
 import type { MapNode } from '../../engine/map/generate';
@@ -94,6 +95,8 @@ export function renderMapScreen(root: HTMLElement, run: RunState, opts: MapScree
   wrap.appendChild(grid);
   scroller.appendChild(wrap);
 
+  scroller.style.backgroundImage = bgLayer(`act${run.act}`, 0.82);
+  scroller.classList.add('has-bg');
   root.appendChild(h('div', { class: 'map-screen' }, hud, relicBar, scroller));
 
   // draw edges once layout settles

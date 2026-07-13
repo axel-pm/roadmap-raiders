@@ -1,0 +1,222 @@
+{
+  "guest_john-cutler": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/john-cutler.md",
+    "quotes": [
+      { "text": "Let's say you're a founder and you're trying to decide, should I invest more on processes, or should I invest more in people.", "found": true, "speakerIsGuest": true },
+      { "text": "What do you believe in, and what do the people around you believe in, and how can you be a coherent leader.", "found": true, "speakerIsGuest": true },
+      { "text": "I interview world-class product leaders and growth experts to learn from their hard-won experiences building and scaling today's most successful companies.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "You can nudge yourself a little bit away from your happy plate, but you're not going to go super far."
+  },
+  "guest_claire-butler": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/claire-butler.md",
+    "quotes": [
+      { "text": "They were our first user, and they were based in Palo Alto.", "found": true, "speakerIsGuest": true },
+      { "text": "Dylan and I drove down and demoed the product to them, and they were the first ones.", "found": true, "speakerIsGuest": true },
+      { "text": "And I remember Dylan was like, \"Everybody drop everything.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_rachel-lockett": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/rachel-lockett.md",
+    "quotes": [
+      { "text": "When clients come to you, what is the biggest gap they have that is keeping them from being successful as leaders.", "found": true, "speakerIsGuest": false },
+      { "text": "People have climbed the ladder because they've been dependable, reliable, the smartest person in the room.", "found": true, "speakerIsGuest": true },
+      { "text": "You're training your team to come to you with all of the hard problems.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "Most leaders, especially technical leaders, assume they have to have all the answers."
+  },
+  "guest_keith-coleman--jay-baxter": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/keith-coleman--jay-baxter.md",
+    "quotes": [
+      { "text": "The work that you guys do has had such a tremendous impact on the way the world works.", "found": true, "speakerIsGuest": false },
+      { "text": "I want to start with just giving people a brief understanding of what is Community Notes.", "found": true, "speakerIsGuest": false },
+      { "text": "If they think it's misleading, they can propose a note that they think other people might find informative.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "We actually look for agreement from people who have disagreed in the past."
+  },
+  "guest_nabeel-s-qureshi": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/nabeel-s-qureshi.md",
+    "quotes": [
+      { "text": "30% of PMs that leave Palantir start a company.", "found": true, "speakerIsGuest": false },
+      { "text": "Just give us a picture of what the people are like.", "found": true, "speakerIsGuest": false },
+      { "text": "I feel like they screened really hard for a few traits in particular.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "One is like very independent-minded people who weren't afraid to push back."
+  },
+  "guest_ryan-singer": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/ryan-singer.md",
+    "quotes": [
+      { "text": "Especially in this world of AI where everything's just changing.", "found": true, "speakerIsGuest": false },
+      { "text": "So, I am really excited to basically help people understand what is this way of working, is it right for them.", "found": true, "speakerIsGuest": false },
+      { "text": "Yeah, I think it's interesting that we're talking now.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "So the first thing is we are not going to start something unless we can see the end from the beginning."
+  },
+  "guest_gina-gotthilf": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/gina-gotthilf.md",
+    "quotes": [
+      { "text": "And what that means is not just another language learning app where we give you instructions and you follow directions.", "found": true, "speakerIsGuest": true },
+      { "text": "There is always a quirk, like it's unexpected.", "found": true, "speakerIsGuest": true },
+      { "text": "Again, it's about how you make people feel.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_mike-maples-jr": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/mike-maples-jr.md",
+    "quotes": [
+      { "text": "You reference this term that you use occasionally, the term secret.", "found": true, "speakerIsGuest": false },
+      { "text": "The way inventions happen is people get their hands dirty, being awake to the possibility that secrets are there.", "found": true, "speakerIsGuest": true },
+      { "text": "If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "What inflections let the founder do is wage asymmetric warfare on the present."
+  },
+  "guest_scott-wu": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/scott-wu.md",
+    "quotes": [
+      { "text": "Our whole team is only like 15 engineers a year.", "found": true, "speakerIsGuest": true },
+      { "text": "We use a ton of Devin when we're building Devin.", "found": true, "speakerIsGuest": true },
+      { "text": "Where do you think this will be at the end of the year.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "Devin is a fully autonomous software engineer that is going to work on tasks end to end"
+  },
+  "guest_jason-feifer": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jason-feifer.md",
+    "quotes": [
+      { "text": "Jason is editor in chief at Entrepreneur Magazine, previously an editor at Fast Company and a number of other magazines.", "found": true, "speakerIsGuest": false },
+      { "text": "In our conversation, we get incredibly tactical about how to get press for your product.", "found": true, "speakerIsGuest": false },
+      { "text": "Yeah, I'm really happy that you asked me to do that.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "It's a lot of completely unrelevant press releases that were sent to me and a bazillion other people."
+  },
+  "guest_hamel-husain--shreya-shankar": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/hamel-husain--shreya-shankar.md",
+    "quotes": [
+      { "text": "To build great AI products, you need to be really good at building evals.", "found": true, "speakerIsGuest": false },
+      { "text": "When you're building an AI application, you just learn a lot.", "found": true, "speakerIsGuest": true },
+      { "text": "For most products, you do this process once and then you build on it.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "The goal is not to do evals perfectly, it's to actionably improve your product."
+  },
+  "guest_dr-becky-kennedy": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/dr-becky-kennedy.md",
+    "quotes": [
+      { "text": "Most adults in the corporate environment are really just babies in disguise.", "found": true, "speakerIsGuest": false },
+      { "text": "When we're thinking about a resilient work culture, we want people who can say, \"This is hard and I can do hard things.", "found": true, "speakerIsGuest": true },
+      { "text": "\" The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing."
+  },
+  "guest_boris-cherny": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/boris-cherny.md",
+    "quotes": [
+      { "text": "Every day, I ship 10, 20, 30 pull requests.", "found": true, "speakerIsGuest": true },
+      { "text": "I have never enjoyed coding as much as I do today, because I don't have to deal with all the minutia.", "found": true, "speakerIsGuest": true },
+      { "text": "There's always this question, \"Should I learn to code.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "I imagine a world where everyone is able to program, anyone can just build software any time."
+  },
+  "guest_madhavan-ramanujam": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/madhavan-ramanujam.md",
+    "quotes": [
+      { "text": "When we talk about pricing, many people quickly gravitate to dollar figures.", "found": true, "speakerIsGuest": true },
+      { "text": "But when we think about price, we think about it as a measure.", "found": true, "speakerIsGuest": true },
+      { "text": "And when you think of it this way, it really stands for, do people actually want your product and would they actually buy it.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_sam-lessin": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/sam-lessin.md",
+    "quotes": [
+      { "text": "Tell me why you decided to spend time teaching people proper etiquette.", "found": true, "speakerIsGuest": true },
+      { "text": "You have a lot of really young people.", "found": true, "speakerIsGuest": true },
+      { "text": "You want to be able to show up in a way where people are like, \"Okay, this is someone I can work with and trust.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_nick-turley": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/nick-turley.md",
+    "quotes": [
+      { "text": "You were a product leader at Dropbox, then Instacart.", "found": true, "speakerIsGuest": false },
+      { "text": "Now, you're the PM of the most consequential product in history.", "found": true, "speakerIsGuest": false },
+      { "text": "When someone offers you a rocket ship, don't ask which seat.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "This is a pattern with AI, you won't know what to polish until after you ship."
+  },
+  "guest_shishir-mehrotra": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/shishir-mehrotra.md",
+    "quotes": [
+      { "text": "If I had to stack rank in interviews, what is the best signal.", "found": true, "speakerIsGuest": false },
+      { "text": "Before starting Coda Shishir led the YouTube product engineering and design teams at Google, where he spent over six years.", "found": true, "speakerIsGuest": false },
+      { "text": "Coda is a company that's actually near and dear to my heart because I got to work on their launch when I was at Greylock.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "It was a napkin sketch at YouTube that turned into a really fun lunch I had with Daniel, Daniel at the Spotify founder and CEO."
+  },
+  "guest_sarah-tavel": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/sarah-tavel.md",
+    "quotes": [
+      { "text": "Prior to Benchmark, Sarah was the first product manager at Pinterest.", "found": true, "speakerIsGuest": false },
+      { "text": "And I always learn a ton talking to Sarah about startups and marketplaces.", "found": true, "speakerIsGuest": false },
+      { "text": "We also learn in our conversation, she used to play rugby and was apparently one of the best tacklers in her league.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "You want to make sure it's an action that scales to enough users."
+  },
+  "guest_dan-shipper": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/dan-shipper.md",
+    "quotes": [
+      { "text": "She's just constantly building prompts and building workflows that I and everyone else on the team are just automating as much as possible.", "found": true, "speakerIsGuest": true },
+      { "text": "What are some things that you believe about AI that most people don't.", "found": true, "speakerIsGuest": false },
+      { "text": "Organizations like ours, people who are playing at the edge, we're doing things that, in three years, everybody else is going to be doing.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "I hate the headlines that are like, \"Entry-level jobs are taken away by AI.\""
+  },
+  "guest_chandra-janakiraman": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/chandra-janakiraman.md",
+    "quotes": [
+      { "text": "I started noticing that there was a certain mystique and aura about product strategy.", "found": true, "speakerIsGuest": true },
+      { "text": "There was this perception that some people were intrinsically really good at strategy and others were not.", "found": true, "speakerIsGuest": true },
+      { "text": "It was almost as if there was a strategy gene you needed to be born with to be good at it.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  }
+}

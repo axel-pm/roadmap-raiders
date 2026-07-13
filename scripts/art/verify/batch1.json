@@ -1,0 +1,222 @@
+{
+  "guest_eric-ries": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/eric-ries.md",
+    "quotes": [
+      { "text": "People act like having a startup fail is the worst thing that can happen to you.", "found": true, "speakerIsGuest": true },
+      { "text": "Oof, have I met people like that, and we're having a mental health crisis among founders that's not talked about enough.", "found": true, "speakerIsGuest": true },
+      { "text": "He also coined more terms and concepts that are part of the tech culture than anyone I could think of.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "When you build a company and you sell it out and it becomes something that you find abhorrent, man, maybe you get rich, but it's not good."
+  },
+  "guest_jason-m-lemkin": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jason-m-lemkin.md",
+    "quotes": [
+      { "text": "Here's the mistake that 99% of founders and sales reps make.", "found": true, "speakerIsGuest": true },
+      { "text": "We're not really selling in B2B, we're solving problems.", "found": true, "speakerIsGuest": true },
+      { "text": "Jason created and runs Saastr, the world's largest community for SaaS and B2B founders.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "The hack though is that even if you don't like sales, customers love to talk to the CEO."
+  },
+  "guest_jeff-weinstein": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jeff-weinstein.md",
+    "quotes": [
+      { "text": "Watching you operate on Twitter, you're just breaking this wall between the PM and the customer.", "found": true, "speakerIsGuest": false },
+      { "text": "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift.", "found": true, "speakerIsGuest": true },
+      { "text": "Many people told me I need to ask you about picking metrics.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "This is just about practicing empathy for the customer."
+  },
+  "guest_grant-lee": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/grant-lee.md",
+    "quotes": [
+      { "text": "The investor pauses a little bit, and then just says, \"That has to be the worst pitch, worst idea I have ever heard.", "found": true, "speakerIsGuest": true },
+      { "text": "Not only are you trying to go against incumbents, you're going against incumbents that have massive distribution.", "found": true, "speakerIsGuest": true },
+      { "text": "I would jump on a call with each one of them so that they understood what Gamma represented, how to use the product.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_evan-lapointe": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/evan-lapointe.md",
+    "quotes": [
+      { "text": "Most people rely on their history department way too much.", "found": true, "speakerIsGuest": true },
+      { "text": "How do we create better relationships within our teams.", "found": true, "speakerIsGuest": false },
+      { "text": "It's critical to ask what kind of experience am I.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "The brain is like a college campus that has different departments in it."
+  },
+  "guest_eli-schwartz": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/eli-schwartz.md",
+    "quotes": [
+      { "text": "What should people do to be successful in this new paradigm.", "found": true, "speakerIsGuest": false },
+      { "text": "The product managers are the people that should be thinking about this SEO question because it's a product question.", "found": true, "speakerIsGuest": true },
+      { "text": "This is a user that's doing their own self-discovery journey.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "Transparently, I thought this was going to be an apocalypse."
+  },
+  "guest_hilary-gridley": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/hilary-gridley.md",
+    "quotes": [
+      { "text": "Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive.", "found": true, "speakerIsGuest": true },
+      { "text": "You spend a lot of time thinking about how to help your team learn to take a punch.", "found": true, "speakerIsGuest": false },
+      { "text": "You have specific tactics that you teach your team to deal with hardship.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "People think that the game is all about influencing the CEO, influencing the people around them."
+  },
+  "guest_marc-andreessen": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/marc-andreessen.md",
+    "quotes": [
+      { "text": "We've actually been in a regime for 50 years of very slow technological change in the face of declining population growth.", "found": true, "speakerIsGuest": true },
+      { "text": "We're going to have AI and robots precisely when we actually need them.", "found": true, "speakerIsGuest": true },
+      { "text": "The most leading edge founders are thinking of, can you have entire companies where the founder does everything.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_peter-deng": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/peter-deng.md",
+    "quotes": [
+      { "text": "You shipped the Messenger app as its own app.", "found": true, "speakerIsGuest": false },
+      { "text": "What's an important lesson you've learned about what it takes to succeed building something from idea to one to billions.", "found": true, "speakerIsGuest": false },
+      { "text": "You have to really think before you act and build systems that were going to let you go sustainably faster.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "You have to plan your chess moves out in advance."
+  },
+  "guest_farhan-thawar": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/farhan-thawar.md",
+    "quotes": [
+      { "text": "If you do the hard path and it doesn't work, actually you still win because you've now done something hard.", "found": true, "speakerIsGuest": true },
+      { "text": "You've learned something along the way that is valuable.", "found": true, "speakerIsGuest": true },
+      { "text": "Are you really learning anything from sending out 10 resumes a day.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": null
+  },
+  "guest_jason-fried": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jason-fried.md",
+    "quotes": [
+      { "text": "Jason is the Co-Founder and CEO of 37signals, which makes Basecamp and HEY, and soon a few more products including a competitor to Slack.", "found": true, "speakerIsGuest": false },
+      { "text": "37signals is a very different type of company.", "found": true, "speakerIsGuest": false },
+      { "text": "They have over 100,000 customers and make tens of millions of dollars in profit each year, which most VC-backed companies never make a dollar of.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth."
+  },
+  "guest_bob-baxley": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/bob-baxley.md",
+    "quotes": [
+      { "text": "We have an obligation as product people to put that emotional energy back into people's lives.", "found": true, "speakerIsGuest": true },
+      { "text": "You actually have a really unique perspective on just what is design.", "found": true, "speakerIsGuest": false },
+      { "text": "Design is trying to imagine the future you want to live in and then take the steps to make it real.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "I just seek out opportunities to witness history."
+  },
+  "guest_boz": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/boz.md",
+    "quotes": [
+      { "text": "I imagine there was a lot of pain and suffering that people don't often hear about.", "found": true, "speakerIsGuest": false },
+      { "text": "It's a healthy thing for people to want to throw themselves into something and take that risk, but it is not glamorous at the time.", "found": true, "speakerIsGuest": true },
+      { "text": "Now, newsfeed was an easier case than people suspect.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "I didn't sleep for more than four hours at a time."
+  },
+  "guest_jason-cohen": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/jason-cohen.md",
+    "quotes": [
+      { "text": "A lot of product teams, a lot of founders built something.", "found": true, "speakerIsGuest": false },
+      { "text": "It starts to show some success and then all of a sudden it just stops growing.", "found": true, "speakerIsGuest": false },
+      { "text": "There's a series of questions that I asked to diagnose why is growth slowing.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "Do you know right now which channels are saturated and which aren't?"
+  },
+  "guest_phyl-terry": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/phyl-terry.md",
+    "quotes": [
+      { "text": "We want this product to be for everyone, but we've learned with product market fit that doesn't work.", "found": true, "speakerIsGuest": true },
+      { "text": "How did you realize this is a really powerful method versus the way people normally look for jobs.", "found": true, "speakerIsGuest": false },
+      { "text": "So what I ask people to do is I ask them to think about what they want and what they don't want.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "When you're looking for a job, you need a spear and not a net."
+  },
+  "guest_tanguy-crusson": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/tanguy-crusson.md",
+    "quotes": [
+      { "text": "Been in the product management team at Atlassian for roughly 10 years now.", "found": true, "speakerIsGuest": true },
+      { "text": "I worked on HipChat and Stride, and more recently I started Jira Product Discovery.", "found": true, "speakerIsGuest": true },
+      { "text": "Why is it so hard to start new products, go zero to one within large companies.", "found": true, "speakerIsGuest": false }
+    ],
+    "replacement": "Startups have the benefit of starving, and so you need to create scarcity."
+  },
+  "guest_tristan-de-montebello": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/tristan-de-montebello.md",
+    "quotes": [
+      { "text": "People tend to get into a public speaking voice.", "found": true, "speakerIsGuest": true },
+      { "text": "It's so much more freeing, powerful, connecting, and effective to speak conversation.", "found": true, "speakerIsGuest": true },
+      { "text": "So the cue I often give people is- Today my guest is Tristan de Montebello.", "found": false, "speakerIsGuest": false }
+    ],
+    "replacement": "That means that the better you get at speaking, the better your life gets."
+  },
+  "guest_matthew-dicks": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/matthew-dicks.md",
+    "quotes": [
+      { "text": "They love to think of themselves as storytellers, but when they come to me, they don't really want to be storytellers.", "found": true, "speakerIsGuest": true },
+      { "text": "Matthew is a 59-time Moth Story Slam winner, and nine-time Grand Slam champ.", "found": true, "speakerIsGuest": false },
+      { "text": "I think the only reason I'm successful in what I do is that I've been a teacher for 25 years and I'm a storyteller.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "Everyone loves the word storytelling in business. It's a huge buzzword."
+  },
+  "guest_dharmesh-shah": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/dharmesh-shah.md",
+    "quotes": [
+      { "text": "Some of the best startup advice I've heard is startups should focus on one thing and be really, really exceptionally world-class at that one thing.", "found": true, "speakerIsGuest": true },
+      { "text": "You have no direct reports and I don't believe you've ever had direct reports at HubSpot.", "found": true, "speakerIsGuest": false },
+      { "text": "My co-founder and I were having one of our founders meetings and he said, \"Oh, Dharmesh, I hear this culture thing is really important.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "I don't want to spend any years of my life becoming passively okay at something."
+  },
+  "guest_bangaly-kaba": {
+    "episodeFound": true,
+    "titleMatch": true,
+    "archiveFile": "podcasts/bangaly-kaba.md",
+    "quotes": [
+      { "text": "You're head of growth at Instagram, you're VP of product at Instacart.", "found": true, "speakerIsGuest": false },
+      { "text": "You're now director of product management at YouTube and I've heard that you've had a lot of impact on a lot of different cultures.", "found": true, "speakerIsGuest": false },
+      { "text": "It's got these five components to it, vision, skills, incentives, resources, action plan, and you need all of those to have change.", "found": true, "speakerIsGuest": true }
+    ],
+    "replacement": "And I really ask myself, what is the state of each one of these and to what extent do I believe that they can and will change?"
+  }
+}
