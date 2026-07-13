@@ -4,23 +4,31 @@
 
 # Roadmap Raiders
 
-**A Slay the Spire-inspired roguelike deckbuilder where you climb the product roadmap, fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — and recruit real [Lenny's Podcast](https://www.lennyspodcast.com/) guests into your deck.** Plays in your browser. Nothing to install.
+**A roguelike deckbuilder in the style of Slay the Spire, where you climb the product roadmap, fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — and recruit real [Lenny's Podcast](https://www.lennyspodcast.com/) guests into your deck.** Plays in your browser. Nothing to install.
 
 <p align="center">
   <strong><a href="https://axel-pm.github.io/munchkin/">▶ Play it now</a></strong>
 </p>
 
----
+<p align="center">
+  <img src="assets/screenshots/combat.png" alt="Combat: playing cards against the Slide Deck Zombie" width="720">
+</p>
 
 ## The game
 
-You're a PM climbing **The Roadmap** — a branching map through three acts: **Find PMF**, **Scale-Up**, and **The IPO Road**. Along the way you fight PM anti-patterns in full deckbuilder combat, collect framework relics, drink questionable amounts of coffee, and finally face **The HiPPO** — the Highest Paid Person's Opinion — at the top.
+You're a PM climbing **The Roadmap**, a branching map through three acts: **Find PMF**, **Scale-Up**, and **The IPO Road**. You fight PM anti-patterns in turn-based card combat, build a deck as you go, collect framework relics, drink questionable amounts of coffee, and finally face **The HiPPO** (the Highest Paid Person's Opinion) at the top.
 
-- **⚔️ Turn-based card combat** — 3 Bandwidth per turn, a hand of 5, Buffer to block, and enemies that telegraph their next move. Attacks, Skills, and Powers; Momentum, Exposed, Tech Debt, Burnout, and a dozen more PM-flavored statuses.
-- **🎙️ 60 real podcast guests as unique cards** — each guest's card is derived from their actual episode data (domain, stats, signature ability), with their real quotes as flavor text. The top guests get handcrafted signature mechanics: Eric Ries runs a Lean Loop, Marc Andreessen goes PMF-or-Die.
-- **🗺 A branching roadmap** — fights, elites, ?-events, shops, retros (heal or upgrade), treasures, and a boss at the end of every act.
-- **🔮 28 framework relics** — OKRs, North Star Metric, the AI Copilot, Product-Market Fit… passive power that changes how your deck plays.
-- **📈 Meta-progression** — runs earn Listener XP that unlocks more guests; wins unlock Ascension levels 1–10; mid-run saves survive a refresh; seeded runs are fully reproducible.
+- **⚔️ Turn-based card combat.** 3 Bandwidth per turn, a hand of 5, Buffer to block, and enemies that telegraph their next move. Attacks, Skills, and Powers, plus PM-flavored statuses: Momentum, Exposed, Tech Debt, Burnout, Heads-Down.
+- **🎙️ 60 real podcast guests as unique cards.** Each guest's card is derived from their actual episode data (domain, stats, signature ability), with their real quotes as flavor text. The most-watched guests get handcrafted mechanics: Eric Ries runs a Lean Loop, Marc Andreessen goes PMF-or-Die.
+- **🗺 A branching roadmap.** Fights, elites, ?-events, shops, retros (heal or upgrade a card), treasures, and a boss at the end of every act.
+- **🔮 28 framework relics.** OKRs, North Star Metric, AI Copilot, Product-Market Fit — passive items that change how your deck plays.
+- **📈 Progression that sticks.** Runs earn Listener XP that unlocks more guests. Wins unlock Ascension levels 1–10. Mid-run saves survive a refresh, and seeded runs are reproducible.
+
+<p align="center">
+  <img src="assets/screenshots/map.png" alt="The branching roadmap" width="280">
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/compendium.png" alt="The guest compendium" width="280">
+</p>
 
 ## Monsters you already know
 
@@ -35,15 +43,25 @@ npm test           # engine + simulation tests
 npm run build      # production build to dist/
 ```
 
-Built with Vite + TypeScript, no framework — the combat engine is fully headless and unit-tested, and a greedy bot plays complete seeded runs in CI as a balance sanity check.
+Built with Vite and TypeScript, no framework. The combat engine is headless and unit-tested; a greedy bot plays complete seeded runs in CI as a balance sanity check.
 
-## The data
+## How it's put together
 
-Guest cards are generated from an open dataset of 289 podcast episodes (`data/cards.json` → `data/guests.json`). Regenerate with `npm run transform`; rebuild the source data with `scripts/extract_cards.py` against the community [podcast dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all).
+```
+src/
+  core/       seeded RNG (named streams, serializable), typed events
+  engine/     combat engine, map generator, run state, saves — no DOM
+  content/    cards, enemies, relics, coffees, events, guest generator
+  ui/         DOM screens and components
+data/         guests.json (generated from 289 podcast episodes)
+tests/        engine unit tests + full-run simulation
+```
+
+Guest cards are generated from `data/guests.json` at load time. Regenerate it with `npm run transform`; rebuild the underlying card data with `scripts/extract_cards.py` against the community [podcast dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all).
 
 ## Credits
 
-Card data is derived from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community dataset. Guest cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast. Game design inspired by Slay the Spire.
+Card data comes from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community dataset. Guest cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast. Game design inspired by Slay the Spire.
 
 ## License
 
