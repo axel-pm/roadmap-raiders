@@ -1,41 +1,67 @@
-# PM Munchkin
+<p align="center">
+  <img src="assets/banner.svg" alt="Roadmap Raiders" width="560">
+</p>
 
-A Munchkin-style card battle game where you fight PM monsters using wisdom from Lenny's Podcast guests.
+# Roadmap Raiders
 
-## How to Play
+**A card-battle game where you fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — using a deck of heroes built from real [Lenny's Podcast](https://www.lennyspodcast.com/) guests.** Plays in your browser. Nothing to install.
 
-1. Open `index.html` in a browser (or serve with any HTTP server)
-2. Pick 3 starting heroes from Lenny's podcast guests
-3. Battle PM monsters (Scope Creep Dragon, The HiPPO, Feature Factory...)
-4. Play hero cards to beat monsters - your Attack must exceed their power
-5. Earn treasures and level up
-6. Reach Level 10 to win!
+<p align="center">
+  <strong><a href="https://axel-pm.github.io/munchkin/">▶ Play it now</a></strong>
+</p>
 
-## Game Mechanics
+---
 
-- **Hero Cards**: Real podcast guests with stats derived from episode data (views, duration, word count)
-- **Monster Cards**: PM anti-patterns and challenges (Bikeshedding Demon, Stakeholder Hydra, etc.)
-- **Treasure Cards**: PM tools and frameworks (OKR Framework, North Star Metric, Product-Market Fit)
-- **Special Abilities**: Each hero has an ability based on their podcast topics
+## The idea
 
-## Data Source
+Every PM fights the same beasts: scope that won't stop growing, the Highest-Paid Person's Opinion, a backlog that ships features nobody asked for. Roadmap Raiders turns them into a light, Munchkin-style card game — and turns the people who actually have answers into your party.
 
-Card data is extracted from [Lenny's Podcast](https://www.lennyspodcast.com/) transcripts via the [comprehensive dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all). 289 episodes processed, top 60 guests become hero cards.
+The **hero cards are real Lenny's Podcast guests**, and their stats aren't made up: they're derived from each guest's episode data (views, runtime, how much they had to say). So Eric Ries hits differently than a first-time founder, and your job is to draw the right minds to beat the monster in front of you.
 
-## Regenerating Card Data
+## How to play
+
+1. **Open the game** — [play in your browser](https://axel-pm.github.io/munchkin/), or run it locally (below).
+2. **Draft 3 heroes** from the podcast-guest deck to start your party.
+3. **Face a PM monster.** Play hero cards so your total **Attack** beats the monster's power.
+4. **Win the fight** to claim **treasures** — PM tools and frameworks like the OKR Framework, North Star Metric, and Product-Market Fit — and level up.
+5. **Reach Level 10** to win the run.
+
+Each hero also has a **special ability** drawn from what they talk about on the podcast, so the deck plays differently every time.
+
+## What's in the deck
+
+Built from **289 podcast episodes**:
+
+- **60 hero cards** — real guests, stats derived from episode data
+- **15 monster cards** — PM anti-patterns: Scope Creep Dragon, Bikeshedding Demon, The HiPPO, Technical Debt Golem, Stakeholder Hydra, Churn Wraith, and more
+- **12 treasure cards** — the frameworks and wins that turn a fight around
+
+## Run it locally
+
+No build step — it's plain HTML, CSS, and JavaScript.
 
 ```bash
-# Clone the data repo first
+python3 -m http.server 8080
+# then open http://localhost:8080
+```
+
+## Regenerating the deck
+
+The card data is generated from an open dataset of podcast transcripts. To rebuild it:
+
+```bash
+# Grab the source data
 git clone https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all.git
 
-# Extract cards
+# Extract cards → data/cards.json
 pip install pyyaml
 python3 scripts/extract_cards.py
 ```
 
-## Running Locally
+## Credits
 
-```bash
-python3 -m http.server 8080
-# Open http://localhost:8080
-```
+Card data is derived from [Lenny's Podcast](https://www.lennyspodcast.com/) via the community [podcast dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata-all). Hero cards celebrate the guests and their ideas; this is an unofficial fan project and isn't affiliated with or endorsed by the podcast.
+
+## License
+
+[MIT](LICENSE).
