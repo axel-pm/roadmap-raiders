@@ -7,10 +7,14 @@ import type { EnemyState } from '../../engine/combat/state';
 import type { CardInstance } from '../../engine/types';
 import { STATUSES } from '../../content/keywords';
 import { ENEMIES_BY_ID } from '../../content';
+import { COFFEES_BY_ID } from '../../content/coffee';
 
 export interface CombatScreenOpts {
   budget: number;
   floorLabel: string;
+  /** coffee ids the player carries; drinking is handled by the controller */
+  coffees?: () => string[];
+  onDrinkCoffee?: (index: number) => void;
   onEnd: (result: 'win' | 'lose') => void;
 }
 
@@ -145,10 +149,23 @@ export class CombatScreen {
 
     const hpPct = Math.max(0, (s.player.hp / s.player.maxHp) * 100);
 
+    const coffeeChips = (this.opts.coffees?.() ?? []).map((id, i) => {
+      const def = COFFEES_BY_ID[id];
+      if (!def) return null;
+      return h('span', {
+        class: 'coffee-chip',
+        title: `${def.name}: ${def.description} (tap to drink)`,
+        onTap: () => {
+          if (!s.over && !s.pendingChoice) this.opts.onDrinkCoffee?.(i);
+        },
+      }, def.emoji);
+    }).filter((x): x is HTMLElement => x !== null);
+
     const hud = h('div', { class: 'hud' },
       h('span', { class: 'hud-hp' }, `❤️ ${s.player.hp}/${s.player.maxHp}`),
       h('div', { class: 'hp-bar' },
         h('div', { class: 'hp-bar-fill', style: `width:${hpPct}%` })),
+      ...coffeeChips,
       h('span', { class: 'hud-spacer' }),
       h('span', { class: 'hud-floor' }, this.opts.floorLabel),
       h('span', { class: 'hud-budget' }, `💰 ${this.opts.budget}`),

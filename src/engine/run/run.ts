@@ -7,6 +7,8 @@ import type { GameMap, MapNode } from '../map/generate';
 import { makeInstance } from '../combat/engine';
 import { ALL_ENCOUNTERS, cardPool, GUEST_CARDS, STARTER_DECK, CARDS_BY_ID } from '../../content';
 import { RELICS } from '../../content/relics';
+import { COFFEES } from '../../content/coffee';
+import type { CoffeeDef } from '../types';
 
 export const STARTING_HP = 70;
 export const STARTING_BUDGET = 99;
@@ -47,7 +49,7 @@ export function newRun(seed: string, ascension: number): RunState {
     maxHp: STARTING_HP,
     budget: STARTING_BUDGET,
     deck: STARTER_DECK.map((id) => makeInstance(id)),
-    relics: [],
+    relics: ['pm_notebook'],
     coffees: [],
     coffeeSlots: 2,
     floorsClimbed: 0,
@@ -153,6 +155,27 @@ export function rollRelicReward(run: RunState): RelicDef | null {
   return pool.length ? rng.pick(pool) : null;
 }
 
+/** advance to the next act after a boss kill; returns false after Act 3 */
+export function advanceAct(run: RunState): boolean {
+  if (run.act >= 3) return false;
+  run.act = (run.act + 1) as 2 | 3;
+  run.map = generateMap(run.rng.get('map'), run.act);
+  run.position = null;
+  run.lastEncounterId = null;
+  return true;
+}
+
+const COFFEE_DROP_CHANCE = 0.4;
+
+export function rollCoffeeReward(run: RunState): CoffeeDef | null {
+  const rng = run.rng.get('cardRewards');
+  if (run.coffees.length >= run.coffeeSlots) return null;
+  if (!rng.chance(COFFEE_DROP_CHANCE)) return null;
+  const rarity = rng.weighted([['common', 65], ['uncommon', 30], ['rare', 5]] as const);
+  const pool = COFFEES.filter((c) => c.rarity === rarity);
+  return pool.length ? rng.pick(pool) : null;
+}
+
 export function rollBossRelics(run: RunState): RelicDef[] {
   const pool = RELICS.filter((r) => r.rarity === 'boss' && !run.relics.includes(r.id));
   return run.rng.get('relics').shuffle(pool).slice(0, 3);
@@ -167,6 +190,14 @@ export function gainRelic(run: RunState, relic: RelicDef): void {
     case 'espresso_machine': run.coffeeSlots += 1; break;
     case 'hypergrowth': run.deck.push(makeInstance('meetings')); break;
   }
+}
+
+/** post-combat healing from relics (Trusty PM Notebook, Sprint Retro) */
+export function afterCombatHeal(run: RunState): void {
+  let heal = 0;
+  if (run.relics.includes('pm_notebook')) heal += 4;
+  if (run.relics.includes('sprint_retro')) heal += 5;
+  if (heal > 0) run.hp = Math.min(run.maxHp, run.hp + heal);
 }
 
 // --- rest (Retro) ---

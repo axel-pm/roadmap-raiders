@@ -239,6 +239,63 @@ export const CUSTOM_EFFECTS: Record<string, CustomEffectHandler> = {
     });
   },
 
+  // --- enemy specials ---
+
+  /** Committee Ghost: give another alive ally `arg` Momentum */
+  buffRandomAlly: (engine, ctx, arg = 2) => {
+    const self = ctx.source;
+    if (self === 'player') return;
+    const allies = engine.state.enemies.filter((en) => !en.dead && en.uid !== self.uid);
+    const target = allies.length ? engine.host.rng.pick(allies) : self;
+    engine.addStatus('enemy', target.uid, 'momentum', arg);
+  },
+
+  /** Burnout Phoenix: revive once at `arg` HP with +2 Momentum */
+  phoenixRebirth: (engine, ctx, arg = 35) => {
+    const self = ctx.source;
+    if (self === 'player') return;
+    if (self.flags.rebirthUsed) return;
+    self.flags.rebirthUsed = 1;
+    self.hp = arg;
+    self.statuses = {};
+    engine.addStatus('enemy', self.uid, 'momentum', 2);
+    engine.events.emit('message', { text: '🔥 The Burnout Phoenix rises again!' });
+  },
+
+  /** Stakeholder Hydra: when a head dies, survivors gain `arg` Momentum */
+  hydraEnrage: (engine, ctx, arg = 2) => {
+    const self = ctx.source;
+    if (self === 'player') return;
+    const survivors = engine.state.enemies.filter((en) => !en.dead && en.uid !== self.uid && en.hp > 0);
+    for (const en of survivors) engine.addStatus('enemy', en.uid, 'momentum', arg);
+    if (survivors.length) {
+      engine.events.emit('message', { text: '🐲 The remaining heads grow furious!' });
+    }
+  },
+
+  /** Reorg Tornado: player discards hand and draws the same number */
+  shuffleHand: (engine) => {
+    const s = engine.state;
+    const n = s.hand.length;
+    s.discardPile.push(...s.hand);
+    s.hand = [];
+    engine.draw(n);
+    engine.events.emit('message', { text: '🌪️ Your team got reshuffled!' });
+  },
+
+  /** The HiPPO: strips your Momentum and Craft */
+  stripPlayerBuffs: (engine) => {
+    const p = engine.state.player;
+    let stripped = false;
+    for (const key of ['momentum', 'craft', 'strengthPerTurn'] as const) {
+      if (p.statuses[key]) {
+        delete p.statuses[key];
+        stripped = true;
+      }
+    }
+    if (stripped) engine.events.emit('message', { text: '🦛 "I don\'t care what the data says." Your buffs are overruled!' });
+  },
+
   /** Scope Creep curse: add a copy of itself to discard (max 5 copies total) */
   scopeCreepReplicate: (engine) => {
     const s = engine.state;

@@ -8,6 +8,8 @@ import type { RelicCombatHooks } from '../engine/combat/engine';
 const r = (def: RelicDef): RelicDef => def;
 
 export const RELICS: RelicDef[] = [
+  // starter
+  r({ id: 'pm_notebook', name: 'Trusty PM Notebook', emoji: '📔', rarity: 'starterBonus', description: 'Heal 4 Morale after each combat. Every decision, documented.' }),
   // commons
   r({ id: 'okr_framework', name: 'OKR Framework', emoji: '🎯', rarity: 'common', description: 'Start each combat with 1 Momentum.' }),
   r({ id: 'user_interview_notes', name: 'User Interview Notes', emoji: '📓', rarity: 'common', description: 'Retros heal 10 additional Morale.' }),

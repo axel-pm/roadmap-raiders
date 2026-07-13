@@ -2,7 +2,7 @@
 
 import { h, clear } from '../dom';
 import { cardEl, cardElFromInstance } from '../components/cardEl';
-import type { CardDef, CardInstance, RelicDef } from '../../engine/types';
+import type { CardDef, CardInstance, CoffeeDef, RelicDef } from '../../engine/types';
 import type { RunState, ShopStock } from '../../engine/run/run';
 import { restHealAmount, canRemoveCards } from '../../engine/run/run';
 import { GUESTS } from '../../content/guests/generate';
@@ -23,6 +23,7 @@ export interface RewardOpts {
   budget: number;
   cards: CardDef[];
   relic: RelicDef | null;
+  coffee: CoffeeDef | null;
   onPickCard: (def: CardDef | null) => void;
   onTakeRelic: () => void;
   onDone: () => void;
@@ -35,6 +36,9 @@ export function renderRewardScreen(root: HTMLElement, opts: RewardOpts): void {
   const rerender = () => {
     screenShell(root, '🎉 Spoils of Victory',
       h('p', { class: 'room-sub' }, `+${opts.budget} 💰 Budget collected`),
+      opts.coffee
+        ? h('p', { class: 'room-sub' }, `${opts.coffee.emoji} Found a ${opts.coffee.name}! (${opts.coffee.description})`)
+        : null,
       opts.relic && !relicTaken
         ? h('div', { class: 'relic-offer', onTap: () => { relicTaken = true; opts.onTakeRelic(); rerender(); } },
             h('span', { class: 'relic-offer-emoji' }, opts.relic.emoji),
@@ -56,6 +60,29 @@ export function renderRewardScreen(root: HTMLElement, opts: RewardOpts): void {
     );
   };
   rerender();
+}
+
+// --- boss relic choice (after act boss) ---
+
+export function renderBossRelicScreen(
+  root: HTMLElement,
+  actName: string,
+  relics: RelicDef[],
+  onPick: (relic: RelicDef | null) => void,
+): void {
+  screenShell(root, `🏁 ${actName} cleared!`,
+    h('p', { class: 'room-sub' }, 'The board is impressed. Choose a boss framework:'),
+    h('div', { class: 'room-actions room-actions-col' },
+      ...relics.map((relic) =>
+        h('div', { class: 'relic-offer', onTap: () => onPick(relic) },
+          h('span', { class: 'relic-offer-emoji' }, relic.emoji),
+          h('div', {},
+            h('div', { class: 'relic-offer-name' }, relic.name),
+            h('div', { class: 'relic-offer-desc' }, relic.description)))),
+    ),
+    h('div', { class: 'room-actions' },
+      h('button', { class: 'btn btn-ghost', onTap: () => onPick(null) }, 'Skip')),
+  );
 }
 
 // --- rest (Retro) ---

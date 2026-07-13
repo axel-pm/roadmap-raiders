@@ -170,6 +170,12 @@ button {
 }
 
 .hud-hp { color: var(--hp-color); }
+
+.coffee-chip {
+    cursor: pointer;
+    font-size: 1.05rem;
+    filter: drop-shadow(0 0 6px rgba(245, 197, 24, 0.4));
+}
 .hud-budget { color: var(--accent-gold); }
 .hud-floor { color: var(--text-secondary); }
 .hud-spacer { flex: 1; }

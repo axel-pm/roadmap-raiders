@@ -8,15 +8,17 @@ import { CombatScreen } from './ui/screens/combat';
 import { renderMapScreen } from './ui/screens/map';
 import {
   renderRewardScreen, renderRestScreen, renderTreasureScreen, renderEventScreen,
-  renderShopScreen, renderEndScreen, pickCardOverlay, showDeckOverlay,
+  renderShopScreen, renderEndScreen, renderBossRelicScreen, pickCardOverlay, showDeckOverlay,
 } from './ui/screens/simple';
 import { randomSeedString } from './core/rng';
 import type { MapNode } from './engine/map/generate';
 import type { RunState, ShopStock } from './engine/run/run';
 import {
   newRun, moveTo, pickEncounter, budgetReward, rollCardReward, rollRelicReward,
-  gainRelic, restHealAmount, generateShop, runScore,
+  rollBossRelics, rollCoffeeReward, advanceAct, gainRelic, restHealAmount,
+  generateShop, runScore, afterCombatHeal,
 } from './engine/run/run';
+import { COFFEES_BY_ID } from './content/coffee';
 import type { CardDef } from './engine/types';
 import { cardEl } from './ui/components/cardEl';
 import { pickEvent } from './content/events';
@@ -98,6 +100,14 @@ export class Game {
     const screen = new CombatScreen(this.root, engine, {
       budget: run.budget,
       floorLabel: `Sprint ${run.floorsClimbed} · Act ${run.act}`,
+      coffees: () => run.coffees,
+      onDrinkCoffee: (i) => {
+        const id = run.coffees[i];
+        const def = id ? COFFEES_BY_ID[id] : undefined;
+        if (!def) return;
+        run.coffees.splice(i, 1);
+        engine.applyExternalEffects(def.effects);
+      },
       onEnd: (result) => {
         screen.unmount();
         run.hp = engine.state.player.hp;
@@ -109,13 +119,10 @@ export class Game {
         else if (pool === 'elite') run.elitesDefeated++;
         else run.monstersDefeated++;
 
-        if (run.relics.includes('sprint_retro')) {
-          run.hp = Math.min(run.maxHp, run.hp + 5);
-        }
+        afterCombatHeal(run);
 
         if (pool === 'boss') {
-          // Act 1 complete — full 3-act ladder arrives with Acts 2-3
-          this.endRun(true);
+          this.showBossReward();
           return;
         }
         this.showReward(pool);
@@ -131,11 +138,14 @@ export class Game {
     run.budget += budget;
     const cards = rollCardReward(run, pool === 'elite' ? 'elite' : 'normal');
     const relic = pool === 'elite' ? rollRelicReward(run) : null;
+    const coffee = rollCoffeeReward(run);
+    if (coffee) run.coffees.push(coffee.id);
 
     renderRewardScreen(this.root, {
       budget,
       cards,
       relic,
+      coffee,
       onPickCard: (def) => {
         if (def) run.deck.push(makeInstance(def.id));
       },
@@ -144,6 +154,49 @@ export class Game {
       },
       onDone: () => this.showMap(),
     });
+  }
+
+  private showBossReward(): void {
+    const run = this.run!;
+    const budget = budgetReward(run, 'boss');
+    run.budget += budget;
+    const cards = rollCardReward(run, 'boss');
+    const actName = `Act ${run.act}`;
+
+    renderRewardScreen(this.root, {
+      budget,
+      cards,
+      relic: null,
+      coffee: null,
+      onPickCard: (def) => {
+        if (def) run.deck.push(makeInstance(def.id));
+      },
+      onTakeRelic: () => {},
+      onDone: () => {
+        if (run.act >= 3) {
+          this.endRun(true);
+          return;
+        }
+        const bossRelics = rollBossRelics(run);
+        if (bossRelics.length === 0) {
+          this.nextAct();
+          return;
+        }
+        renderBossRelicScreen(this.root, actName, bossRelics, (relic) => {
+          if (relic) gainRelic(run, relic);
+          this.nextAct();
+        });
+      },
+    });
+  }
+
+  private nextAct(): void {
+    const run = this.run!;
+    if (!advanceAct(run)) {
+      this.endRun(true);
+      return;
+    }
+    this.showMap();
   }
 
   // --- rooms ---
