@@ -1,39 +1,40 @@
 /* === Roadmap Raiders: Roguelike — Styles === */
-/* Design tokens carried over from the original game */
+/* Campfire-lit corporate fantasy: warm brown-black grounds, coral primary,
+   cream text — the UI shares a palette with the Lenny-inspired zine art. */
 
 :root {
-    --bg-dark: #0f0e17;
-    --bg-card: #1a1a2e;
-    --bg-surface: #16213e;
-    --accent-primary: #e94560;
-    --accent-secondary: #0f3460;
-    --accent-gold: #f5c518;
-    --accent-green: #2ecc71;
-    --accent-blue: #3498db;
-    --accent-purple: #9b59b6;
-    --text-primary: #eaeaea;
-    --text-secondary: #a0a0b0;
-    --text-muted: #666680;
-    --border-color: #2a2a4a;
+    --bg-dark: #1c1210;
+    --bg-card: #2a1c16;
+    --bg-surface: #241813;
+    --accent-primary: #e8603c;
+    --accent-secondary: #4a2c1e;
+    --accent-gold: #f0a35e;
+    --accent-green: #7fb069;
+    --accent-blue: #5b8a99;
+    --accent-purple: #a4779e;
+    --text-primary: #f6ede2;
+    --text-secondary: #c2a893;
+    --text-muted: #8a715f;
+    --border-color: #4a352a;
 
-    --domain-growth: #2ecc71;
-    --domain-strategy: #3498db;
-    --domain-leadership: #9b59b6;
-    --domain-execution: #e67e22;
-    --domain-data: #1abc9c;
-    --domain-ai: #e94560;
-    --domain-design: #f39c12;
-    --domain-revenue: #27ae60;
+    --domain-growth: #7fb069;
+    --domain-strategy: #5b8a99;
+    --domain-leadership: #a4779e;
+    --domain-execution: #d98841;
+    --domain-data: #6aa79a;
+    --domain-ai: #e8603c;
+    --domain-design: #f0a35e;
+    --domain-revenue: #9caf5f;
 
-    --type-attack: #e94560;
-    --type-skill: #3498db;
-    --type-power: #9b59b6;
+    --type-attack: #e8603c;
+    --type-skill: #5b8a99;
+    --type-power: #a4779e;
     --type-curse: #6b4226;
-    --type-status: #55556b;
+    --type-status: #6d5a4d;
 
-    --hp-color: #e74c3c;
-    --block-color: #6fb7ff;
-    --energy-color: #f5c518;
+    --hp-color: #e05545;
+    --block-color: #8fc3d4;
+    --energy-color: #f0a35e;
 }
 
 * {
@@ -93,13 +94,13 @@ button {
 .btn-primary {
     background: var(--accent-primary);
     border-color: var(--accent-primary);
-    box-shadow: 0 4px 18px rgba(233, 69, 96, 0.4);
+    box-shadow: 0 4px 18px rgba(232, 96, 60, 0.4);
 }
 
 .btn-gold {
     background: var(--accent-gold);
     border-color: var(--accent-gold);
-    color: #1a1a2e;
+    color: #2a1c16;
 }
 
 .btn-ghost {
@@ -115,7 +116,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 18px;
-    background: linear-gradient(135deg, #0f0e17 0%, #1a1a2e 50%, #16213e 100%);
+    background: linear-gradient(135deg, #1c1210 0%, #2a1c16 50%, #33231b 100%);
     text-align: center;
     padding: 24px;
 }
@@ -124,7 +125,7 @@ button {
     font-family: 'Grenze Gotisch', serif;
     font-size: clamp(1.3rem, 6vw, 2.6rem);
     color: var(--accent-gold);
-    text-shadow: 4px 4px 0 var(--accent-primary), 8px 8px 24px rgba(233, 69, 96, 0.5);
+    text-shadow: 4px 4px 0 var(--accent-primary), 8px 8px 24px rgba(232, 96, 60, 0.5);
     line-height: 1.5;
 }
 
@@ -212,7 +213,7 @@ button {
 .coffee-chip {
     cursor: pointer;
     font-size: 1.05rem;
-    filter: drop-shadow(0 0 6px rgba(245, 197, 24, 0.4));
+    filter: drop-shadow(0 0 6px rgba(240, 163, 94, 0.45));
 }
 .hud-budget { color: var(--accent-gold); }
 .hud-floor { color: var(--text-secondary); }
@@ -223,7 +224,7 @@ button {
     width: 100px;
     height: 10px;
     border-radius: 5px;
-    background: #333;
+    background: #3d2b22;
     overflow: hidden;
 }
 
@@ -264,8 +265,8 @@ button {
 }
 
 @keyframes pulse-target {
-    0%, 100% { box-shadow: 0 0 0 rgba(245, 197, 24, 0.0); }
-    50% { box-shadow: 0 0 22px rgba(245, 197, 24, 0.65); }
+    0%, 100% { box-shadow: 0 0 0 rgba(240, 163, 94, 0.0); }
+    50% { box-shadow: 0 0 22px rgba(240, 163, 94, 0.7); }
 }
 
 .enemy.dead { opacity: 0.15; filter: grayscale(1); }
@@ -317,7 +318,7 @@ button {
 .creature-hp-bar {
     width: 100%;
     height: 8px;
-    background: #2b2b40;
+    background: #3d2b22;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -377,11 +378,11 @@ button {
     width: 52px;
     height: 52px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, #ffe382, var(--energy-color) 60%, #a8871a);
-    color: #1a1a2e;
+    background: radial-gradient(circle at 35% 30%, #ffd9a8, var(--energy-color) 60%, #b06a2e);
+    color: #2a1c16;
     font-weight: 900;
     font-size: 1.05rem;
-    box-shadow: 0 0 18px rgba(245, 197, 24, 0.5);
+    box-shadow: 0 0 18px rgba(240, 163, 94, 0.55);
     flex-shrink: 0;
 }
 
@@ -448,20 +449,20 @@ button {
 .card-attack { border-color: var(--type-attack); }
 .card-skill { border-color: var(--type-skill); }
 .card-power { border-color: var(--type-power); }
-.card-curse { border-color: var(--type-curse); background: #221a12; }
-.card-status { border-color: var(--type-status); background: #17171f; }
+.card-curse { border-color: var(--type-curse); background: #241a10; }
+.card-status { border-color: var(--type-status); background: #221a15; }
 
 .card-guest {
     border-color: var(--accent-gold);
-    background: linear-gradient(160deg, #22203a 0%, #1a1a2e 60%);
-    box-shadow: 0 0 10px rgba(245, 197, 24, 0.25);
+    background: linear-gradient(160deg, #3a2a1c 0%, #2a1c16 60%);
+    box-shadow: 0 0 10px rgba(240, 163, 94, 0.3);
 }
 
 .card-upgraded .card-name { color: var(--accent-green); }
 
 .card-selected {
     border-color: var(--accent-gold);
-    box-shadow: 0 0 16px rgba(245, 197, 24, 0.6);
+    box-shadow: 0 0 16px rgba(240, 163, 94, 0.65);
     transform: translateY(-10px);
 }
 
@@ -481,7 +482,7 @@ button {
     height: 20px;
     border-radius: 50%;
     background: var(--energy-color);
-    color: #1a1a2e;
+    color: #2a1c16;
     font-size: 0.72rem;
     font-weight: 900;
     flex-shrink: 0;
@@ -555,7 +556,7 @@ button {
 .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(6, 6, 12, 0.88);
+    background: rgba(18, 10, 8, 0.88);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -619,7 +620,7 @@ button {
 }
 
 .msg {
-    background: rgba(26, 26, 46, 0.92);
+    background: rgba(42, 28, 22, 0.92);
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 4px 12px;
@@ -901,10 +902,11 @@ button {
 
 /* enemy portraits */
 .enemy-emoji {
-    width: clamp(84px, 22vw, 140px);
-    height: clamp(84px, 22vw, 140px);
+    width: clamp(104px, 28vw, 170px);
+    height: clamp(104px, 28vw, 170px);
     border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
 
 .enemy-emoji .art-fallback { font-size: clamp(2.4rem, 9vw, 4rem); }
@@ -942,7 +944,7 @@ button {
     font-weight: 900;
     letter-spacing: 0.04em;
     line-height: 1.05;
-    background: linear-gradient(180deg, #ffe9a0 20%, var(--accent-gold) 55%, #a8871a 90%);
+    background: linear-gradient(180deg, #ffe3bd 20%, var(--accent-gold) 55%, #c06a30 90%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -1,0 +1,162 @@
+[
+ {
+  "id": "second_monitor",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "standing_desk",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "espresso_machine",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "swag_box",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "winning_ab_test",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "competitive_moat",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "series_b_deck",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "analytics_dashboard",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "customer_advisory_board",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "on_call_pager",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "figma_file",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "term_sheet",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "north_star_metric",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "product_sense_relic",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "ai_copilot",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "founders_hoodie",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "mechanical_keyboard",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "product_market_fit",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "vision_doc_relic",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "hypergrowth",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "golden_gong",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "lennys_mic",
+  "kind": "relic",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "espresso",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "cold_brew",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "decaf",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "double_shot",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "nitro",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "chamomile",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "matcha",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "red_eye",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "affogato",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ },
+ {
+  "id": "founders_blend",
+  "kind": "coffee",
+  "error": "HTTP 429 after 5 attempts"
+ }
+]

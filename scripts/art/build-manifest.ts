@@ -1,7 +1,7 @@
 // Builds scripts/art/manifest.json from the live content registries.
 // Run with: npx vite-node scripts/art/build-manifest.ts
 
-import { writeFileSync, existsSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ALL_TACTIC_CARDS } from '../../src/content/cards/tactics';
@@ -14,12 +14,16 @@ import type { Domain } from '../../src/engine/types';
 const here = dirname(fileURLToPath(import.meta.url));
 
 // One shared voice for every asset — the consistency anchor.
+// Direction: Slay the Spire structure, Lenny's Podcast warmth — campfire-lit
+// corporate fantasy in an indie zine / risograph idiom.
 const STYLE = [
-  'Digital painting for a dark-fantasy roguelike deckbuilder card game.',
-  'Bold chunky painterly brushstrokes, dramatic rim lighting, deep shadows,',
-  'rich saturated color against a dark moody backdrop, strong readable silhouette,',
-  'centered composition, slightly exaggerated stylized proportions.',
-  'The theme blends corporate/tech-office life with fantasy dungeon imagery.',
+  'Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game,',
+  'inspired by indie zine and risograph print art: bold hand-drawn ink outlines,',
+  'chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting.',
+  'Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown',
+  'shadows and muted teal-navy accents. Slightly exaggerated friendly proportions,',
+  'strong readable silhouette, centered composition.',
+  'Corporate tech-office life reimagined as fantasy adventure.',
   'No text, no letters, no watermark, no card frame, no border.',
 ].join(' ');
 
@@ -39,7 +43,17 @@ interface Asset {
   kind: 'card' | 'guest' | 'enemy' | 'relic' | 'coffee' | 'bg';
   prompt: string;
   size: [number, number];
-  photo?: string; // guests: path to reference photo
+  photo?: string; // unused since the person-policy block; kept for the generator API
+}
+
+/** merge scripts/art/descriptions/batch*.json (written by vision subagents) */
+function loadDescriptions(): Record<string, string> {
+  const merged: Record<string, string> = {};
+  for (let i = 1; i <= 5; i++) {
+    const p = join(here, 'descriptions', `batch${i}.json`);
+    if (existsSync(p)) Object.assign(merged, JSON.parse(readFileSync(p, 'utf8')));
+  }
+  return merged;
 }
 
 // --- hand-written subjects for enemies (the visual stars) ---
@@ -118,10 +132,10 @@ function buildAssets(): Asset[] {
 
   // backgrounds
   const BG: Record<string, string> = {
-    title: 'Epic title vista: a winding glowing product-roadmap path ascending a dark fantasy tower of office floors toward a radiant summit, tiny adventurer silhouette at the base, city lights below',
-    act1: 'A dim startup garage-dungeon: exposed brick, whiteboards with glowing runes, pizza boxes, a tunnel opening toward faint light, torch-lit',
-    act2: 'A vast scale-up open office at night as a fantasy hall: endless desks receding, glowing monitors like candles, giant metrics dashboards floating like stained glass',
-    act3: 'A stock-exchange cathedral: marble columns, a towering golden bell, ticker tape falling like snow, ominous boardroom light from above',
+    title: 'Epic title vista at golden hour: a winding glowing product-roadmap path ascending a fantasy tower of office floors toward a radiant sunrise summit, tiny adventurer silhouette with a backpack at the base, campfire glow, city lights below',
+    act1: 'A cozy startup garage-dungeon at night: exposed brick, whiteboards with glowing diagrams, pizza boxes, string lights, a campfire in an oil drum, a tunnel opening toward dawn light',
+    act2: 'A vast scale-up open office at dusk as a fantasy hall: endless desks receding, glowing monitors like candles, giant metrics dashboards floating like warm stained glass, sunset through tall windows',
+    act3: 'A stock-exchange cathedral at golden hour: marble columns, a towering golden bell, ticker tape falling like confetti snow, dramatic warm light from high windows with looming shadows',
   };
   for (const [id, subject] of Object.entries(BG)) {
     assets.push({
@@ -135,7 +149,7 @@ function buildAssets(): Asset[] {
     const subject = ENEMY_SUBJECTS[e.id] ?? `${e.name}: ${e.description}`;
     assets.push({
       id: e.id, kind: 'enemy', size: [512, 512],
-      prompt: `${STYLE} Full-body creature portrait for a battle screen, isolated on a plain very dark near-black background (#0f0e17), soft ground shadow only. ${subject}.`,
+      prompt: `${STYLE} Full-body creature portrait for a battle screen, isolated on a deep warm brown-black background, soft ground shadow only. ${subject}.`,
     });
   }
 
@@ -153,16 +167,18 @@ function buildAssets(): Asset[] {
     });
   }
 
-  // guests (photo → repaint)
+  // guests: fictional characters painted from written appearance descriptions
+  // (Google's API blocks photo-based and name-based real-person generation,
+  // so likeness travels through neutral text descriptions instead)
+  const descriptions = loadDescriptions();
   for (const g of GUESTS) {
-    const photo = join(here, 'photos', `${g.id}.jpg`);
     const tone = DOMAIN_TONE[g.domain] ?? 'golden glow';
+    const desc = descriptions[g.id];
     assets.push({
       id: g.id, kind: 'guest', size: [512, 512],
-      photo: existsSync(photo) ? photo : undefined,
-      prompt: existsSync(photo)
-        ? `Repaint the person in this photo as a heroic character portrait for a dark-fantasy deckbuilder card game. ${STYLE} Bust portrait, warm celebratory heroic mood, a stylized podcast microphone near them, background ${tone}. A clearly artistic painterly interpretation with visible brushwork — NOT photorealistic. Keep their likeness recognizable and flattering.`
-        : `${STYLE} A heroic no-likeness emblem: an ornate golden podcast microphone on a pedestal radiating ${tone}, arcane sigils of ${g.domain.toLowerCase()} floating around it.`,
+      prompt: desc
+        ? `${STYLE} Heroic bust portrait of a FICTIONAL podcast-guest character for a card game: ${desc} Speaking into an ornate brass podcast microphone, background ${tone} with a floating arcane sigil of their craft, campfire warmth on their face, warm celebratory heroic mood.`
+        : `${STYLE} A heroic no-likeness emblem: an ornate brass podcast microphone on a pedestal radiating ${tone}, arcane sigils of ${g.domain.toLowerCase()} floating around it, treasure-artifact presentation.`,
     });
   }
 
