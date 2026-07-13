@@ -7,7 +7,7 @@
 **A roguelike deckbuilder in the style of Slay the Spire, where you climb the product roadmap, fight the monsters every product manager knows — Scope Creep, the HiPPO, the Feature Factory — and recruit real [Lenny's Podcast](https://www.lennyspodcast.com/) guests into your deck.** Plays in your browser. Nothing to install.
 
 <p align="center">
-  <strong><a href="https://axel-pm.github.io/munchkin/">▶ Play it now</a></strong>
+  <strong><a href="https://axel-pm.github.io/roadmap-raiders/">▶ Play it now</a></strong>
 </p>
 
 <p align="center">
