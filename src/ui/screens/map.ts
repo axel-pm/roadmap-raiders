@@ -26,6 +26,7 @@ const ACT_NAMES: Record<number, string> = {
 export interface MapScreenOpts {
   onPick: (node: MapNode) => void;
   onShowDeck: () => void;
+  onSettings?: () => void;
 }
 
 export function renderMapScreen(root: HTMLElement, run: RunState, opts: MapScreenOpts): void {
@@ -42,6 +43,7 @@ export function renderMapScreen(root: HTMLElement, run: RunState, opts: MapScree
     h('span', { class: 'hud-spacer' }),
     h('span', { class: 'pile-btn', onTap: opts.onShowDeck }, `🃏 Deck: ${run.deck.length}`),
     h('span', { class: 'hud-floor' }, `${ACT_NAMES[run.act]}`),
+    opts.onSettings ? h('span', { class: 'hud-gear', title: 'Settings', onTap: opts.onSettings }, '⚙') : null,
   );
 
   const relicBar = h('div', { class: 'relic-bar' },
