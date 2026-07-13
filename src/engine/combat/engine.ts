@@ -134,14 +134,19 @@ export class CombatEngine {
 
   startCombat(deck: CardInstance[], enemyIds: string[], playerHp: number, playerMaxHp: number): void {
     const rng = this.host.rng;
+    const asc = this.host.ascension;
     const enemies: EnemyState[] = enemyIds.map((defId) => {
       const def = this.host.content.enemies[defId];
       if (!def) throw new Error(`Unknown enemy: ${defId}`);
       let hp = rng.int(def.hp[0], def.hp[1]);
-      if (this.host.ascension >= 1) hp = Math.round(hp * 1.1);
+      if (asc >= 1) hp = Math.round(hp * 1.1);
+      if (asc >= 3 && this.host.isEliteOrBoss) hp = Math.round(hp * 1.1);
+      const statuses: EnemyState['statuses'] = {};
+      if (asc >= 7) statuses.momentum = 1;
+      if (asc >= 10 && this.host.isEliteOrBoss) statuses.hype = (statuses.hype ?? 0) + 1;
       return {
         uid: enemyUidCounter++, defId, hp, maxHp: hp, block: 0,
-        statuses: {}, currentMove: '', history: [], flags: {}, dead: false,
+        statuses, currentMove: '', history: [], flags: {}, dead: false,
       };
     });
 
@@ -533,6 +538,7 @@ export class CombatEngine {
     let amt = base;
     if (isAttack) {
       amt += srcCreature.statuses.momentum ?? 0;
+      if (source !== 'player' && this.host.ascension >= 2) amt += 1;
       if (source === 'player') {
         for (const h of this.relicHooks()) {
           if (h.modifyAttackDamage) amt = h.modifyAttackDamage(this, amt, cardDef);
@@ -778,6 +784,7 @@ export class CombatEngine {
     for (const eff of move.effects) {
       if (eff.kind === 'damage') {
         let amt = (typeof eff.amount === 'number' ? eff.amount : eff.amount.base) + (e.statuses.momentum ?? 0);
+        if (this.host.ascension >= 2) amt += 1;
         if (e.statuses.distracted) amt = Math.floor(amt * 0.75);
         if (this.state.player.statuses.exposed) amt = Math.floor(amt * 1.5);
         damage = Math.max(0, amt);

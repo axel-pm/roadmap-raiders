@@ -23,42 +23,133 @@ import type { CardDef } from './engine/types';
 import { cardEl } from './ui/components/cardEl';
 import { pickEvent } from './content/events';
 import type { GameApi } from './content/events';
+import {
+  loadMeta, recordRun, saveRun, loadRun, hasSavedRun, clearRun,
+  XP_PER_UNLOCK_BATCH, TOTAL_GUESTS,
+} from './engine/meta/save';
+import type { MetaState } from './engine/meta/save';
+import { GUESTS } from './content/guests/generate';
 
 export class Game {
   private root: HTMLElement;
   private run: RunState | null = null;
-  private seenEventIds: string[] = [];
+  private meta: MetaState;
+  private ascension = 0;
 
   constructor(root: HTMLElement) {
     this.root = root;
+    this.meta = loadMeta();
+    this.ascension = this.meta.maxAscensionReached;
   }
 
   // --- title ---
 
   showTitle(): void {
     clear(this.root);
+    const meta = this.meta;
+    const canContinue = hasSavedRun();
+    const nextUnlockIn = meta.guestsUnlocked >= TOTAL_GUESTS
+      ? null
+      : XP_PER_UNLOCK_BATCH - (meta.listenerXp % XP_PER_UNLOCK_BATCH);
+
+    const ascensionRow = meta.maxAscensionReached > 0
+      ? h('div', { class: 'ascension-row' },
+          h('button', {
+            class: 'btn btn-ghost asc-btn',
+            onTap: () => { this.ascension = Math.max(0, this.ascension - 1); this.showTitle(); },
+          }, '−'),
+          h('span', { class: 'ascension-label' }, this.ascension === 0 ? 'Standard' : `🔥 Ascension ${this.ascension}`),
+          h('button', {
+            class: 'btn btn-ghost asc-btn',
+            onTap: () => { this.ascension = Math.min(this.meta.maxAscensionReached, this.ascension + 1); this.showTitle(); },
+          }, '+'))
+      : null;
+
     this.root.appendChild(
       h('div', { class: 'screen-title' },
         h('h1', { class: 'game-title' }, 'ROADMAP RAIDERS'),
         h('p', { class: 'game-subtitle' }, 'A PM roguelike deckbuilder powered by Lenny’s Podcast'),
         h('div', { class: 'title-buttons' },
+          canContinue
+            ? h('button', { class: 'btn btn-gold', onTap: () => this.continueRun() }, '▶️ Continue Run')
+            : null,
           h('button', { class: 'btn btn-primary', onTap: () => this.newGame() }, '🗺 New Run'),
+          ascensionRow,
+          h('button', { class: 'btn', onTap: () => this.showHistory() }, '📜 Run History'),
+          h('button', {
+            class: 'btn btn-ghost',
+            onTap: () => {
+              const seed = window.prompt('Enter a run seed (e.g. SHIP-01234):');
+              if (seed?.trim()) this.newGame(seed.trim().toUpperCase());
+            },
+          }, '🎲 Custom Seed'),
         ),
+        h('p', { class: 'title-meta' },
+          `🎧 ${meta.guestsUnlocked}/${TOTAL_GUESTS} guests unlocked · 🏆 ${meta.stats.wins} wins / ${meta.stats.runs} runs`
+          + (nextUnlockIn !== null ? ` · next unlock in ${nextUnlockIn} XP` : '')),
         h('p', { class: 'title-credit' }, 'Unofficial fan project · Data from Lenny’s Podcast community'),
       ),
     );
   }
 
   newGame(seed?: string): void {
-    this.run = newRun(seed ?? randomSeedString(), 0);
-    this.seenEventIds = [];
+    if (hasSavedRun() && !window.confirm('Abandon the saved run and start a new one?')) return;
+    clearRun();
+    const unlockedIds = GUESTS.slice(0, this.meta.guestsUnlocked).map((g) => g.id);
+    this.run = newRun(seed ?? randomSeedString(), this.ascension, unlockedIds);
     this.showMap();
+  }
+
+  continueRun(): void {
+    const run = loadRun();
+    if (!run) {
+      this.showTitle();
+      return;
+    }
+    this.run = run;
+    if (run.position !== null) {
+      // saved at node entry: re-enter the room (same rng → same encounter)
+      const node = run.position.row >= 15
+        ? run.map.boss
+        : run.map.rows[run.position.row]?.[run.position.col];
+      if (node) {
+        this.resolveRoom(node.type);
+        return;
+      }
+    }
+    this.showMap();
+  }
+
+  private showHistory(): void {
+    clear(this.root);
+    const rows = this.meta.runHistory.map((r) =>
+      h('div', { class: 'history-row' },
+        h('span', {}, r.won ? '🏆' : '💀'),
+        h('span', { class: 'history-seed' }, r.seed),
+        h('span', {}, r.ascension > 0 ? `A${r.ascension}` : ''),
+        h('span', {}, `Act ${r.act}`),
+        h('span', {}, `${r.floors} floors`),
+        h('span', { class: 'history-score' }, `${r.score} pts`),
+      ));
+    this.root.appendChild(
+      h('div', { class: 'room-screen' },
+        h('h2', { class: 'room-title' }, '📜 Run History'),
+        h('p', { class: 'room-sub' },
+          `Listener XP: ${this.meta.listenerXp} · Best score: ${this.meta.stats.bestScore}`),
+        rows.length
+          ? h('div', { class: 'history-list' }, ...rows)
+          : h('p', { class: 'room-sub' }, 'No runs yet. The backlog awaits.'),
+        h('div', { class: 'room-actions' },
+          h('button', { class: 'btn btn-primary', onTap: () => this.showTitle() }, 'Back')),
+      ),
+    );
   }
 
   // --- map ---
 
   showMap(): void {
     const run = this.run!;
+    saveRun(run);
     renderMapScreen(this.root, run, {
       onPick: (node) => this.enterNode(node),
       onShowDeck: () => showDeckOverlay(this.root, run.deck),
@@ -68,8 +159,14 @@ export class Game {
   private enterNode(node: MapNode): void {
     const run = this.run!;
     moveTo(run, node);
-    switch (node.type) {
-      case 'monster': return this.startCombat(node.row < 3 ? 'weak' : 'normal');
+    saveRun(run); // mid-room refresh resumes at this node
+    this.resolveRoom(node.type);
+  }
+
+  private resolveRoom(type: MapNode['type']): void {
+    const run = this.run!;
+    switch (type) {
+      case 'monster': return this.startCombat(run.position!.row < 3 ? 'weak' : 'normal');
       case 'elite': return this.startCombat('elite');
       case 'boss': return this.startCombat('boss');
       case 'rest': return this.showRest();
@@ -273,8 +370,8 @@ export class Game {
 
   private showEvent(): void {
     const run = this.run!;
-    const ev = pickEvent(run, this.seenEventIds);
-    this.seenEventIds.push(ev.id);
+    const ev = pickEvent(run, run.seenEventIds);
+    run.seenEventIds.push(ev.id);
 
     const api: GameApi = {
       run,
@@ -332,11 +429,29 @@ export class Game {
 
   private endRun(won: boolean, reason?: string): void {
     const run = this.run!;
+    const score = runScore(run, won);
+    const before = this.meta.guestsUnlocked;
+    this.meta = recordRun(this.meta, {
+      date: new Date().toISOString(),
+      seed: run.seed,
+      ascension: run.ascension,
+      won,
+      score,
+      floors: run.floorsClimbed,
+      act: run.act,
+    });
+    clearRun();
+    const unlocked = this.meta.guestsUnlocked - before;
+    const extras: string[] = [];
+    if (unlocked > 0) extras.push(`🎧 ${unlocked} new guest${unlocked === 1 ? '' : 's'} unlocked!`);
+    if (won && this.meta.maxAscensionReached > run.ascension) {
+      extras.push(`🔥 Ascension ${this.meta.maxAscensionReached} unlocked!`);
+    }
     renderEndScreen(this.root, won, {
-      score: runScore(run, won),
+      score,
       floors: run.floorsClimbed,
       seed: run.seed,
-      reason,
+      reason: [reason, ...extras].filter(Boolean).join('  ·  ') || undefined,
     }, () => this.showTitle());
     this.run = null;
   }

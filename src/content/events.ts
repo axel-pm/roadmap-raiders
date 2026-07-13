@@ -3,7 +3,8 @@
 
 import type { RunState } from '../engine/run/run';
 import type { CardDef } from '../engine/types';
-import { GUEST_CARDS, cardPool } from './index';
+import { cardPool } from './index';
+import { availableGuestPool } from '../engine/run/run';
 import { makeInstance } from '../engine/combat/engine';
 
 export interface GameApi {
@@ -35,7 +36,7 @@ export interface EventDef {
 }
 
 function unownedGuests(run: RunState): CardDef[] {
-  return GUEST_CARDS.filter((g) => !run.deck.some((c) => c.defId === g.id));
+  return availableGuestPool(run);
 }
 
 export const EVENTS: EventDef[] = [

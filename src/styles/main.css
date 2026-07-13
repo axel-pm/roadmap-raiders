@@ -141,6 +141,44 @@ button {
     width: min(320px, 80vw);
 }
 
+.title-meta {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-top: 8px;
+}
+
+.ascension-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.asc-btn { padding: 6px 14px; }
+.ascension-label { font-weight: 800; min-width: 130px; }
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: min(460px, 92vw);
+}
+
+.history-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+}
+
+.history-seed { color: var(--text-secondary); }
+.history-score { color: var(--accent-gold); font-weight: 800; }
+
 .title-credit {
     position: absolute;
     bottom: max(12px, env(safe-area-inset-bottom));

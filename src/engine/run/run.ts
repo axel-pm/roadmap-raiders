@@ -34,10 +34,13 @@ export interface RunState {
   bossesDefeated: number;
   removalCost: number;
   lastEncounterId: string | null;
+  seenEventIds: string[];
+  /** guest ids unlocked at run start (from meta progression) */
+  unlockedGuestIds: string[];
   rng: RngBundle;
 }
 
-export function newRun(seed: string, ascension: number): RunState {
+export function newRun(seed: string, ascension: number, unlockedGuestIds?: string[]): RunState {
   const rng = RngBundle.fromSeed(seed);
   const run: RunState = {
     seed,
@@ -58,6 +61,8 @@ export function newRun(seed: string, ascension: number): RunState {
     bossesDefeated: 0,
     removalCost: BASE_REMOVAL_COST,
     lastEncounterId: null,
+    seenEventIds: [],
+    unlockedGuestIds: unlockedGuestIds ?? GUEST_CARDS.map((g) => g.id),
     rng,
   };
   if (ascension >= 6) run.deck.push(makeInstance('scope_creep_curse'));
@@ -113,6 +118,12 @@ export function budgetReward(run: RunState, pool: 'weak' | 'normal' | 'elite' | 
 
 const GUEST_REPLACE_CHANCE = 0.08;
 
+/** guests eligible to appear this run: unlocked and not already in the deck */
+export function availableGuestPool(run: RunState): typeof GUEST_CARDS {
+  return GUEST_CARDS.filter((g) =>
+    run.unlockedGuestIds.includes(g.id) && !run.deck.some((c) => c.defId === g.id));
+}
+
 export function rollCardReward(run: RunState, kind: 'normal' | 'elite' | 'boss'): CardDef[] {
   const rng = run.rng.get('cardRewards');
   const count = (run.relics.includes('product_sense_relic') ? 4 : 3)
@@ -122,8 +133,7 @@ export function rollCardReward(run: RunState, kind: 'normal' | 'elite' | 'boss')
 
   for (let i = 0; i < count; i++) {
     if (kind !== 'boss' && rng.chance(GUEST_REPLACE_CHANCE)) {
-      const guests = GUEST_CARDS.filter((g) => !taken.has(g.id)
-        && !run.deck.some((c) => c.defId === g.id));
+      const guests = availableGuestPool(run).filter((g) => !taken.has(g.id));
       if (guests.length) {
         const g = rng.pick(guests);
         taken.add(g.id);
@@ -251,7 +261,7 @@ export function generateShop(run: RunState): ShopStock {
     sold: false,
   }));
 
-  const guestPool = GUEST_CARDS.filter((g) => !run.deck.some((c) => c.defId === g.id));
+  const guestPool = availableGuestPool(run);
   const guest = guestPool.length
     ? { def: rng.pick(guestPool), price: Math.round(120 * priceMult), sold: false }
     : null;
