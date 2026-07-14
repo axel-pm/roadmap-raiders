@@ -1,0 +1,17 @@
+{
+  "name": "Roadmap Raiders",
+  "short_name": "Raiders",
+  "description": "A Slay the Spire-style roguelike deckbuilder for product managers.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1c1210",
+  "theme_color": "#1c1210",
+  "categories": ["games"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -52,6 +52,66 @@ export function addTap(el: HTMLElement, handler: (ev: Event) => void): void {
   });
 }
 
+/**
+ * Tap + long-press on the same element. A hold past `holdMs` fires `onHold`
+ * and suppresses the tap; a quick press fires `onTap`. Movement beyond a small
+ * threshold cancels both (it's a scroll, not a tap). Works for touch and mouse.
+ */
+export function addTapAndHold(
+  el: HTMLElement,
+  onTap: (ev: Event) => void,
+  onHold: (ev: Event) => void,
+  holdMs = 350,
+): void {
+  let timer: ReturnType<typeof setTimeout> | null = null;
+  let held = false;
+  let moved = false;
+  let startX = 0;
+  let startY = 0;
+
+  const clearTimer = () => { if (timer) { clearTimeout(timer); timer = null; } };
+
+  const down = (ev: PointerEvent) => {
+    held = false;
+    moved = false;
+    startX = ev.clientX;
+    startY = ev.clientY;
+    clearTimer();
+    timer = setTimeout(() => {
+      if (!moved) {
+        held = true;
+        onHold(ev);
+      }
+    }, holdMs);
+  };
+
+  const move = (ev: PointerEvent) => {
+    if (Math.abs(ev.clientX - startX) > 12 || Math.abs(ev.clientY - startY) > 12) {
+      moved = true;
+      clearTimer();
+    }
+  };
+
+  const up = (ev: Event) => {
+    clearTimer();
+    if (held) {
+      ev.preventDefault();
+      return; // hold already handled
+    }
+    if (!moved) onTap(ev);
+  };
+
+  const cancel = () => { clearTimer(); held = false; };
+
+  el.addEventListener('pointerdown', down);
+  el.addEventListener('pointermove', move);
+  el.addEventListener('pointerup', up);
+  el.addEventListener('pointercancel', cancel);
+  el.addEventListener('pointerleave', cancel);
+  // block the iOS long-press callout
+  el.addEventListener('contextmenu', (e) => e.preventDefault());
+}
+
 export function clear(el: HTMLElement): void {
   while (el.firstChild) el.removeChild(el.firstChild);
 }

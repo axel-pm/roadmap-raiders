@@ -3,6 +3,8 @@
 import { h, clear } from '../dom';
 import { artImg } from '../art';
 import { cardEl, cardElFromInstance } from '../components/cardEl';
+import { embers } from '../fx';
+import { sfx } from '../../audio/sfx';
 import type { CardDef, CardInstance, CoffeeDef, RelicDef } from '../../engine/types';
 import type { RunState, ShopStock } from '../../engine/run/run';
 import { restHealAmount, canRemoveCards } from '../../engine/run/run';
@@ -50,10 +52,16 @@ export function renderRewardScreen(root: HTMLElement, opts: RewardOpts): void {
       !cardTaken
         ? h('div', {},
             h('p', { class: 'room-sub' }, 'Add a card to your deck:'),
-            h('div', { class: 'overlay-cards' },
-              ...opts.cards.map((def) => cardEl(def, {
-                onTap: () => { cardTaken = true; opts.onPickCard(def); rerender(); },
-              }))),
+            h('div', { class: 'overlay-cards reward-cards' },
+              ...opts.cards.map((def, i) => {
+                const el = cardEl(def, {
+                  onTap: () => { cardTaken = true; sfx('button'); opts.onPickCard(def); rerender(); },
+                });
+                el.classList.add('reward-dealin');
+                el.style.animationDelay = `${i * 0.11}s`;
+                el.addEventListener('animationstart', () => sfx('cardFlip'), { once: true });
+                return el;
+              })),
             h('div', { class: 'room-actions' },
               h('button', { class: 'btn btn-ghost', onTap: () => { cardTaken = true; opts.onPickCard(null); rerender(); } }, 'Skip card')))
         : h('div', { class: 'room-actions' },
@@ -250,6 +258,11 @@ export function renderEndScreen(
     h('div', { class: 'room-actions' },
       h('button', { class: 'btn btn-primary', onTap: onContinue }, 'Back to Title')),
   );
+  const screen = root.querySelector<HTMLElement>('.room-screen');
+  if (screen) {
+    if (won) embers(screen, 26);
+    else screen.classList.add('end-defeat');
+  }
 }
 
 function randomQuote(): { text: string; name: string } | null {

@@ -31,6 +31,11 @@ import {
 import type { MetaState } from './engine/meta/save';
 import { GUESTS } from './content/guests/generate';
 import { renderCompendium } from './ui/screens/compendium';
+import { renderSettings } from './ui/screens/settings';
+import { music } from './audio/music';
+import { audio } from './audio/engine';
+import { sfx } from './audio/sfx';
+import { motionOK } from './ui/fx';
 
 export class Game {
   private root: HTMLElement;
@@ -42,13 +47,30 @@ export class Game {
     this.root = root;
     this.meta = loadMeta();
     this.ascension = this.meta.maxAscensionReached;
+    audio.installUnlock();
+  }
+
+  /** Crossfade the outgoing screen: snapshot current content, fade it out over
+   *  the freshly-rendered new screen. Call at the top of a screen method. */
+  private fade(): void {
+    if (!motionOK() || this.root.children.length === 0) return;
+    const layer = document.createElement('div');
+    layer.className = 'screen-fade';
+    for (const c of Array.from(this.root.children)) layer.appendChild(c.cloneNode(true));
+    document.body.appendChild(layer);
+    requestAnimationFrame(() => {
+      layer.style.opacity = '0';
+      setTimeout(() => layer.remove(), 240);
+    });
   }
 
   // --- title ---
 
   showTitle(): void {
+    this.fade();
     clear(this.root);
     document.body.style.backgroundImage = '';
+    void music.play('title');
     const meta = this.meta;
     const canContinue = hasSavedRun();
     const nextUnlockIn = meta.guestsUnlocked >= TOTAL_GUESTS
@@ -81,6 +103,7 @@ export class Game {
           h('button', { class: 'btn', onTap: () => this.showHowTo() }, '❔ How to Play'),
           h('button', { class: 'btn', onTap: () => this.showCompendium() }, '📚 Compendium'),
           h('button', { class: 'btn', onTap: () => this.showHistory() }, '📜 Run History'),
+          h('button', { class: 'btn', onTap: () => this.showSettings() }, '⚙️ Settings'),
           h('button', {
             class: 'btn btn-ghost',
             onTap: () => {
@@ -126,7 +149,23 @@ export class Game {
   }
 
   private showCompendium(): void {
+    this.fade();
     renderCompendium(this.root, this.meta.guestsUnlocked, () => this.showTitle());
+  }
+
+  showSettings(): void {
+    const inRun = this.run !== null;
+    renderSettings(this.root, {
+      inRun,
+      onBack: () => { if (inRun) this.showMap(); else this.showTitle(); },
+      onAbandon: () => {
+        if (window.confirm('Abandon this run? Progress is lost.')) {
+          clearRun();
+          this.run = null;
+          this.showTitle();
+        }
+      },
+    });
   }
 
   private showHowTo(): void {
@@ -182,9 +221,12 @@ export class Game {
   showMap(): void {
     const run = this.run!;
     saveRun(run);
+    this.fade();
+    void music.play('map');
     renderMapScreen(this.root, run, {
       onPick: (node) => this.enterNode(node),
       onShowDeck: () => showDeckOverlay(this.root, run.deck),
+      onSettings: () => this.showSettings(),
     });
   }
 
@@ -225,12 +267,15 @@ export class Game {
     };
 
     const engine = new CombatEngine(host);
+    this.fade();
     clear(this.root);
+    void music.play(pool === 'boss' ? 'boss' : 'combat');
     const screen = new CombatScreen(this.root, engine, {
       budget: run.budget,
       floorLabel: `Sprint ${run.floorsClimbed} · Act ${run.act}`,
       bgId: `act${run.act}`,
       coffees: () => run.coffees,
+      onSettings: () => this.showSettings(),
       onDrinkCoffee: (i) => {
         const id = run.coffees[i];
         const def = id ? COFFEES_BY_ID[id] : undefined;
@@ -264,6 +309,9 @@ export class Game {
 
   private showReward(pool: 'weak' | 'normal' | 'elite'): void {
     const run = this.run!;
+    this.fade();
+    void music.play('map');
+    sfx('coin');
     const budget = budgetReward(run, pool);
     run.budget += budget;
     const cards = rollCardReward(run, pool === 'elite' ? 'elite' : 'normal');
@@ -288,6 +336,7 @@ export class Game {
 
   private showBossReward(): void {
     const run = this.run!;
+    this.fade();
     const budget = budgetReward(run, 'boss');
     run.budget += budget;
     const cards = rollCardReward(run, 'boss');
@@ -333,6 +382,7 @@ export class Game {
 
   private showRest(): void {
     const run = this.run!;
+    this.fade();
     renderRestScreen(this.root, {
       run,
       onHeal: () => {
@@ -349,6 +399,7 @@ export class Game {
 
   private showTreasure(): void {
     const run = this.run!;
+    this.fade();
     const relic = rollRelicReward(run);
     renderTreasureScreen(this.root, relic, () => {
       if (relic) gainRelic(run, relic);
@@ -358,6 +409,7 @@ export class Game {
 
   private showShop(): void {
     const run = this.run!;
+    this.fade();
     const stock = generateShop(run);
     this.renderShop(stock);
   }
@@ -403,6 +455,7 @@ export class Game {
 
   private showEvent(): void {
     const run = this.run!;
+    this.fade();
     const ev = pickEvent(run, run.seenEventIds);
     run.seenEventIds.push(ev.id);
 
@@ -462,6 +515,8 @@ export class Game {
 
   private endRun(won: boolean, reason?: string): void {
     const run = this.run!;
+    this.fade();
+    void music.sting(won ? 'victory' : 'defeat');
     const score = runScore(run, won);
     const before = this.meta.guestsUnlocked;
     this.meta = recordRun(this.meta, {
