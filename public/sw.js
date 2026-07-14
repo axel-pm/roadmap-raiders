@@ -37,7 +37,7 @@ self.addEventListener('activate', (event) => {
 
 function isAsset(url) {
   return /\/(assets|art|audio|icons)\//.test(url.pathname)
-    || /\.(webp|png|jpg|svg|m4a|woff2?|css|js)$/.test(url.pathname);
+    || /\.(webp|png|jpg|svg|ico|m4a|woff2?|css|js)$/.test(url.pathname);
 }
 
 function isFont(url) {
