@@ -32,9 +32,13 @@ class AudioEngine {
   /** Install the one-time gesture unlock. Safe to call at boot. */
   installUnlock(): void {
     if (this.unlocked) return;
-    const unlock = () => {
+    const unlock = async () => {
       this.ensureContext();
-      if (this.ctx && this.ctx.state === 'suspended') void this.ctx.resume();
+      // Resume must complete before we report "unlocked" — the music layer
+      // gates on ctx.state === 'running', which is only true after resume.
+      if (this.ctx && this.ctx.state === 'suspended') {
+        try { await this.ctx.resume(); } catch { /* ignore */ }
+      }
       this.unlocked = true;
       window.removeEventListener('pointerdown', unlock);
       window.removeEventListener('keydown', unlock);
@@ -66,13 +70,13 @@ class AudioEngine {
     this.sfxBus.connect(this.master);
   }
 
-  async load(name: string): Promise<AudioBuffer | null> {
+  async load(name: string, ext = 'm4a'): Promise<AudioBuffer | null> {
     if (this.buffers.has(name)) return this.buffers.get(name)!;
     if (this.loading.has(name)) return this.loading.get(name)!;
     this.ensureContext();
     const p = (async () => {
       try {
-        const res = await fetch(`${this.base}audio/${name}.m4a`);
+        const res = await fetch(`${this.base}audio/${name}.${ext}`);
         if (!res.ok) return null;
         const arr = await res.arrayBuffer();
         const buf = await this.ctx!.decodeAudioData(arr);

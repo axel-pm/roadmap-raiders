@@ -1,38 +1,40 @@
-// Mood-based music player: seamless looping tracks with equal-power crossfades.
+// Background music: one continuous loop ("The Hollow Loop") across the whole
+// game. It starts once on the first screen and keeps playing seamlessly through
+// navigation — no per-screen restarts or crossfades.
 
 import { audio } from './engine';
 
+// Kept for call-site compatibility; the track no longer changes per mood.
 export type Mood = 'title' | 'map' | 'combat' | 'boss';
 
-interface Layer {
-  source: AudioBufferSourceNode;
-  gain: GainNode;
-  mood: Mood;
-}
+const THEME = 'theme';
 
 class MusicPlayer {
-  private current: Layer | null = null;
-  private desired: Mood | null = null;
-  private crossfadeSec = 1.5;
+  private source: AudioBufferSourceNode | null = null;
+  private gain: GainNode | null = null;
+  private started = false;
+  private wantPlaying = false;
 
   constructor() {
-    // start desired mood once audio unlocks
-    audio.onUnlock = () => {
-      if (this.desired) void this.play(this.desired);
-    };
+    audio.onUnlock = () => { if (this.wantPlaying) void this.start(); };
   }
 
-  /** Request a mood. Loads lazily, crossfades from the current one. */
-  async play(mood: Mood): Promise<void> {
-    this.desired = mood;
-    if (!audio.isUnlocked) return; // will start on unlock
-    if (this.current?.mood === mood) return;
+  /** Ensure the background loop is playing. Mood is ignored (single track). */
+  async play(_mood: Mood): Promise<void> {
+    this.wantPlaying = true;
+    if (!audio.isUnlocked) return; // will begin on unlock
+    if (this.started) return;
+    await this.start();
+  }
 
-    const buf = await audio.load(mood);
-    if (!buf || !audio.ctx) return;
-    // guard: desired may have changed while loading
-    if (this.desired !== mood) return;
-    if (this.current?.mood === mood) return;
+  private async start(): Promise<void> {
+    if (this.started || !audio.ctx) return;
+    if (audio.ctx.state === 'suspended') {
+      try { await audio.ctx.resume(); } catch { /* ignore */ }
+    }
+    const buf = await audio.load(THEME, 'mp3');
+    if (!buf || !audio.ctx || this.started) return;
+    this.started = true;
 
     const ctx = audio.ctx;
     const gain = ctx.createGain();
@@ -46,44 +48,23 @@ class MusicPlayer {
 
     const now = ctx.currentTime;
     gain.gain.setValueAtTime(0, now);
-    gain.gain.linearRampToValueAtTime(1, now + this.crossfadeSec);
+    gain.gain.linearRampToValueAtTime(1, now + 1.2); // gentle fade-in
 
-    const prev = this.current;
-    if (prev) {
-      prev.gain.gain.cancelScheduledValues(now);
-      prev.gain.gain.setValueAtTime(prev.gain.gain.value, now);
-      prev.gain.gain.linearRampToValueAtTime(0, now + this.crossfadeSec);
-      const toStop = prev.source;
-      setTimeout(() => { try { toStop.stop(); } catch { /* already stopped */ } }, (this.crossfadeSec + 0.2) * 1000);
-    }
-    this.current = { source, gain, mood };
+    this.source = source;
+    this.gain = gain;
   }
 
-  /** One-shot sting layered over whatever is playing (or silence). */
-  async sting(name: 'victory' | 'defeat'): Promise<void> {
-    if (!audio.isUnlocked || !audio.ctx) return;
-    const buf = await audio.load(name);
-    if (!buf) return;
-    // duck music briefly
-    const prev = this.current;
-    const ctx = audio.ctx;
-    const now = ctx.currentTime;
-    if (prev) {
-      prev.gain.gain.cancelScheduledValues(now);
-      prev.gain.gain.setValueAtTime(prev.gain.gain.value, now);
-      prev.gain.gain.linearRampToValueAtTime(0.15, now + 0.4);
-    }
-    const g = ctx.createGain();
-    g.gain.value = 1;
-    g.connect(audio.musicBus);
-    const src = ctx.createBufferSource();
-    src.buffer = buf;
-    src.connect(g);
-    src.start();
+  /** No-op: the single background loop plays continuously across the game. */
+  async sting(_name: 'victory' | 'defeat'): Promise<void> {
+    // intentionally empty — the loop keeps playing through win/lose screens
   }
 
   currentMood(): Mood | null {
-    return this.current?.mood ?? null;
+    return this.started ? 'title' : null;
+  }
+
+  get isPlaying(): boolean {
+    return this.source !== null && this.gain !== null && this.started;
   }
 }
 

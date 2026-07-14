@@ -24,7 +24,7 @@ You're a PM climbing **The Roadmap**, a branching map through three acts: **Find
 - **🔮 28 framework relics.** OKRs, North Star Metric, AI Copilot, Product-Market Fit — passive items that change how your deck plays.
 - **📈 Progression that sticks.** Runs earn Listener XP that unlocks more guests. Wins unlock Ascension levels 1–10. Mid-run saves survive a refresh, and seeded runs are reproducible.
 - **🎨 A hand-painted world.** Every card, guest, and enemy is its own illustration in a warm "campfire-lit corporate fantasy" style, with a moody backdrop for each act.
-- **🎵 An original soundtrack, composed in code.** Four looping themes that crossfade as you play (title, map, combat, boss), stings, and a full synthesized SFX bank — no stock audio, ~5MB total.
+- **🎵 A moody soundtrack.** A continuous ambient background loop across the whole game, plus a full sound-effects bank synthesized from scratch in code.
 - **📱 Installable and offline.** Add it to your home screen and it launches fullscreen like an app; after the first visit it plays with no connection. Juicy on touch: cards fly to their target, hits shake the screen, long-press any card to inspect it.
 
 <p align="center">
@@ -68,7 +68,7 @@ Card data comes from [Lenny's Podcast](https://www.lennyspodcast.com/) via the c
 
 All in-game artwork is AI-generated (Google's Nano Banana image model) via the prompts in `scripts/art/`. Guest card characters are fictional illustrations painted from written appearance descriptions — stylized artistic interpretations, not photographs or edited photos.
 
-The soundtrack and sound effects are original, synthesized from scratch in code (`scripts/audio/`) and rendered to `.m4a` — no samples, no stock music. Regenerate with `node scripts/audio/build-audio.mjs` (needs macOS `afconvert`).
+The sound effects are synthesized from scratch in code (`scripts/audio/`, rendered to `.m4a` — regenerate with `node scripts/audio/build-audio.mjs`, needs macOS `afconvert`). Background music: "The Hollow Loop."
 
 ## License
 

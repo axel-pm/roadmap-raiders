@@ -2,7 +2,7 @@
    Network-first for navigations (new deploys land), stale-while-revalidate
    for static assets/art/audio, cache-first for cross-origin fonts. */
 
-const VERSION = 'rr-v1';
+const VERSION = 'rr-v2';
 const CACHE = `rr-cache-${VERSION}`;
 
 self.addEventListener('install', (event) => {
@@ -37,7 +37,7 @@ self.addEventListener('activate', (event) => {
 
 function isAsset(url) {
   return /\/(assets|art|audio|icons)\//.test(url.pathname)
-    || /\.(webp|png|jpg|svg|ico|m4a|woff2?|css|js)$/.test(url.pathname);
+    || /\.(webp|png|jpg|svg|ico|m4a|mp3|woff2?|css|js)$/.test(url.pathname);
 }
 
 function isFont(url) {
