@@ -3,7 +3,7 @@
 
 import { h } from './dom';
 
-export type ArtKind = 'cards' | 'guests' | 'enemies' | 'relics' | 'coffee' | 'bg';
+export type ArtKind = 'cards' | 'guests' | 'enemies' | 'relics' | 'coffee' | 'bg' | 'nodes';
 
 export function artUrl(kind: ArtKind, id: string): string {
   return `${import.meta.env.BASE_URL}art/${kind}/${id}.webp`;

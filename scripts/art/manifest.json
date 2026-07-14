@@ -1816,5 +1816,68 @@
    256
   ],
   "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. Single glowing potion icon, isolated on plain very dark background: a magical coffee drink \"Founder's Blend\" (Gain 2 Bandwidth and draw 2 cards.) in a fantasy vessel, steam forming faint arcane shapes."
+ },
+ {
+  "id": "monster",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. A snarling little PM-gremlin creature head glaring out, bold and iconic."
+ },
+ {
+  "id": "elite",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. A fearsome horned demon skull with glowing eyes, menacing and powerful."
+ },
+ {
+  "id": "event",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. A glowing mysterious question-mark rune floating over a small unfurled scroll."
+ },
+ {
+  "id": "shop",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. A cozy merchant market stall with a bulging coin purse and hanging wares."
+ },
+ {
+  "id": "rest",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. A warm crackling campfire with a steaming coffee mug beside it."
+ },
+ {
+  "id": "treasure",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. An ornate wooden treasure chest brimming with golden light and coins."
+ },
+ {
+  "id": "boss",
+  "kind": "node",
+  "size": [
+   256,
+   256
+  ],
+  "prompt": "Warm painterly illustration for a cozy-but-epic roguelike deckbuilder card game, inspired by indie zine and risograph print art: bold hand-drawn ink outlines, chunky painterly fills, visible speckled grain texture, dramatic warm campfire-glow lighting. Palette dominated by sunrise orange, peach, coral and cream, with deep warm brown shadows and muted teal-navy accents. Slightly exaggerated friendly proportions, strong readable silhouette, centered composition. Corporate tech-office life reimagined as fantasy adventure. No text, no letters, no watermark, no card frame, no border. A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. An ominous monstrous silhouette wearing a crown, radiating dread, a warning banner."
  }
 ]

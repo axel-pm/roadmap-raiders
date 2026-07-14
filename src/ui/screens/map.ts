@@ -1,7 +1,7 @@
 // The Roadmap: StS-style branching map rendered bottom-to-top with SVG edges.
 
 import { h, clear } from '../dom';
-import { bgLayer } from '../art';
+import { bgLayer, artImg } from '../art';
 import type { RunState } from '../../engine/run/run';
 import { nextNodes } from '../../engine/run/run';
 import type { MapNode } from '../../engine/map/generate';
@@ -59,7 +59,7 @@ export function renderMapScreen(root: HTMLElement, run: RunState, opts: MapScree
     onTap: () => {
       if (available.some((a) => a.row === MAP_ROWS)) opts.onPick(run.map.boss);
     },
-  }, ROOM_ICONS.boss!);
+  }, artImg('nodes', 'boss', ROOM_ICONS.boss!, 'node-art'));
   nodeEls.set(`${MAP_ROWS}:${run.map.boss.col}`, bossEl);
   grid.appendChild(h('div', { class: 'map-row boss-row' }, bossEl));
 
@@ -81,7 +81,7 @@ export function renderMapScreen(root: HTMLElement, run: RunState, opts: MapScree
       const el = h('div', {
         class: cls,
         onTap: () => { if (isAvailable(node)) opts.onPick(node); },
-      }, ROOM_ICONS[node.type]!);
+      }, artImg('nodes', node.type, ROOM_ICONS[node.type]!, 'node-art'));
       nodeEls.set(`${row}:${col}`, el);
       rowEl.appendChild(h('div', { class: 'map-slot' }, el));
     }

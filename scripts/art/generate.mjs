@@ -29,7 +29,7 @@ const kinds = flag('kind') ? String(flag('kind')).split(',') : null;
 const force = args.includes('--force');
 const MODEL = typeof flag('model') === 'string' ? flag('model') : 'gemini-3.1-flash-image';
 
-const KIND_DIR = { card: 'cards', guest: 'guests', enemy: 'enemies', relic: 'relics', coffee: 'coffee', bg: 'bg' };
+const KIND_DIR = { card: 'cards', guest: 'guests', enemy: 'enemies', relic: 'relics', coffee: 'coffee', bg: 'bg', node: 'nodes' };
 
 const manifest = JSON.parse(readFileSync(join(here, 'manifest.json'), 'utf8'));
 

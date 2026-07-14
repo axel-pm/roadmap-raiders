@@ -40,11 +40,22 @@ const DOMAIN_TONE: Record<Domain, string> = {
 
 interface Asset {
   id: string;
-  kind: 'card' | 'guest' | 'enemy' | 'relic' | 'coffee' | 'bg';
+  kind: 'card' | 'guest' | 'enemy' | 'relic' | 'coffee' | 'bg' | 'node';
   prompt: string;
   size: [number, number];
   photo?: string; // unused since the person-policy block; kept for the generator API
 }
+
+// --- map node tokens (the roadmap markers) ---
+const NODE_SUBJECTS: Record<string, string> = {
+  monster: 'A snarling little PM-gremlin creature head glaring out, bold and iconic',
+  elite: 'A fearsome horned demon skull with glowing eyes, menacing and powerful',
+  event: 'A glowing mysterious question-mark rune floating over a small unfurled scroll',
+  shop: 'A cozy merchant market stall with a bulging coin purse and hanging wares',
+  rest: 'A warm crackling campfire with a steaming coffee mug beside it',
+  treasure: 'An ornate wooden treasure chest brimming with golden light and coins',
+  boss: 'An ominous monstrous silhouette wearing a crown, radiating dread, a warning banner',
+};
 
 /** merge scripts/art/descriptions/batch*.json (written by vision subagents) */
 function loadDescriptions(): Record<string, string> {
@@ -196,6 +207,14 @@ function buildAssets(): Asset[] {
     assets.push({
       id: c.id, kind: 'coffee', size: [256, 256],
       prompt: `${STYLE} Single glowing potion icon, isolated on plain very dark background: a magical coffee drink "${c.name}" (${c.description}) in a fantasy vessel, steam forming faint arcane shapes.`,
+    });
+  }
+
+  // map node tokens — bold, iconic, readable at ~42px on the roadmap
+  for (const [id, subject] of Object.entries(NODE_SUBJECTS)) {
+    assets.push({
+      id, kind: 'node', size: [256, 256],
+      prompt: `${STYLE} A bold circular game-map token emblem, single centered subject filling the frame, readable at a tiny size, on a plain dark warm circular background. ${subject}.`,
     });
   }
 

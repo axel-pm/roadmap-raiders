@@ -96,10 +96,16 @@ class AudioEngine {
     } catch { /* ignore */ }
   }
 
+  private musicCbs: Array<(on: boolean) => void> = [];
+  onMusicChange(fn: (on: boolean) => void): void {
+    this.musicCbs.push(fn);
+  }
+
   setMusicOn(on: boolean): void {
     this.settings.musicOn = on;
     if (this.musicBus) this.rampBus(this.musicBus, on ? this.settings.musicVol : 0);
     this.save();
+    for (const cb of this.musicCbs) cb(on);
   }
 
   setSfxOn(on: boolean): void {

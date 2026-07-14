@@ -48,6 +48,26 @@ export class Game {
     this.meta = loadMeta();
     this.ascension = this.meta.maxAscensionReached;
     audio.installUnlock();
+    this.installMuteButton();
+  }
+
+  /** A persistent floating mute toggle, present on every screen. */
+  private installMuteButton(): void {
+    const btn = h('button', {
+      class: 'mute-btn',
+      title: 'Toggle music',
+      onTap: () => {
+        audio.setMusicOn(!audio.settings.musicOn);
+        sfx('button');
+      },
+    });
+    const paint = (on: boolean) => {
+      btn.textContent = on ? '🔊' : '🔇';
+      btn.classList.toggle('muted', !on);
+    };
+    paint(audio.settings.musicOn);
+    audio.onMusicChange(paint);
+    document.body.appendChild(btn);
   }
 
   /** Crossfade the outgoing screen: snapshot current content, fade it out over
